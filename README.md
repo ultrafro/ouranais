@@ -100,7 +100,7 @@ do the work on busy backgrounds.
 ## Included English subtitles
 
 `public/subtitles/en.json` contains an English draft translated from the local
-French OCR track. All 511 cue timings are preserved, and English is the player's
+French OCR track. All 528 current cue timings are preserved, and English is the player's
 default language. The file is committed so deployments can serve it at
 `/subtitles/en.json`. Other generated JSON and VTT tracks remain gitignored.
 

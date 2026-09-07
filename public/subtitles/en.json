@@ -61,8 +61,13 @@
   },
   {
     "s": 56.6,
+    "e": 59.6,
+    "t": "It's obvious you waste your money\nshowing off."
+  },
+  {
+    "s": 59.9,
     "e": 62.9,
-    "t": "[Unclear dialogue]"
+    "t": "I'm not even sure\nyou pay the revolutionary tax!"
   },
   {
     "s": 64.3,
@@ -261,7 +266,7 @@
   },
   {
     "s": 412.7,
-    "e": 416.3,
+    "e": 416.0,
     "t": "When did you join the brothers?\nAfter your wedding."
   },
   {
@@ -371,6 +376,11 @@
   },
   {
     "s": 552.2,
+    "e": 556.7,
+    "t": "This night...\nThat night, what is it made of?"
+  },
+  {
+    "s": 557.0,
     "e": 562.3,
     "t": "Tonight, the moon is askew.\nTonight, my tears flow."
   },
@@ -411,6 +421,11 @@
   },
   {
     "s": 626.7,
+    "e": 628.8,
+    "t": "I'm not going anywhere.\nI'm going home."
+  },
+  {
+    "s": 629.1,
     "e": 632.4,
     "t": "You can't.\nThe boy will talk eventually."
   },
@@ -666,6 +681,16 @@
   },
   {
     "s": 1006.8,
+    "e": 1008.6,
+    "t": "And the earth was stained\nwith the martyrs' blood."
+  },
+  {
+    "s": 1008.6,
+    "e": 1009.2,
+    "t": "And the earth was stained\nwith the martyrs' blood."
+  },
+  {
+    "s": 1009.2,
     "e": 1010.0,
     "t": "And the earth was stained\nwith the martyrs' blood."
   },
@@ -676,8 +701,13 @@
   },
   {
     "s": 1011.8,
-    "e": 1016.2,
+    "e": 1014.8,
     "t": "you restored to your country\nthe respect it deserves."
+  },
+  {
+    "s": 1015.1,
+    "e": 1016.2,
+    "t": "Thanks to you, man of Oran!"
   },
   {
     "s": 1016.4,
@@ -1041,7 +1071,7 @@
   },
   {
     "s": 1382.6,
-    "e": 1385.9,
+    "e": 1385.6,
     "t": "When a representative of a young democracy\nmarries an American,"
   },
   {
@@ -1186,6 +1216,11 @@
   },
   {
     "s": 1952.3,
+    "e": 1953.5,
+    "t": "What did you do?"
+  },
+  {
+    "s": 1953.8,
     "e": 1957.0,
     "t": "An older boy\npushed me over."
   },
@@ -1241,7 +1276,7 @@
   },
   {
     "s": 2248.1,
-    "e": 2251.7,
+    "e": 2251.4,
     "t": "We'll get production back up\nwith the same quality."
   },
   {
@@ -1391,7 +1426,7 @@
   },
   {
     "s": 3478.7,
-    "e": 3482.6,
+    "e": 3482.3,
     "t": "Their soldiers arrived by boat\nand left in coffins,"
   },
   {
@@ -1581,7 +1616,7 @@
   },
   {
     "s": 4000.0,
-    "e": 4003.3,
+    "e": 4003.0,
     "t": "I know you're just the manager."
   },
   {
@@ -1676,8 +1711,13 @@
   },
   {
     "s": 4095.2,
+    "e": 4097.6,
+    "t": "That son of a bitch has decided"
+  },
+  {
+    "s": 4097.9,
     "e": 4099.6,
-    "t": "That son of a bitch has decided..."
+    "t": "to get into politics."
   },
   {
     "s": 4100.0,
@@ -1786,8 +1826,18 @@
   },
   {
     "s": 4772.1,
-    "e": 4780.5,
+    "e": 4773.3,
+    "t": "In Classical Arabic?"
+  },
+  {
+    "s": 4773.6,
+    "e": 4776.6,
     "t": "Me refuse to speak\nin colonizer's language."
+  },
+  {
+    "s": 4776.9,
+    "e": 4780.2,
+    "t": "Commander, veteran,\nset an example, you must."
   },
   {
     "s": 4780.6,
@@ -1816,6 +1866,11 @@
   },
   {
     "s": 4796.7,
+    "e": 4798.8,
+    "t": "Obvious, it seemed to be."
+  },
+  {
+    "s": 4799.7,
     "e": 4802.0,
     "t": "Wait! Speak normally."
   },
@@ -1956,7 +2011,7 @@
   },
   {
     "s": 4921.7,
-    "e": 4925.0,
+    "e": 4924.7,
     "t": "Is that all? Was she born\nand did she die on the same day?"
   },
   {
@@ -2006,6 +2061,11 @@
   },
   {
     "s": 4988.7,
+    "e": 4991.1,
+    "t": "Congratulations, Commander Djaffar!"
+  },
+  {
+    "s": 4991.4,
     "e": 4994.3,
     "t": "We did it! We reached our goal!"
   },
@@ -2136,8 +2196,13 @@
   },
   {
     "s": 5897.7,
+    "e": 5899.5,
+    "t": "Bachir, it's not deep enough!"
+  },
+  {
+    "s": 5899.8,
     "e": 5901.6,
-    "t": "[Unclear dialogue]"
+    "t": "Bachir, jump if you're a man!"
   },
   {
     "s": 6011.3,
@@ -2201,12 +2266,17 @@
   },
   {
     "s": 6126.8,
-    "e": 6132.4,
+    "e": 6131.0,
     "t": "He was taken to the military hospital,\nwhere he received treatment."
   },
   {
+    "s": 6131.3,
+    "e": 6132.4,
+    "t": "The President of the Republic."
+  },
+  {
     "s": 6156.7,
-    "e": 6160.6,
+    "e": 6160.3,
     "t": "Why are you prying\ninto other people's business?"
   },
   {
@@ -2306,8 +2376,13 @@
   },
   {
     "s": 6326.5,
-    "e": 6329.8,
+    "e": 6328.3,
     "t": "No, Hamid.\nYour anger is blinding you."
+  },
+  {
+    "s": 6328.6,
+    "e": 6329.5,
+    "t": "Let me through."
   },
   {
     "s": 6330.8,
@@ -2366,7 +2441,7 @@
   },
   {
     "s": 6366.5,
-    "e": 6370.4,
+    "e": 6370.1,
     "t": "To drive him mad with rage\nand make him seek revenge."
   },
   {
@@ -2486,8 +2561,13 @@
   },
   {
     "s": 6643.6,
-    "e": 6649.1,
+    "e": 6646.6,
     "t": "I wasn't the one who ran.\nI was caught up in the race."
+  },
+  {
+    "s": 6646.9,
+    "e": 6649.1,
+    "t": "And ever since, beneath my feet,\nthe world slips away."
   },
   {
     "s": 6649.2,
@@ -2521,8 +2601,13 @@
   },
   {
     "s": 6677.1,
+    "e": 6679.5,
+    "t": "Tonight, the moon is askew."
+  },
+  {
+    "s": 6679.8,
     "e": 6682.7,
-    "t": "[Unclear dialogue]"
+    "t": "Tonight, my tears flow."
   },
   {
     "s": 6704.9,
@@ -2541,7 +2626,7 @@
   },
   {
     "s": 7109.4,
-    "e": 7120.8,
+    "e": 7120.5,
     "t": "This program is available on demand."
   },
   {
