@@ -43,9 +43,9 @@ pip install -r pipeline/requirements.txt
 # 1. Locate the band the subtitles occupy in your video
 python pipeline/extract_subtitles.py --video film.mp4 --calibrate
 
-# 2. Extract timings + text
+# 2. Extract timings + text (band values come from step 1)
 python pipeline/extract_subtitles.py --video film.mp4 \
-    --top 525 --height 105 --lang fra \
+    --top 544 --height 82 --lang fra \
     --out public/subtitles/fr.json
 
 # 3. Translate into other languages
@@ -66,9 +66,12 @@ Honest state of the code:
 
 - **Player — working.** Embed, overlay, language switcher, hardsub masking, keyboard
   shortcuts.
-- **Cue detection — working.** It reliably segments a film into cues with clean
-  boundaries. Verified against a real hardsubbed feature; `--calibrate` located the
-  subtitle band correctly across a full 123-minute film.
+- **Cue detection — precise, but misses cues.** The boundaries it does find are clean
+  (median cue 1.90 s, 2 overlaps in 511), and `--calibrate` located the subtitle band
+  correctly across a full 123-minute film. But measured recall is only **~81%** — of 47
+  randomly sampled frames with subtitle text, 9 were missing from the track entirely.
+  Detection thresholds the outline mask, which is the one that fails on bright
+  backgrounds, so whole cues fall under `MIN_PIXELS`. See NEXT_STEPS.md §2.
 - **OCR — good on clean backgrounds, poor on busy ones.** Over a plain or dark
   background, lines come out verbatim with correct diacritics (`Ça`, `Grâce à`).
   Remaining defects:
