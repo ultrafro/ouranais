@@ -13,6 +13,12 @@ export type YTPlayer = {
   unMute(): void;
   isMuted(): boolean;
   destroy(): void;
+  /* Caption module. The module name differs between player builds ("captions"
+     on the old AS3 player, "cc" on the HTML5 one), so callers should try both
+     and tolerate a throw. */
+  loadModule(module: string): void;
+  unloadModule(module: string): void;
+  setOption(module: string, option: string, value: unknown): void;
 };
 
 export const PlayerState = {

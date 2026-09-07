@@ -464,6 +464,108 @@ def keep_glyph_blobs(strict: np.ndarray, loose: np.ndarray) -> np.ndarray:
     return prune_phantom_lines(out)
 
 
+def render_greyscale(img: np.ndarray, mask: np.ndarray) -> Image.Image | None:
+    """
+    Crop the *picture* to where the glyphs are and hand tesseract greyscale.
+
+    Our binary mask is what fails on bright, textured backgrounds: the glyph
+    edges blur into the scenery and letters come back scrambled. Tesseract has
+    its own adaptive thresholding which is better at exactly that, so it is
+    worth also giving it the real pixels and letting it decide. The mask is used
+    only to find *where* the text is, not which pixels are text.
+    """
+    rows = np.where(mask.sum(1) > 1)[0]
+    cols = np.where(mask.sum(0) > 0)[0]
+    if not len(rows) or not len(cols):
+        return None
+    pad = 6
+    r0 = max(0, rows.min() - pad)
+    r1 = min(mask.shape[0], rows.max() + 1 + pad)
+    c0 = max(0, cols.min() - pad)
+    c1 = min(mask.shape[1], cols.max() + 1 + pad)
+
+    grey = np.asarray(Image.fromarray(img[r0:r1, c0:c1]).convert("L")).astype(np.float32)
+    # Stretch to the band's own range so a dim or washed-out crop still spans
+    # black to white, then invert: subtitles are light, tesseract wants dark.
+    lo, hi = np.percentile(grey, 2), np.percentile(grey, 99.5)
+    if hi - lo < 12:
+        return None
+    grey = np.clip((grey - lo) / (hi - lo), 0, 1)
+    out = ((1.0 - grey) * 255).astype(np.uint8)
+
+    pil = Image.fromarray(out, "L")
+    pil = pil.resize((pil.width * 3, pil.height * 3), Image.LANCZOS)
+    padded = Image.new("L", (pil.width + 60, pil.height + 60), 255)
+    padded.paste(pil, (30, 30))
+    return padded
+
+
+def ensure_tsv_config(tessdata: str | None) -> None:
+    """
+    Make sure tesseract can find its `tsv` config.
+
+    Pointing TESSDATA_PREFIX at a bare directory of .traineddata files means
+    tesseract also looks for its config files there and cannot find them. It
+    then ignores the config and prints plain text instead of failing, so the
+    only symptom is that confidence parsing silently returns nothing.
+    """
+    if not tessdata:
+        return
+    cfg = os.path.join(tessdata, "configs")
+    os.makedirs(cfg, exist_ok=True)
+    path = os.path.join(cfg, "tsv")
+    if not os.path.exists(path):
+        with open(path, "w", encoding="ascii") as f:
+            f.write("tessedit_create_tsv 1\n")
+
+
+def ocr_plain(path: str, lang: str, env: dict) -> str:
+    res = subprocess.run(
+        ["tesseract", path, "stdout", "-l", lang, "--psm", "6"],
+        capture_output=True, text=True, env=env, encoding="utf-8", errors="replace",
+    )
+    return clean_text(res.stdout or "") if res.returncode == 0 else ""
+
+
+def ocr_with_confidence(path: str, lang: str, env: dict) -> tuple[str, float]:
+    """
+    OCR an image, returning its text and tesseract's mean word confidence.
+
+    Falls back to plain text at zero confidence rather than returning nothing:
+    the confidence is only used to choose between two renderings, so losing it
+    should cost us the comparison, never the text itself.
+    """
+    res = subprocess.run(
+        ["tesseract", path, "stdout", "-l", lang, "--psm", "6", "tsv"],
+        capture_output=True, text=True, env=env, encoding="utf-8", errors="replace",
+    )
+    if res.returncode != 0:
+        return ocr_plain(path, lang, env), 0.0
+
+    # TSV: level page block par line word left top width height conf text
+    lines: dict[tuple[int, int], list[str]] = {}
+    confs: list[float] = []
+    for row in (res.stdout or "").splitlines()[1:]:
+        parts = row.split("\t")
+        if len(parts) < 12:
+            continue
+        word = parts[11].strip()
+        try:
+            conf = float(parts[10])
+        except ValueError:
+            continue
+        if not word or conf < 0:
+            continue
+        confs.append(conf)
+        key = (int(parts[4]), int(parts[2]))
+        lines.setdefault(key, []).append(word)
+
+    if not confs:
+        return ocr_plain(path, lang, env), 0.0
+    text = "\n".join(" ".join(ws) for _, ws in sorted(lines.items()))
+    return clean_text(text), float(np.mean(confs))
+
+
 def render_for_ocr(mask: np.ndarray) -> Image.Image | None:
     """Black text on white, cropped tight, upscaled — what tesseract wants."""
     rows = np.where(mask.sum(1) > 1)[0]
@@ -503,9 +605,11 @@ def ocr_cues(video: str, cues: list[Cue], top: int, height: int, width: int,
     env = dict(os.environ)
     if tessdata and os.path.isdir(tessdata):
         env["TESSDATA_PREFIX"] = os.path.abspath(tessdata)
+        ensure_tsv_config(os.path.abspath(tessdata))
     if dump:
         os.makedirs(dump, exist_ok=True)
 
+    picked: dict[str, int] = {}
     tmp = tempfile.mkdtemp(prefix="hardsub_")
     try:
         for n, c in enumerate(cues):
@@ -513,28 +617,45 @@ def ocr_cues(video: str, cues: list[Cue], top: int, height: int, width: int,
             t = (c.s + c.e) / 2
             strict, loose = static_glyphs(video, t, top, height, width, tmp)
             mask = keep_glyph_blobs(strict, loose)
-            shot_img = render_for_ocr(mask)
-            if shot_img is None:
-                continue
-            shot = os.path.join(tmp, "ocr.png")
-            shot_img.save(shot)
-            if dump:
-                shot_img.save(os.path.join(dump, f"cue_{n:04d}.png"))
 
-            res = subprocess.run(
-                ["tesseract", shot, "stdout", "-l", lang, "--psm", "6"],
-                capture_output=True, text=True, env=env,
-                encoding="utf-8", errors="replace",
+            # Two renderings of the same cue, scored against each other. The
+            # binary mask is cleaner where it works; greyscale wins where the
+            # background is bright and textured enough to break the mask.
+            candidates: list[tuple[str, str, float]] = []
+
+            binary = render_for_ocr(mask)
+            if binary is not None:
+                p = os.path.join(tmp, "bin.png")
+                binary.save(p)
+                text, conf = ocr_with_confidence(p, lang, env)
+                candidates.append(("mask", text, conf))
+                if dump:
+                    binary.save(os.path.join(dump, f"cue_{n:04d}_mask.png"))
+
+            grey = render_greyscale(
+                grab_band(video, t, top, height, width, tmp), mask
             )
-            if res.returncode != 0:
-                print(f"  tesseract failed on cue {n}: {(res.stderr or '').strip()}",
-                      file=sys.stderr)
+            if grey is not None:
+                p = os.path.join(tmp, "grey.png")
+                grey.save(p)
+                text, conf = ocr_with_confidence(p, lang, env)
+                candidates.append(("grey", text, conf))
+                if dump:
+                    grey.save(os.path.join(dump, f"cue_{n:04d}_grey.png"))
+
+            candidates = [c2 for c2 in candidates if c2[1].strip()]
+            if not candidates:
                 continue
-            c.t = clean_text(res.stdout or "")
+            kind, text, _ = max(candidates, key=lambda x: x[2])
+            c.t = text
+            picked[kind] = picked.get(kind, 0) + 1
             if progress and n and n % 50 == 0:
                 print(f"  OCR {n}/{len(cues)}", file=sys.stderr)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+    if progress and picked:
+        won = " ".join(f"{k}={v}" for k, v in sorted(picked.items()))
+        print(f"  renderer chosen per cue: {won}", file=sys.stderr)
 
 
 # ------------------------------------------------------------------ output ---

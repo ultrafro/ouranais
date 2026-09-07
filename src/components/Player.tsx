@@ -39,6 +39,34 @@ export default function Player({ manifest }: { manifest: Manifest }) {
   const [placement, setPlacement] = useState<"above" | "cover">("above");
   const [size, setSize] = useState(1);
 
+  /** Which tracks actually resolve. null while still probing. */
+  const [available, setAvailable] = useState<string[] | null>(null);
+  /** YouTube's own auto-captions, which cover the unsubtitled French stretches. */
+  const [ytCaptions, setYtCaptions] = useState(false);
+
+  /* Probe the manifest's tracks. The manifest lists what the project *can*
+     offer, not what got deployed — generated cue files are gitignored, so a
+     deployment typically ships fewer than a dev machine has. Without this the
+     dropdown advertises languages that only 404. */
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all(
+      manifest.languages.map(async (l) => {
+        try {
+          const r = await fetch(`/subtitles/${l.code}.json`, { method: "HEAD" });
+          return r.ok ? l.code : null;
+        } catch {
+          return null;
+        }
+      })
+    ).then((codes) => {
+      if (!cancelled) setAvailable(codes.filter((c): c is string => !!c));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [manifest.languages]);
+
   /* ---- create the YouTube player once ---- */
   useEffect(() => {
     let cancelled = false;
@@ -126,6 +154,33 @@ export default function Player({ manifest }: { manifest: Manifest }) {
     const i = activeCueIndex(cues, time);
     setLine(i === -1 ? null : cues[i].t);
   }, [cues, time]);
+
+  /* If the default track did not ship, fall to the first that did. */
+  useEffect(() => {
+    if (!available || lang === OFF) return;
+    if (!available.includes(lang)) setLang(available[0] ?? OFF);
+  }, [available, lang]);
+
+  /* YouTube's caption module. Names differ between player builds and neither is
+     really part of the public API, so try both and let failures pass — the
+     toggle is a convenience, not something the player depends on. */
+  useEffect(() => {
+    const p = playerRef.current;
+    if (!p || !ready) return;
+    for (const mod of ["captions", "cc"]) {
+      try {
+        if (ytCaptions) {
+          p.loadModule(mod);
+          p.setOption(mod, "track", { languageCode: "en" });
+        } else {
+          p.setOption(mod, "track", {});
+          p.unloadModule(mod);
+        }
+      } catch {
+        /* module not present on this build */
+      }
+    }
+  }, [ytCaptions, ready]);
 
   const seek = useCallback((to: number) => {
     playerRef.current?.seekTo(Math.max(0, to), true);
@@ -274,14 +329,29 @@ export default function Player({ manifest }: { manifest: Manifest }) {
             onChange={(e) => setLang(e.target.value)}
             className="rounded-md border border-white/12 bg-[#0f0c0b] px-2 py-1 text-sm text-sand outline-none transition focus:border-ochre/50"
           >
-            {manifest.languages.map((l) => (
-              <option key={l.code} value={l.code}>
-                {l.native}
-                {l.source ? " (source)" : ""}
-              </option>
-            ))}
+            {manifest.languages
+              .filter((l) => !available || available.includes(l.code))
+              .map((l) => (
+                <option key={l.code} value={l.code}>
+                  {l.native}
+                  {l.source ? " (source)" : ""}
+                </option>
+              ))}
             <option value={OFF}>Off</option>
           </select>
+        </label>
+
+        <label
+          className="flex items-center gap-2 text-sm text-sand-dim"
+          title="YouTube's own auto-captions — rough, but they cover the stretches with no burned-in subtitle"
+        >
+          <input
+            type="checkbox"
+            checked={ytCaptions}
+            onChange={(e) => setYtCaptions(e.target.checked)}
+            className="accent-ochre"
+          />
+          YouTube captions
         </label>
 
         <label className="flex items-center gap-2 text-sm text-sand-dim">
