@@ -102,6 +102,11 @@ translated cue track for a commercial film is that film's entire screenplay in a
 language, and publishing one is the thing that gets subtitle repositories taken down.
 Run the pipeline against your own copy and keep the output local.
 
+## Next steps
+
+Once you have generated a track, [NEXT_STEPS.md](NEXT_STEPS.md) covers verifying it,
+fixing bad cues, and generating further languages.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). Applies to the code in this repository. It does not grant
