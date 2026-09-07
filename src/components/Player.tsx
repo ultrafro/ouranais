@@ -49,6 +49,11 @@ export default function Player({ manifest }: { manifest: Manifest }) {
             if (cancelled) return;
             setReady(true);
             setDuration(e.target.getDuration());
+            // ?t=SECONDS deep-links to a moment, so a cue can be pointed at.
+            const t = Number(
+              new URLSearchParams(window.location.search).get("t")
+            );
+            if (Number.isFinite(t) && t > 0) e.target.seekTo(t, true);
           },
           onStateChange: (e: { data: number }) => {
             setPlaying(e.data === PlayerState.PLAYING);
@@ -156,8 +161,11 @@ export default function Player({ manifest }: { manifest: Manifest }) {
       <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-black shadow-2xl ring-1 ring-white/10">
         <div ref={hostRef} className="absolute inset-0 h-full w-full" />
 
-        {/* Opaque strip covering the burned-in subtitles */}
-        {maskHardsubs && maskStyle && (
+        {/* Opaque strip covering the burned-in subtitles.
+            Only while a cue is actually on screen — our cues were read off the
+            burned-in ones, so they share timings, and masking permanently would
+            black out real picture for the ~85% of the film with no subtitle. */}
+        {maskHardsubs && maskStyle && line && (
           <div
             className="pointer-events-none absolute inset-x-0 bg-black"
             style={maskStyle}
