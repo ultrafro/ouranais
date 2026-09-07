@@ -115,6 +115,86 @@
     "t": "They burned down the Piffauts' farm."
   },
   {
+    "s": 117.48,
+    "e": 118.0,
+    "t": "Where are you from?"
+  },
+  {
+    "s": 118.63,
+    "e": 119.17,
+    "t": "From the village."
+  },
+  {
+    "s": 123.49,
+    "e": 124.37,
+    "t": "Who are these people with you?"
+  },
+  {
+    "s": 124.37,
+    "e": 127.49,
+    "t": "My sister and her husband — they spent the night at my place, and I'm taking them to Gdil."
+  },
+  {
+    "s": 130.95,
+    "e": 132.01,
+    "t": "You mustn't be too nice."
+  },
+  {
+    "s": 133.16,
+    "e": 135.1,
+    "t": "You have to look them straight in the eye — that's rare."
+  },
+  {
+    "s": 135.64,
+    "e": 136.28,
+    "t": "Now that's fun."
+  },
+  {
+    "s": 136.9,
+    "e": 138.44,
+    "t": "We're not alone here, cousins."
+  },
+  {
+    "s": 138.7,
+    "e": 140.28,
+    "t": "You'd better watch yourselves — clear off!"
+  },
+  {
+    "s": 141.16,
+    "e": 142.44,
+    "t": "Yeah, they blew our cover!"
+  },
+  {
+    "s": 142.44,
+    "e": 142.94,
+    "t": "That's what he's here for!"
+  },
+  {
+    "s": 142.94,
+    "e": 143.96,
+    "t": "You think we're going to do nothing?"
+  },
+  {
+    "s": 143.96,
+    "e": 144.72,
+    "t": "Put your gun away!"
+  },
+  {
+    "s": 144.72,
+    "e": 145.66,
+    "t": "Good God, what's gotten into you?"
+  },
+  {
+    "s": 145.66,
+    "e": 147.28,
+    "t": "I don't need civilians with me!"
+  },
+  {
+    "s": 150.38,
+    "e": 150.8,
+    "t": "Go!"
+  },
+  {
     "s": 167.8,
     "e": 169.2,
     "t": "Are you crazy?"
@@ -218,6 +298,36 @@
     "s": 297.8,
     "e": 298.6,
     "t": "Hamid!"
+  },
+  {
+    "s": 314.45,
+    "e": 317.05,
+    "t": "That was the last time I doubted it, and now I'm..."
+  },
+  {
+    "s": 317.05,
+    "e": 318.63,
+    "t": "But let me explain, Mr. Cotillard!"
+  },
+  {
+    "s": 318.63,
+    "e": 319.35,
+    "t": "You want to explain?"
+  },
+  {
+    "s": 319.35,
+    "e": 321.95,
+    "t": "You're with Eiffel, and what am I supposed to do now?"
+  },
+  {
+    "s": 323.03,
+    "e": 324.17,
+    "t": "I'm taking you to the military."
+  },
+  {
+    "s": 324.21,
+    "e": 325.93,
+    "t": "You're not going to take me to the military, Mr. Cotillard?"
   },
   {
     "s": 326.2,
@@ -548,6 +658,51 @@
     "s": 748.2,
     "e": 749.4,
     "t": "Long live Algeria!"
+  },
+  {
+    "s": 764.97,
+    "e": 765.99,
+    "t": "During the struggle,"
+  },
+  {
+    "s": 766.7,
+    "e": 768.28,
+    "t": "we lived through moments..."
+  },
+  {
+    "s": 773.42,
+    "e": 774.92,
+    "t": "of such intensity."
+  },
+  {
+    "s": 779.37,
+    "e": 780.23,
+    "t": "Decisions that had to be made."
+  },
+  {
+    "s": 782.92,
+    "e": 784.16,
+    "t": "I was there sooner than ever."
+  },
+  {
+    "s": 787.82,
+    "e": 789.14,
+    "t": "Once the battle was won..."
+  },
+  {
+    "s": 790.32,
+    "e": 791.66,
+    "t": "And freedom had to be won back."
+  },
+  {
+    "s": 794.41,
+    "e": 796.09,
+    "t": "Independence given to the people."
+  },
+  {
+    "s": 798.92,
+    "e": 799.84,
+    "t": "With time..."
   },
   {
     "s": 845.1,
@@ -1080,9 +1235,89 @@
     "t": "is that an alliance\nbetween the two countries?"
   },
   {
+    "s": 1388.2,
+    "e": 1392.78,
+    "t": "No, we see here that the effect of a mischievous Cupid's arrows knew no borders, sir."
+  },
+  {
+    "s": 1394.3,
+    "e": 1395.78,
+    "t": "Let's get back to more political matters, please."
+  },
+  {
+    "s": 1396.66,
+    "e": 1397.0,
+    "t": "An independence supporter!"
+  },
+  {
     "s": 1413.6,
     "e": 1415.2,
     "t": "I haven't finished!"
+  },
+  {
+    "s": 1434.25,
+    "e": 1436.67,
+    "t": "When I saw you head into that forest, I told myself I'd never see you again."
+  },
+  {
+    "s": 1437.3,
+    "e": 1438.08,
+    "t": "I held on."
+  },
+  {
+    "s": 1443.62,
+    "e": 1444.6,
+    "t": "A memory from the Deuxième Bureau."
+  },
+  {
+    "s": 1445.6,
+    "e": 1446.08,
+    "t": "Let's forget all that."
+  },
+  {
+    "s": 1447.64,
+    "e": 1448.38,
+    "t": "I'll introduce you to my wife."
+  },
+  {
+    "s": 1465.47,
+    "e": 1470.61,
+    "t": "So, how would you define the new relationship that will develop with France?"
+  },
+  {
+    "s": 1471.62,
+    "e": 1474.76,
+    "t": "The Mediterranean is such a small thing between the French and Algerian peoples."
+  },
+  {
+    "s": 1490.04,
+    "e": 1492.72,
+    "t": "But you've also suffered some setbacks."
+  },
+  {
+    "s": 1493.29,
+    "e": 1494.31,
+    "t": "Since you bring it up."
+  },
+  {
+    "s": 1498.33,
+    "e": 1501.53,
+    "t": "You said it yourself — I sacrificed 5 years of my life to win my country's independence."
+  },
+  {
+    "s": 1501.79,
+    "e": 1504.31,
+    "t": "I'm ready to sacrifice everything else to build that independence."
+  },
+  {
+    "s": 1504.47,
+    "e": 1505.27,
+    "t": "Thank you."
+  },
+  {
+    "s": 1508.38,
+    "e": 1510.6,
+    "t": "Sir, as a politician or as a military man?"
   },
   {
     "s": 1514.6,
@@ -1105,9 +1340,164 @@
     "t": "But I wasn't thinking of marriage."
   },
   {
+    "s": 1560.47,
+    "e": 1561.81,
+    "t": "I'm fine, doing well."
+  },
+  {
+    "s": 1561.97,
+    "e": 1562.49,
+    "t": "If he's bothering you."
+  },
+  {
+    "s": 1563.22,
+    "e": 1563.76,
+    "t": "Is this it?"
+  },
+  {
+    "s": 1565.1,
+    "e": 1565.86,
+    "t": "Ladies and gentlemen!"
+  },
+  {
+    "s": 1566.55,
+    "e": 1570.61,
+    "t": "Please, may I have your attention. First, I want to say how happy I am that you're all here."
+  },
+  {
+    "s": 1572.06,
+    "e": 1573.6,
+    "t": "And I'd like to tell you a short story."
+  },
+  {
+    "s": 1575.06,
+    "e": 1576.2,
+    "t": "In the middle of the winter of 1957,"
+  },
+  {
+    "s": 1577.72,
+    "e": 1579.08,
+    "t": "in the mountains of Kabylia."
+  },
+  {
+    "s": 1579.59,
+    "e": 1582.07,
+    "t": "A group of resistance fighters advanced through the cold and the mud."
+  },
+  {
+    "s": 1583.38,
+    "e": 1585.68,
+    "t": "They were new recruits on their way to a training camp."
+  },
+  {
+    "s": 1586.58,
+    "e": 1588.52,
+    "t": "Then they were caught by a French patrol."
+  },
+  {
+    "s": 1589.66,
+    "e": 1592.8,
+    "t": "A fierce fight broke out, and against all odds—"
+  },
+  {
+    "s": 1593.49,
+    "e": 1595.43,
+    "t": "they managed to rout their attackers."
+  },
+  {
+    "s": 1597.56,
+    "e": 1600.8,
+    "t": "But they lose the officer who was the only one who knew the camp's location."
+  },
+  {
+    "s": 1602.38,
+    "e": 1604.82,
+    "t": "Lost in the middle of nowhere, they have no idea where they're supposed to go."
+  },
+  {
+    "s": 1606.04,
+    "e": 1608.5,
+    "t": "And amid the panic and confusion that gripped the group,"
+  },
+  {
+    "s": 1609.08,
+    "e": 1609.8,
+    "t": "one man"
+  },
+  {
     "s": 1610.6,
     "e": 1611.8,
     "t": "Just one!"
+  },
+  {
+    "s": 1611.98,
+    "e": 1614.98,
+    "t": "makes all the difference by showing exceptional composure."
+  },
+  {
+    "s": 1615.82,
+    "e": 1616.92,
+    "t": "He rallies the men."
+  },
+  {
+    "s": 1617.65,
+    "e": 1619.27,
+    "t": "At that point, turning back seemed inevitable."
+  },
+  {
+    "s": 1619.45,
+    "e": 1623.61,
+    "t": "He manages to convince them they must keep going until they reach one of our networks."
+  },
+  {
+    "s": 1624.4,
+    "e": 1626.3,
+    "t": "When they finally find their way again,"
+  },
+  {
+    "s": 1627.28,
+    "e": 1631.86,
+    "t": "the Oranais — as all the men he led nicknamed him — is regarded by everyone as their leader."
+  },
+  {
+    "s": 1632.82,
+    "e": 1634.34,
+    "t": "For the rest of the war, he fought"
+  },
+  {
+    "s": 1635.4,
+    "e": 1636.64,
+    "t": "energetically, without faltering,"
+  },
+  {
+    "s": 1637.06,
+    "e": 1638.66,
+    "t": "demanding as much of himself as of his men,"
+  },
+  {
+    "s": 1639.32,
+    "e": 1640.8,
+    "t": "driven in carrying out his task"
+  },
+  {
+    "s": 1640.8,
+    "e": 1641.6,
+    "t": "by an ardent faith."
+  },
+  {
+    "s": 1643.09,
+    "e": 1643.85,
+    "t": "Ladies and gentlemen,"
+  },
+  {
+    "s": 1644.62,
+    "e": 1645.74,
+    "t": "the Oranais, before the war."
+  },
+  {
+    "s": 1648.91,
+    "e": 1650.33,
+    "t": "And I hope he'll stay that way."
   },
   {
     "s": 1662.2,
@@ -1135,6 +1525,81 @@
     "t": "With her mother."
   },
   {
+    "s": 1688.86,
+    "e": 1689.84,
+    "t": "I'm messing up, Hamid."
+  },
+  {
+    "s": 1690.52,
+    "e": 1691.26,
+    "t": "That's really something."
+  },
+  {
+    "s": 1692.82,
+    "e": 1694.8,
+    "t": "They doubted me, they didn't think I'd see it through."
+  },
+  {
+    "s": 1696.46,
+    "e": 1697.54,
+    "t": "Are you kidding? Why would you say that?"
+  },
+  {
+    "s": 1697.54,
+    "e": 1700.36,
+    "t": "Because no one told me anything about what happened for five years, they hid from me what happened to him."
+  },
+  {
+    "s": 1707.13,
+    "e": 1708.01,
+    "t": "I know, it's terrible."
+  },
+  {
+    "s": 1709.2,
+    "e": 1711.12,
+    "t": "Ziad knew something that night, and he said nothing."
+  },
+  {
+    "s": 1715.23,
+    "e": 1716.41,
+    "t": "I was with him, even on the day he died."
+  },
+  {
+    "s": 1716.65,
+    "e": 1717.23,
+    "t": "I didn't tell you anything."
+  },
+  {
+    "s": 1719.45,
+    "e": 1720.43,
+    "t": "I don't think they knew anything about it."
+  },
+  {
+    "s": 1721.82,
+    "e": 1723.04,
+    "t": "And the war made him so secretive."
+  },
+  {
+    "s": 1725.52,
+    "e": 1726.44,
+    "t": "Because he would have told me."
+  },
+  {
+    "s": 1740.76,
+    "e": 1741.42,
+    "t": "what to do with the kid"
+  },
+  {
+    "s": 1743.87,
+    "e": 1745.17,
+    "t": "You don't just throw him away like trash."
+  },
+  {
+    "s": 1747.58,
+    "e": 1748.44,
+    "t": "They look like him."
+  },
+  {
     "s": 1772.1,
     "e": 1773.8,
     "t": "Are you going to live here?"
@@ -1158,6 +1623,86 @@
     "s": 1807.1,
     "e": 1808.7,
     "t": "What a beautiful wife!"
+  },
+  {
+    "s": 1812.53,
+    "e": 1813.77,
+    "t": "Commandant Jaffer, my oldest friend."
+  },
+  {
+    "s": 1815.04,
+    "e": 1817.9,
+    "t": "Fyodor Kouligin, pleased to meet you. I'm the one who introduced him to his wife."
+  },
+  {
+    "s": 1826.64,
+    "e": 1827.4,
+    "t": "Oh, of course."
+  },
+  {
+    "s": 1827.54,
+    "e": 1829.26,
+    "t": "Fyodor gave enormous support to the struggle."
+  },
+  {
+    "s": 1830.77,
+    "e": 1832.45,
+    "t": "He has connections in every foreign ministry."
+  },
+  {
+    "s": 1833.68,
+    "e": 1835.12,
+    "t": "I called in favors from all my contacts."
+  },
+  {
+    "s": 1835.82,
+    "e": 1836.66,
+    "t": "It was nothing."
+  },
+  {
+    "s": 1838.9,
+    "e": 1840.3,
+    "t": "Modest, but very generous."
+  },
+  {
+    "s": 1845.43,
+    "e": 1845.79,
+    "t": "To you."
+  },
+  {
+    "s": 1846.35,
+    "e": 1847.43,
+    "t": "To this independence."
+  },
+  {
+    "s": 1848.05,
+    "e": 1848.89,
+    "t": "To this beautiful country."
+  },
+  {
+    "s": 1854.32,
+    "e": 1856.58,
+    "t": "All we'll leave behind is photographs, stones, and graveyards."
+  },
+  {
+    "s": 1856.62,
+    "e": 1857.42,
+    "t": "And a good cognac."
+  },
+  {
+    "s": 1858.74,
+    "e": 1860.0,
+    "t": "You never change."
+  },
+  {
+    "s": 1877.52,
+    "e": 1886.2,
+    "t": "The 500 nationalizations ordered by the National Council of the Revolution have led to the appointment of a number of senior officials, of whom you yourself have been one for a few months now."
+  },
+  {
+    "s": 1888.13,
+    "e": 1889.03,
+    "t": "Congratulations, first of all."
   },
   {
     "s": 1905.8,
@@ -1223,6 +1768,66 @@
     "s": 1953.8,
     "e": 1957.0,
     "t": "An older boy\npushed me over."
+  },
+  {
+    "s": 1977.66,
+    "e": 1978.46,
+    "t": "And they're asleep."
+  },
+  {
+    "s": 1987.14,
+    "e": 1988.32,
+    "t": "Tchala, yours will be just as beautiful."
+  },
+  {
+    "s": 1997.15,
+    "e": 1997.73,
+    "t": "Understand?"
+  },
+  {
+    "s": 1997.73,
+    "e": 1998.51,
+    "t": "The people have their say."
+  },
+  {
+    "s": 1998.51,
+    "e": 1998.89,
+    "t": "The people have their say."
+  },
+  {
+    "s": 1998.89,
+    "e": 1998.95,
+    "t": "The people have their say."
+  },
+  {
+    "s": 1998.97,
+    "e": 1999.01,
+    "t": "The people have their say."
+  },
+  {
+    "s": 1999.01,
+    "e": 1999.53,
+    "t": "The people have their say."
+  },
+  {
+    "s": 1999.53,
+    "e": 1999.87,
+    "t": "The people have their say."
+  },
+  {
+    "s": 1999.87,
+    "e": 2000.63,
+    "t": "The people have their say."
+  },
+  {
+    "s": 2079.52,
+    "e": 2080.2,
+    "t": "To the future."
+  },
+  {
+    "s": 2131.52,
+    "e": 2132.0,
+    "t": "Hello?"
   },
   {
     "s": 2156.2,
@@ -1315,6 +1920,121 @@
     "t": "Idiots. Sons of bitches."
   },
   {
+    "s": 2396.84,
+    "e": 2398.1,
+    "t": "I thought you'd be more comfortable here."
+  },
+  {
+    "s": 2398.5,
+    "e": 2399.84,
+    "t": "Very thoughtful, Mr. Alcala."
+  },
+  {
+    "s": 2400.86,
+    "e": 2403.2,
+    "t": "You're a fine Spaniard — you'll make a perfect Algerian."
+  },
+  {
+    "s": 2403.56,
+    "e": 2405.32,
+    "t": "We kept this same hotel as our headquarters."
+  },
+  {
+    "s": 2405.5,
+    "e": 2407.34,
+    "t": "That deserves a photo, it's a historic place after all."
+  },
+  {
+    "s": 2413.61,
+    "e": 2415.81,
+    "t": "And we took over all the other places that were here."
+  },
+  {
+    "s": 2417.92,
+    "e": 2419.24,
+    "t": "When you think about what this place used to be,"
+  },
+  {
+    "s": 2419.72,
+    "e": 2422.46,
+    "t": "a filthy illegal gambling den, and it's turned into a cruise liner."
+  },
+  {
+    "s": 2422.46,
+    "e": 2424.04,
+    "t": "A cruise liner. Sure, why not."
+  },
+  {
+    "s": 2426.13,
+    "e": 2427.89,
+    "t": "Cruise liner. Cruise liner."
+  },
+  {
+    "s": 2428.19,
+    "e": 2429.57,
+    "t": "Not bad, that metaphor, actually."
+  },
+  {
+    "s": 2446.66,
+    "e": 2448.7,
+    "t": "Last time I sat here, she was still alive."
+  },
+  {
+    "s": 2463.97,
+    "e": 2464.95,
+    "t": "I know where she lives in France."
+  },
+  {
+    "s": 2468.9,
+    "e": 2471.18,
+    "t": "I've got men there, we can arrange something."
+  },
+  {
+    "s": 2472.52,
+    "e": 2473.6,
+    "t": "The war's over, Jaafar."
+  },
+  {
+    "s": 2477.32,
+    "e": 2478.94,
+    "t": "You don't want us to take out the kid's father?"
+  },
+  {
+    "s": 2480.07,
+    "e": 2480.81,
+    "t": "I'm the kid's father."
+  },
+  {
+    "s": 2499.62,
+    "e": 2501.36,
+    "t": "I imagine this can't be easy for you."
+  },
+  {
+    "s": 2501.52,
+    "e": 2502.84,
+    "t": "But don't you think it'd be better..."
+  },
+  {
+    "s": 2502.84,
+    "e": 2505.28,
+    "t": "She'll never know her mother's face — I don't have a single photo of her."
+  },
+  {
+    "s": 2510.5,
+    "e": 2512.14,
+    "t": "when it comes to her father's face."
+  },
+  {
+    "s": 2513.26,
+    "e": 2516.56,
+    "t": "Indeed, better never, never, ever."
+  },
+  {
+    "s": 2519.68,
+    "e": 2520.58,
+    "t": "There's no doubt about it."
+  },
+  {
     "s": 2636.4,
     "e": 2638.9,
     "t": "Fourteen stamps for one letter!"
@@ -1393,6 +2113,121 @@
     "s": 2760.0,
     "e": 2761.6,
     "t": "Thank you, my dear."
+  },
+  {
+    "s": 2774.87,
+    "e": 2776.39,
+    "t": "Do you know who they've found for me here, Si Djaffar?"
+  },
+  {
+    "s": 2777.46,
+    "e": 2780.2,
+    "t": "He's from organized high nobility — even the French played dirty tricks on him back then."
+  },
+  {
+    "s": 2781.01,
+    "e": 2782.21,
+    "t": "I need him, Jaffar."
+  },
+  {
+    "s": 2782.63,
+    "e": 2784.83,
+    "t": "If you marry his daughter, you're joining a brotherhood, a clan."
+  },
+  {
+    "s": 2785.21,
+    "e": 2786.49,
+    "t": "Do you even know what a clan means?"
+  },
+  {
+    "s": 2787.4,
+    "e": 2788.26,
+    "t": "It's even better than the Party."
+  },
+  {
+    "s": 2802.83,
+    "e": 2803.83,
+    "t": "Well, look at you — almost seven."
+  },
+  {
+    "s": 2803.91,
+    "e": 2804.67,
+    "t": "Feels like it was two days ago, to me."
+  },
+  {
+    "s": 2819.89,
+    "e": 2821.19,
+    "t": "Why didn't he get word to me?"
+  },
+  {
+    "s": 2826.64,
+    "e": 2828.2,
+    "t": "What, you want to question the dead now?"
+  },
+  {
+    "s": 2828.2,
+    "e": 2829.12,
+    "t": "Why didn't they tell me anything?"
+  },
+  {
+    "s": 2829.12,
+    "e": 2831.46,
+    "t": "Because we were at war, and you were in the maquis."
+  },
+  {
+    "s": 2832.52,
+    "e": 2834.52,
+    "t": "The priority wasn't your life or your family — it was the revolution."
+  },
+  {
+    "s": 2835.29,
+    "e": 2838.17,
+    "t": "And the rule of secrecy applied to everyone, foot soldiers and officers like you alike."
+  },
+  {
+    "s": 2840.95,
+    "e": 2842.21,
+    "t": "Besides, no messages could get through anymore."
+  },
+  {
+    "s": 2842.39,
+    "e": 2842.59,
+    "t": "Yes, they could."
+  },
+  {
+    "s": 2844.79,
+    "e": 2847.95,
+    "t": "I could've gotten a message to her — told her it wasn't her fault, that I'd come back, that I'd take care of her."
+  },
+  {
+    "s": 2849.68,
+    "e": 2851.02,
+    "t": "It could've changed her life, and mine."
+  },
+  {
+    "s": 2875.57,
+    "e": 2876.93,
+    "t": "You don't have to decide right away."
+  },
+  {
+    "s": 2878.26,
+    "e": 2879.0,
+    "t": "There's no rush."
+  },
+  {
+    "s": 2879.62,
+    "e": 2880.72,
+    "t": "Spend a little time with the girl."
+  },
+  {
+    "s": 2882.99,
+    "e": 2884.27,
+    "t": "I'm sure you'll grow to like her."
+  },
+  {
+    "s": 2889.36,
+    "e": 2890.8,
+    "t": "Her name's Sofia — cute, isn't it?"
   },
   {
     "s": 2968.9,
@@ -1540,6 +2375,11 @@
     "t": "A proper little colonel."
   },
   {
+    "s": 3590.78,
+    "e": 3591.16,
+    "t": "I'm here."
+  },
+  {
     "s": 3605.8,
     "e": 3607.4,
     "t": "My commander-in-chief."
@@ -1580,9 +2420,309 @@
     "t": "It's nothing."
   },
   {
+    "s": 3655.91,
+    "e": 3657.57,
+    "t": "Wasn't I supposed to be a former Moudjahid?"
+  },
+  {
+    "s": 3657.96,
+    "e": 3659.8,
+    "t": "Wasn't I supposed to be a hero of the revolution!"
+  },
+  {
+    "s": 3664.26,
+    "e": 3665.36,
+    "t": "And Sofia — what did you do with her?"
+  },
+  {
+    "s": 3665.36,
+    "e": 3669.8,
+    "t": "I didn't spend five years in the maquis for some lousy teacher to call my son a gaouri,"
+  },
+  {
+    "s": 3669.82,
+    "e": 3672.1,
+    "t": "my own son, flesh of my flesh!"
+  },
+  {
+    "s": 3672.46,
+    "e": 3674.08,
+    "t": "Exactly — flesh of my flesh!"
+  },
+  {
+    "s": 3674.66,
+    "e": 3675.16,
+    "t": "My son!"
+  },
+  {
+    "s": 3676.33,
+    "e": 3677.57,
+    "t": "Don't tell me you dumped the girl."
+  },
+  {
+    "s": 3677.87,
+    "e": 3679.89,
+    "t": "She's a pain, that girl — stop, she's a pain."
+  },
+  {
+    "s": 3683.4,
+    "e": 3685.88,
+    "t": "Her father annoys me too, strutting around like he's all that."
+  },
+  {
+    "s": 3685.94,
+    "e": 3687.66,
+    "t": "You're a complete idiot — you're supposed to marry her."
+  },
+  {
+    "s": 3688.52,
+    "e": 3689.54,
+    "t": "I'm going to rip his hair out."
+  },
+  {
+    "s": 3690.18,
+    "e": 3692.24,
+    "t": "I'll get him new hair, new eyes, and new balls."
+  },
+  {
+    "s": 3692.26,
+    "e": 3693.62,
+    "t": "There won't be anything left of the guy."
+  },
+  {
+    "s": 3700.52,
+    "e": 3702.1,
+    "t": "I hadn't even pictured the father's face."
+  },
+  {
     "s": 3711.2,
     "e": 3712.7,
     "t": "He's a son of a bitch!"
+  },
+  {
+    "s": 3713.25,
+    "e": 3714.09,
+    "t": "Calm down, please."
+  },
+  {
+    "s": 3718.39,
+    "e": 3719.43,
+    "t": "How's it going, Maestro?"
+  },
+  {
+    "s": 3720.09,
+    "e": 3721.19,
+    "t": "Sorry to congratulate you like this."
+  },
+  {
+    "s": 3723.9,
+    "e": 3725.06,
+    "t": "Well, all the better, all the better."
+  },
+  {
+    "s": 3726.89,
+    "e": 3729.07,
+    "t": "Listen, I know it's a lot, but I have a small favor to ask you."
+  },
+  {
+    "s": 3730.8,
+    "e": 3732.08,
+    "t": "It's about our friend Jaffar."
+  },
+  {
+    "s": 3732.86,
+    "e": 3734.96,
+    "t": "Yes sir, King Harani is here in person."
+  },
+  {
+    "s": 3735.12,
+    "e": 3738.72,
+    "t": "If you knew the state they left him in. Are you still teaching, tell me?"
+  },
+  {
+    "s": 3739.98,
+    "e": 3742.8,
+    "t": "Well, all the better, because I think that's just instinctive for you—"
+  },
+  {
+    "s": 3743.42,
+    "e": 3745.58,
+    "t": "—showing such disrespect toward Harani."
+  },
+  {
+    "s": 3769.53,
+    "e": 3772.85,
+    "t": "Which one? None! Because what does it naturalize when it naturalizes me?"
+  },
+  {
+    "s": 3773.52,
+    "e": 3774.14,
+    "t": "My money?"
+  },
+  {
+    "s": 3774.66,
+    "e": 3776.52,
+    "t": "Tell us what nationality you are, it's funny."
+  },
+  {
+    "s": 3777.22,
+    "e": 3778.92,
+    "t": "Listen, I was born near Moscow."
+  },
+  {
+    "s": 3779.42,
+    "e": 3781.42,
+    "t": "I grew up in France, in America."
+  },
+  {
+    "s": 3781.52,
+    "e": 3784.0,
+    "t": "My wife is Lebanese, from that background, and in Canada too."
+  },
+  {
+    "s": 3784.26,
+    "e": 3785.14,
+    "t": "Well then, go on, pick one."
+  },
+  {
+    "s": 3785.87,
+    "e": 3790.11,
+    "t": "It's identity that matters, that's something precious, and it can never be"
+  },
+  {
+    "s": 3790.11,
+    "e": 3793.43,
+    "t": "taken from you, because it's not written on any form, it has no borders."
+  },
+  {
+    "s": 3794.07,
+    "e": 3796.25,
+    "t": "It's your past and your future at the same time."
+  },
+  {
+    "s": 3797.01,
+    "e": 3802.07,
+    "t": "And if you try to silence it, or force onto it something that isn't its own — your identity —"
+  },
+  {
+    "s": 3802.83,
+    "e": 3804.49,
+    "t": "it'll always end up blowing up in your face."
+  },
+  {
+    "s": 3824.45,
+    "e": 3826.05,
+    "t": "I hope you put the champagne on ice."
+  },
+  {
+    "s": 3827.55,
+    "e": 3828.49,
+    "t": "Want some champagne?"
+  },
+  {
+    "s": 3828.49,
+    "e": 3829.41,
+    "t": "Yes, me, me, me!"
+  },
+  {
+    "s": 3829.41,
+    "e": 3829.75,
+    "t": "Sure?"
+  },
+  {
+    "s": 3830.07,
+    "e": 3830.45,
+    "t": "Go on."
+  },
+  {
+    "s": 3831.24,
+    "e": 3832.08,
+    "t": "No idea."
+  },
+  {
+    "s": 3832.28,
+    "e": 3834.22,
+    "t": "This one has something on top."
+  },
+  {
+    "s": 3834.72,
+    "e": 3835.82,
+    "t": "What's this stuff on top called?"
+  },
+  {
+    "s": 3835.82,
+    "e": 3836.44,
+    "t": "White."
+  },
+  {
+    "s": 3836.44,
+    "e": 3837.02,
+    "t": "Whipped cream."
+  },
+  {
+    "s": 3837.94,
+    "e": 3838.4,
+    "t": "That's it, there."
+  },
+  {
+    "s": 3838.48,
+    "e": 3839.26,
+    "t": "Are you done..."
+  },
+  {
+    "s": 3840.3,
+    "e": 3841.46,
+    "t": "You're worse than a kid."
+  },
+  {
+    "s": 3841.66,
+    "e": 3842.58,
+    "t": "It's really good."
+  },
+  {
+    "s": 3843.74,
+    "e": 3844.84,
+    "t": "It's really good."
+  },
+  {
+    "s": 3844.92,
+    "e": 3845.94,
+    "t": "Jeff!"
+  },
+  {
+    "s": 3875.32,
+    "e": 3876.54,
+    "t": "What? The gift isn't the table."
+  },
+  {
+    "s": 3877.28,
+    "e": 3879.46,
+    "t": "No, it's not the table, but the table is attached to your gift."
+  },
+  {
+    "s": 3899.75,
+    "e": 3900.31,
+    "t": "His name's on it."
+  },
+  {
+    "s": 3916.8,
+    "e": 3918.18,
+    "t": "This is madness."
+  },
+  {
+    "s": 3924.16,
+    "e": 3926.1,
+    "t": "Honestly, I don't know what to say."
+  },
+  {
+    "s": 3926.22,
+    "e": 3926.96,
+    "t": "Cure it?"
+  },
+  {
+    "s": 3933.93,
+    "e": 3935.07,
+    "t": "He topped even the whipped cream."
   },
   {
     "s": 3967.0,
@@ -1780,6 +2920,11 @@
     "t": "never will."
   },
   {
+    "s": 4249.46,
+    "e": 4251.34,
+    "t": "and every other day from now until the end of the world."
+  },
+  {
     "s": 4295.4,
     "e": 4296.5,
     "t": "Bring the dish."
@@ -1790,14 +2935,459 @@
     "t": "And have something to eat yourself."
   },
   {
+    "s": 4308.07,
+    "e": 4309.81,
+    "t": "But Faye, you can't say we're not Arabs, come on."
+  },
+  {
+    "s": 4309.87,
+    "e": 4311.87,
+    "t": "It's not that simple to define us that way exclusively."
+  },
+  {
+    "s": 4311.89,
+    "e": 4313.59,
+    "t": "To the French, we were all Arabs."
+  },
+  {
+    "s": 4313.63,
+    "e": 4314.37,
+    "t": "They didn't see the difference."
+  },
+  {
+    "s": 4314.65,
+    "e": 4316.09,
+    "t": "And yet, that's what united us to win."
+  },
+  {
+    "s": 4316.49,
+    "e": 4318.01,
+    "t": "But wasn't it Islam instead?"
+  },
+  {
+    "s": 4318.01,
+    "e": 4318.75,
+    "t": "No, not exactly."
+  },
+  {
+    "s": 4318.93,
+    "e": 4319.95,
+    "t": "Don't talk nonsense, sweetheart."
+  },
+  {
+    "s": 4319.99,
+    "e": 4321.75,
+    "t": "We didn't fight a war of religion, we fought a war of liberation."
+  },
+  {
+    "s": 4321.83,
+    "e": 4322.41,
+    "t": "And that's not even the point."
+  },
+  {
+    "s": 4322.67,
+    "e": 4324.69,
+    "t": "We have an appointment with the Arab world, and we mustn't miss it."
+  },
+  {
+    "s": 4325.13,
+    "e": 4325.33,
+    "t": "Hamid."
+  },
+  {
+    "s": 4325.82,
+    "e": 4329.2,
+    "t": "My grandmother never spoke a word of French or Arabic in her life."
+  },
+  {
+    "s": 4329.26,
+    "e": 4330.4,
+    "t": "The language she speaks is Kabyle."
+  },
+  {
+    "s": 4330.48,
+    "e": 4331.92,
+    "t": "Go ahead and tell her today that she's an Arab."
+  },
+  {
+    "s": 4331.96,
+    "e": 4332.96,
+    "t": "She'll give you an earful."
+  },
+  {
+    "s": 4333.96,
+    "e": 4335.98,
+    "t": "If we're not Arabs, then what are we?"
+  },
+  {
+    "s": 4335.98,
+    "e": 4338.9,
+    "t": "We're Algerian, Mediterranean, Maghrebi, and African."
+  },
+  {
+    "s": 4348.36,
+    "e": 4349.34,
+    "t": "Come on, come over to our place."
+  },
+  {
+    "s": 4362.03,
+    "e": 4365.71,
+    "t": "But Farid, you're a smart guy. I'm not talking about the past, I'm talking about a future generation!"
+  },
+  {
+    "s": 4365.71,
+    "e": 4367.53,
+    "t": "But you can't separate things like that, Emmanuelle!"
+  },
+  {
+    "s": 4367.53,
+    "e": 4371.63,
+    "t": "You can't tell a family, starting today, the old stay Kabyle and the young become Arab!"
+  },
+  {
+    "s": 4371.63,
+    "e": 4374.07,
+    "t": "Damn it, I'm not going to have a serious discussion with Farid!"
+  },
+  {
+    "s": 4379.51,
+    "e": 4380.65,
+    "t": "So how do you see it, then?"
+  },
+  {
+    "s": 4381.91,
+    "e": 4384.97,
+    "t": "It's simple: after being not quite French, we're going to become not quite Arab."
+  },
+  {
+    "s": 4385.77,
+    "e": 4387.45,
+    "t": "So now it's an international discussion, is that it?"
+  },
+  {
+    "s": 4387.45,
+    "e": 4388.39,
+    "t": "That's the reality, Hamid."
+  },
+  {
+    "s": 4388.77,
+    "e": 4391.21,
+    "t": "It's unbelievable, we can't have a conversation without you shutting down."
+  },
+  {
+    "s": 4391.63,
+    "e": 4394.37,
+    "t": "That has nothing to do with it. I'm talking about a very important meeting with the Arab world,"
+  },
+  {
+    "s": 4394.49,
+    "e": 4396.27,
+    "t": "and we can't go there when I know Africans, damn it!"
+  },
+  {
+    "s": 4396.69,
+    "e": 4399.19,
+    "t": "Exactly, if we don't address these issues, this meeting will be pointless."
+  },
+  {
+    "s": 4399.55,
+    "e": 4402.17,
+    "t": "We're in the woods, on a picnic with the kids."
+  },
+  {
     "s": 4402.7,
     "e": 4405.6,
     "t": "And you bore us to death\nwith your damn politics!"
   },
   {
+    "s": 4426.68,
+    "e": 4427.3,
+    "t": "Come on, hurry up."
+  },
+  {
+    "s": 4436.37,
+    "e": 4437.09,
+    "t": "We're not going to a party, you know."
+  },
+  {
+    "s": 4467.09,
+    "e": 4468.55,
+    "t": "Anyway, these days everything annoys you."
+  },
+  {
+    "s": 4469.52,
+    "e": 4470.84,
+    "t": "Getting up in the morning annoys you."
+  },
+  {
+    "s": 4470.94,
+    "e": 4472.04,
+    "t": "Saying hello annoys you."
+  },
+  {
+    "s": 4472.04,
+    "e": 4473.06,
+    "t": "Smiling annoys you."
+  },
+  {
+    "s": 4473.1,
+    "e": 4474.08,
+    "t": "Going to school annoys you."
+  },
+  {
+    "s": 4474.1,
+    "e": 4475.58,
+    "t": "Now even coming to see your mother annoys you."
+  },
+  {
+    "s": 4475.7,
+    "e": 4476.12,
+    "t": "My mother?"
+  },
+  {
     "s": 4476.4,
     "e": 4477.8,
     "t": "I don't even know her!"
+  },
+  {
+    "s": 4498.78,
+    "e": 4499.92,
+    "t": "This medicine isn't mine to give."
+  },
+  {
+    "s": 4500.67,
+    "e": 4502.67,
+    "t": "It's a national product, it belongs to the people."
+  },
+  {
+    "s": 4503.38,
+    "e": 4506.78,
+    "t": "I can't hand it out to just anyone because he gave you a boat for your birthday."
+  },
+  {
+    "s": 4506.86,
+    "e": 4509.08,
+    "t": "That's got nothing to do with it, Jeff. I'm asking you for a favor."
+  },
+  {
+    "s": 4510.61,
+    "e": 4514.23,
+    "t": "One day you showed up at my place completely devastated because someone had insulted your son."
+  },
+  {
+    "s": 4514.57,
+    "e": 4515.31,
+    "t": "Yes or no?"
+  },
+  {
+    "s": 4516.25,
+    "e": 4517.59,
+    "t": "Was that a favor or not, damn it?"
+  },
+  {
+    "s": 4517.59,
+    "e": 4519.07,
+    "t": "Do you know where that guy ended up?"
+  },
+  {
+    "s": 4527.18,
+    "e": 4529.44,
+    "t": "Jeff, I got him to shell out a ton of money for the revolution."
+  },
+  {
+    "s": 4529.58,
+    "e": 4530.6,
+    "t": "I saw it with my own eyes."
+  },
+  {
+    "s": 4530.78,
+    "e": 4533.1,
+    "t": "Now that he's in real trouble, hit hard by the crisis,"
+  },
+  {
+    "s": 4533.1,
+    "e": 4534.4,
+    "t": "we're not just going to stand around doing nothing."
+  },
+  {
+    "s": 4534.72,
+    "e": 4535.46,
+    "t": "We have to help him."
+  },
+  {
+    "s": 4561.85,
+    "e": 4562.89,
+    "t": "I'd like to ask you a question."
+  },
+  {
+    "s": 4564.62,
+    "e": 4565.34,
+    "t": "Hurry up, I'm in a rush."
+  },
+  {
+    "s": 4568.06,
+    "e": 4570.68,
+    "t": "Do you know why I'm the only one in the family with blue eyes?"
+  },
+  {
+    "s": 4570.98,
+    "e": 4571.66,
+    "t": "Sorry, I don't have an answer."
+  },
+  {
+    "s": 4604.54,
+    "e": 4605.38,
+    "t": "Let me remind you, it was you."
+  },
+  {
+    "s": 4606.08,
+    "e": 4608.12,
+    "t": "You were the one who said the single party was just a transition."
+  },
+  {
+    "s": 4608.4,
+    "e": 4610.52,
+    "t": "It's a matter of consistency, Ferry. We always need unity."
+  },
+  {
+    "s": 4610.84,
+    "e": 4613.9,
+    "t": "The single party is the only coherent framework that can guarantee that unity."
+  },
+  {
+    "s": 4613.92,
+    "e": 4616.2,
+    "t": "Come on, drop the rhetoric. You're not talking to a journalist here."
+  },
+  {
+    "s": 4616.36,
+    "e": 4618.0,
+    "t": "It was Camille who told you about my little problem."
+  },
+  {
+    "s": 4620.67,
+    "e": 4621.27,
+    "t": "Yeah, yeah, he told me."
+  },
+  {
+    "s": 4626.78,
+    "e": 4627.8,
+    "t": "There's one thing I don't understand."
+  },
+  {
+    "s": 4629.3,
+    "e": 4631.24,
+    "t": "Come on, it's not like Canada is short on timber."
+  },
+  {
+    "s": 4632.7,
+    "e": 4634.42,
+    "t": "Of course, that's not the issue."
+  },
+  {
+    "s": 4635.44,
+    "e": 4636.3,
+    "t": "But over there, I pay for it."
+  },
+  {
+    "s": 4638.43,
+    "e": 4642.53,
+    "t": "Listen, Jeff, you know very well I'm a friend of Algeria, I'm not here to rob it blind."
+  },
+  {
+    "s": 4643.03,
+    "e": 4645.15,
+    "t": "But I really need a little help."
+  },
+  {
+    "s": 4645.59,
+    "e": 4646.63,
+    "t": "Times are very hard."
+  },
+  {
+    "s": 4646.63,
+    "e": 4647.53,
+    "t": "Yes, I know, I know."
+  },
+  {
+    "s": 4650.97,
+    "e": 4651.59,
+    "t": "I'm embarrassed."
+  },
+  {
+    "s": 4656.09,
+    "e": 4656.69,
+    "t": "You know very well."
+  },
+  {
+    "s": 4658.46,
+    "e": 4660.14,
+    "t": "I'll know how to show my gratitude."
+  },
+  {
+    "s": 4664.06,
+    "e": 4666.06,
+    "t": "Are you gonna get me a boat too, or what?"
+  },
+  {
+    "s": 4669.06,
+    "e": 4671.14,
+    "t": "Economic and social policy is a success."
+  },
+  {
+    "s": 4671.38,
+    "e": 4673.68,
+    "t": "There's no unemployment, every chancellery in the world consults us."
+  },
+  {
+    "s": 4673.82,
+    "e": 4674.78,
+    "t": "We're at the forefront of the continent."
+  },
+  {
+    "s": 4675.93,
+    "e": 4677.77,
+    "t": "And living it up on a boat worth 150 grand."
+  },
+  {
+    "s": 4680.09,
+    "e": 4681.37,
+    "t": "Hamid, I couldn't care less about your boat."
+  },
+  {
+    "s": 4682.1,
+    "e": 4683.04,
+    "t": "Don't bite the hand that feeds you, Ferry."
+  },
+  {
+    "s": 4686.46,
+    "e": 4689.14,
+    "t": "It's delicate. Whatever you decide, I respect it."
+  },
+  {
+    "s": 4690.24,
+    "e": 4691.72,
+    "t": "It's delicate. I don't want to rush you."
+  },
+  {
+    "s": 4711.0,
+    "e": 4712.0,
+    "t": "What did you tell him?"
+  },
+  {
+    "s": 4712.28,
+    "e": 4714.16,
+    "t": "He's the one acting proud, let him act proud."
+  },
+  {
+    "s": 4714.52,
+    "e": 4717.92,
+    "t": "No, how is that possible? You're worse than children, we can't leave you alone five minutes, damn it!"
+  },
+  {
+    "s": 4749.12,
+    "e": 4749.98,
+    "t": "What a bunch of idiots."
   },
   {
     "s": 4750.3,
@@ -2095,6 +3685,81 @@
     "t": "I'll take care of it."
   },
   {
+    "s": 5104.57,
+    "e": 5105.07,
+    "t": "...in shady schemes."
+  },
+  {
+    "s": 5105.92,
+    "e": 5107.34,
+    "t": "Contracts with fake suppliers,"
+  },
+  {
+    "s": 5107.34,
+    "e": 5109.46,
+    "t": "veterans' licenses they resell for a fortune."
+  },
+  {
+    "s": 5110.4,
+    "e": 5112.88,
+    "t": "Did you know, Elisabeth, that he owned 14 hammams?"
+  },
+  {
+    "s": 5114.01,
+    "e": 5116.97,
+    "t": "But can you tell me what he needs 14 hammams for?"
+  },
+  {
+    "s": 5118.4,
+    "e": 5120.56,
+    "t": "He's the one who sent me all over the world to study."
+  },
+  {
+    "s": 5120.98,
+    "e": 5124.76,
+    "t": "He used to say the real challenge wasn't winning the war, but building independence."
+  },
+  {
+    "s": 5124.82,
+    "e": 5129.04,
+    "t": "But today, to get any real responsibility, you don't need a degree, you need a party card!"
+  },
+  {
+    "s": 5130.01,
+    "e": 5132.75,
+    "t": "So how am I supposed to find my place in all this?"
+  },
+  {
+    "s": 5134.59,
+    "e": 5135.51,
+    "t": "I know what for!"
+  },
+  {
+    "s": 5152.09,
+    "e": 5155.29,
+    "t": "In 20 years, when we look each other in the eye, our lies will force us into silence."
+  },
+  {
+    "s": 5173.31,
+    "e": 5174.47,
+    "t": "The deed of ownership for the Armada."
+  },
+  {
+    "s": 5175.02,
+    "e": 5175.88,
+    "t": "From Féodal."
+  },
+  {
+    "s": 5176.89,
+    "e": 5178.89,
+    "t": "Halima Farhani, we're now officially the owner."
+  },
+  {
+    "s": 5179.74,
+    "e": 5181.8,
+    "t": "We'll need to find someone to run the place in your stead."
+  },
+  {
     "s": 5222.1,
     "e": 5224.2,
     "t": "Sale of the company"
@@ -2103,6 +3768,156 @@
     "s": 5225.5,
     "e": 5226.6,
     "t": "El Armador."
+  },
+  {
+    "s": 5233.02,
+    "e": 5233.78,
+    "t": "That's a fine team."
+  },
+  {
+    "s": 5234.24,
+    "e": 5236.62,
+    "t": "Farid! Farid! Farid!"
+  },
+  {
+    "s": 5237.43,
+    "e": 5238.77,
+    "t": "[Crowd cheering]"
+  },
+  {
+    "s": 5296.03,
+    "e": 5296.45,
+    "t": "What's wrong?"
+  },
+  {
+    "s": 5298.13,
+    "e": 5300.19,
+    "t": "Calm down, calm down, calm down, what's wrong?"
+  },
+  {
+    "s": 5302.59,
+    "e": 5303.01,
+    "t": "I'm coming."
+  },
+  {
+    "s": 5310.98,
+    "e": 5313.5,
+    "t": "Stop worrying, Nawel, he'll turn up eventually, I swear."
+  },
+  {
+    "s": 5313.56,
+    "e": 5315.5,
+    "t": "No, two days, that's never happened before, Jeff. Never!"
+  },
+  {
+    "s": 5315.94,
+    "e": 5317.44,
+    "t": "I'm sure something's happened, I'm sure of it."
+  },
+  {
+    "s": 5317.52,
+    "e": 5318.34,
+    "t": "Maybe with a girl, or..."
+  },
+  {
+    "s": 5318.34,
+    "e": 5319.52,
+    "t": "No, no, no, Jeff, no, no, no, not him."
+  },
+  {
+    "s": 5326.6,
+    "e": 5328.48,
+    "t": "Something's happened to him, I'm sure of it, I have a bad feeling."
+  },
+  {
+    "s": 5329.72,
+    "e": 5331.3,
+    "t": "What do you think could've happened to him, some kind of accident?"
+  },
+  {
+    "s": 5331.3,
+    "e": 5332.88,
+    "t": "He and Hamid have been at each other's throats lately."
+  },
+  {
+    "s": 5333.28,
+    "e": 5334.22,
+    "t": "I don't trust that guy."
+  },
+  {
+    "s": 5335.0,
+    "e": 5336.6,
+    "t": "What are you talking about? Have you lost your mind?"
+  },
+  {
+    "s": 5337.17,
+    "e": 5339.45,
+    "t": "It's always bothered him that he won't fall in line."
+  },
+  {
+    "s": 5339.69,
+    "e": 5340.75,
+    "t": "You can't deny it, Jeff."
+  },
+  {
+    "s": 5343.31,
+    "e": 5345.57,
+    "t": "I know he's your friend, but open your eyes, he's completely changed."
+  },
+  {
+    "s": 5349.34,
+    "e": 5350.38,
+    "t": "It's your responsibility, that's all!"
+  },
+  {
+    "s": 5350.38,
+    "e": 5351.26,
+    "t": "You're refusing to face the truth!"
+  },
+  {
+    "s": 5351.26,
+    "e": 5353.54,
+    "t": "You gave him the Armada, so now you turn a blind eye to everything else!"
+  },
+  {
+    "s": 5353.54,
+    "e": 5354.06,
+    "t": "Damn it, come on..."
+  },
+  {
+    "s": 5354.06,
+    "e": 5355.4,
+    "t": "Some revolutionaries, huh!"
+  },
+  {
+    "s": 5355.68,
+    "e": 5356.92,
+    "t": "Alright, listen, I'd better go, Nawal."
+  },
+  {
+    "s": 5357.5,
+    "e": 5357.76,
+    "t": "Here."
+  },
+  {
+    "s": 5358.36,
+    "e": 5359.2,
+    "t": "I want to understand my husband."
+  },
+  {
+    "s": 5359.82,
+    "e": 5364.08,
+    "t": "Your husband will be back, stop worrying like that. Rest, look after your kid, he'll come home."
+  },
+  {
+    "s": 5365.86,
+    "e": 5367.14,
+    "t": "Thanks for letting me know, anyway."
+  },
+  {
+    "s": 5369.66,
+    "e": 5370.06,
+    "t": "There you go."
   },
   {
     "s": 5375.6,
@@ -2120,6 +3935,46 @@
     "t": "they must have consulted Hamid first."
   },
   {
+    "s": 5404.66,
+    "e": 5405.02,
+    "t": "Hello."
+  },
+  {
+    "s": 5405.46,
+    "e": 5405.82,
+    "t": "Elisabeth."
+  },
+  {
+    "s": 5406.04,
+    "e": 5406.64,
+    "t": "What a surprise."
+  },
+  {
+    "s": 5406.94,
+    "e": 5407.6,
+    "t": "How are you?"
+  },
+  {
+    "s": 5407.6,
+    "e": 5408.22,
+    "t": "I'm fine."
+  },
+  {
+    "s": 5408.24,
+    "e": 5409.08,
+    "t": "Are the children well?"
+  },
+  {
+    "s": 5409.08,
+    "e": 5409.3,
+    "t": "Yes."
+  },
+  {
+    "s": 5409.44,
+    "e": 5410.28,
+    "t": "Will you join us?"
+  },
+  {
     "s": 5411.0,
     "e": 5412.6,
     "t": "I'm in your office."
@@ -2130,14 +3985,224 @@
     "t": "Stay there."
   },
   {
+    "s": 5447.35,
+    "e": 5448.81,
+    "t": "It was the agency that wanted to shake him up a bit."
+  },
+  {
+    "s": 5448.87,
+    "e": 5449.79,
+    "t": "To make him stop his nonsense."
+  },
+  {
+    "s": 5449.85,
+    "e": 5450.61,
+    "t": "And you let it happen."
+  },
+  {
+    "s": 5451.19,
+    "e": 5453.21,
+    "t": "He'd stopped respecting anything, Jarfol. I couldn't keep covering for him."
+  },
+  {
+    "s": 5455.65,
+    "e": 5457.67,
+    "t": "A man who fought alongside you."
+  },
+  {
+    "s": 5457.71,
+    "e": 5458.79,
+    "t": "Spare me the speeches."
+  },
+  {
+    "s": 5459.01,
+    "e": 5460.81,
+    "t": "A country isn't run like a regional office."
+  },
+  {
+    "s": 5460.89,
+    "e": 5462.03,
+    "t": "It's a bit more complicated than that, believe me."
+  },
+  {
+    "s": 5464.83,
+    "e": 5466.21,
+    "t": "Baldy, have me sign whatever papers you want."
+  },
+  {
+    "s": 5466.67,
+    "e": 5469.25,
+    "t": "Just tell me where he is. I'll go get him and bring him back to his wife."
+  },
+  {
+    "s": 5469.41,
+    "e": 5470.07,
+    "t": "You alright, Hector?"
+  },
+  {
+    "s": 5474.53,
+    "e": 5475.21,
+    "t": "What's wrong, Hamid?"
+  },
+  {
+    "s": 5475.66,
+    "e": 5476.48,
+    "t": "He must've been roughed up a bit."
+  },
+  {
+    "s": 5479.02,
+    "e": 5480.5,
+    "t": "He's always had a weak heart, the fool."
+  },
+  {
+    "s": 5481.11,
+    "e": 5482.51,
+    "t": "What are you trying to tell me right now?"
+  },
+  {
+    "s": 5482.75,
+    "e": 5485.21,
+    "t": "I had him rushed to the military hospital, but they couldn't do anything."
+  },
+  {
+    "s": 5485.61,
+    "e": 5486.43,
+    "t": "He didn't make it, Hak."
+  },
+  {
+    "s": 5486.51,
+    "e": 5487.03,
+    "t": "No, no!"
+  },
+  {
+    "s": 5490.54,
+    "e": 5492.14,
+    "t": "This is a nightmare, I want to wake up!"
+  },
+  {
+    "s": 5492.14,
+    "e": 5493.22,
+    "t": "What have you done?"
+  },
+  {
+    "s": 5495.76,
+    "e": 5498.8,
+    "t": "Do you realize? That was your brother Hamid, that was your brother!"
+  },
+  {
+    "s": 5499.38,
+    "e": 5500.7,
+    "t": "Do you realize what that means?"
+  },
+  {
+    "s": 5500.94,
+    "e": 5502.4,
+    "t": "Do you realize, Amine, what that means?"
+  },
+  {
+    "s": 5502.4,
+    "e": 5504.1,
+    "t": "You just killed your own brother!"
+  },
+  {
     "s": 5504.8,
     "e": 5506.0,
     "t": "Let go of me!"
   },
   {
+    "s": 5506.98,
+    "e": 5508.88,
+    "t": "What do you become when you kill your own brother?"
+  },
+  {
+    "s": 5511.03,
+    "e": 5512.71,
+    "t": "And what are you going to do? Kill me too?"
+  },
+  {
+    "s": 5513.11,
+    "e": 5514.13,
+    "t": "You're all going to kill me!"
+  },
+  {
+    "s": 5516.48,
+    "e": 5517.34,
+    "t": "I curse you, Hamid."
+  },
+  {
+    "s": 5520.2,
+    "e": 5520.82,
+    "t": "I can never see you again."
+  },
+  {
+    "s": 5595.11,
+    "e": 5595.65,
+    "t": "Who am I?"
+  },
+  {
+    "s": 5613.83,
+    "e": 5615.01,
+    "t": "...the only one you can have."
+  },
+  {
+    "s": 5619.75,
+    "e": 5621.21,
+    "t": "Your mother is a martyr of the revolution."
+  },
+  {
+    "s": 5624.23,
+    "e": 5625.39,
+    "t": "That should fill you with pride."
+  },
+  {
+    "s": 5626.7,
+    "e": 5628.96,
+    "t": "Instead, you listen to people we don't even know."
+  },
+  {
+    "s": 5631.36,
+    "e": 5633.02,
+    "t": "who take pleasure in tarnishing her memory."
+  },
+  {
     "s": 5634.8,
     "e": 5636.0,
     "t": "Stay seated."
+  },
+  {
+    "s": 5642.23,
+    "e": 5644.25,
+    "t": "Do you think that's what your mother deserves, from the depths of her grave?"
+  },
+  {
+    "s": 5649.78,
+    "e": 5651.02,
+    "t": "if you keep listening to these thugs."
+  },
+  {
+    "s": 5652.85,
+    "e": 5653.59,
+    "t": "You take your things."
+  },
+  {
+    "s": 5654.42,
+    "e": 5655.12,
+    "t": "And you leave this house."
+  },
+  {
+    "s": 5657.43,
+    "e": 5658.09,
+    "t": "If you stay..."
+  },
+  {
+    "s": 5658.87,
+    "e": 5661.59,
+    "t": "I never want to hear another insinuation."
+  },
+  {
+    "s": 5664.95,
+    "e": 5665.65,
+    "t": "A whore."
   },
   {
     "s": 5774.7,
@@ -2275,6 +4340,21 @@
     "t": "The President of the Republic."
   },
   {
+    "s": 6132.4,
+    "e": 6137.12,
+    "t": "You know I knew him very well. He was still someone who gave a great deal to this country."
+  },
+  {
+    "s": 6137.24,
+    "e": 6145.12,
+    "t": "In the '70s, he played a major role. He was the second assessor of the National Revolutionary Council."
+  },
+  {
+    "s": 6145.12,
+    "e": 6154.26,
+    "t": "But before that, he was a distinguished fighter for the liberation of the country, for independence, and then for the development effort."
+  },
+  {
     "s": 6156.7,
     "e": 6160.3,
     "t": "Why are you prying\ninto other people's business?"
@@ -2323,6 +4403,26 @@
     "s": 6211.7,
     "e": 6213.3,
     "t": "Asshole!"
+  },
+  {
+    "s": 6225.06,
+    "e": 6225.94,
+    "t": "I know what happened."
+  },
+  {
+    "s": 6228.78,
+    "e": 6231.74,
+    "t": "Si Adda summoned the commander because he wanted to go home."
+  },
+  {
+    "s": 6234.5,
+    "e": 6236.22,
+    "t": "We never found out what happened in the village."
+  },
+  {
+    "s": 6239.78,
+    "e": 6241.98,
+    "t": "While the others, Ziad and Hamid,"
   },
   {
     "s": 6245.9,
@@ -2525,6 +4625,11 @@
     "t": "To Benaissa's."
   },
   {
+    "s": 6503.35,
+    "e": 6503.85,
+    "t": "Bring him to us."
+  },
+  {
     "s": 6530.9,
     "e": 6532.6,
     "t": "Is everything all right, sir?"
@@ -2620,9 +4725,204 @@
     "t": "Fuck them."
   },
   {
+    "s": 6767.93,
+    "e": 6769.45,
+    "t": "I swear all this mess is pointless."
+  },
+  {
+    "s": 6773.85,
+    "e": 6775.03,
+    "t": "It's just to impress me."
+  },
+  {
+    "s": 6776.96,
+    "e": 6778.7,
+    "t": "So I agree to everything without thinking."
+  },
+  {
+    "s": 6780.76,
+    "e": 6782.0,
+    "t": "can always wait."
+  },
+  {
+    "s": 6785.66,
+    "e": 6786.3,
+    "t": "What did I say?"
+  },
+  {
+    "s": 6802.59,
+    "e": 6803.21,
+    "t": "Why did you come?"
+  },
+  {
+    "s": 6804.76,
+    "e": 6805.68,
+    "t": "Elisabeth asked for it."
+  },
+  {
+    "s": 6818.08,
+    "e": 6821.04,
+    "t": "He brings me this today, hoping to lay it on my grave tomorrow."
+  },
+  {
+    "s": 6822.04,
+    "e": 6823.04,
+    "t": "All vultures."
+  },
+  {
+    "s": 6833.09,
+    "e": 6833.17,
+    "t": "the nurses."
+  },
+  {
+    "s": 6834.46,
+    "e": 6835.8,
+    "t": "When they come, I pretend to sleep."
+  },
+  {
+    "s": 6837.4,
+    "e": 6838.4,
+    "t": "just to hear them talk."
+  },
+  {
+    "s": 6839.28,
+    "e": 6840.6,
+    "t": "All they do is complain."
+  },
+  {
+    "s": 6842.2,
+    "e": 6842.94,
+    "t": "About everything, all the time."
+  },
+  {
+    "s": 6845.08,
+    "e": 6846.86,
+    "t": "And the doctor's even worse."
+  },
+  {
+    "s": 6850.27,
+    "e": 6850.89,
+    "t": "Or so he thinks."
+  },
+  {
+    "s": 6851.32,
+    "e": 6852.66,
+    "t": "I can fix everything with a..."
+  },
+  {
+    "s": 6853.24,
+    "e": 6854.48,
+    "t": "wave of a magic wand."
+  },
+  {
+    "s": 6859.96,
+    "e": 6861.18,
+    "t": "You know what the people are, Jeff?"
+  },
+  {
+    "s": 6862.51,
+    "e": 6864.99,
+    "t": "The people are just mouths to feed, nothing more."
+  },
+  {
+    "s": 6888.44,
+    "e": 6889.7,
+    "t": "That's why you fought, Jeff."
+  },
+  {
+    "s": 6892.67,
+    "e": 6894.09,
+    "t": "So you wouldn't have water in your tap."
+  },
+  {
+    "s": 6928.03,
+    "e": 6930.19,
+    "t": "You don't hear the night animals anymore."
+  },
+  {
+    "s": 6931.84,
+    "e": 6932.44,
+    "t": "Even less during the day"
+  },
+  {
+    "s": 6934.62,
+    "e": 6935.14,
+    "t": "if there's no wind."
+  },
+  {
+    "s": 6940.99,
+    "e": 6942.25,
+    "t": "This silence is suffocating."
+  },
+  {
+    "s": 6946.59,
+    "e": 6947.21,
+    "t": "throughout the whole war."
+  },
+  {
+    "s": 6948.06,
+    "e": 6950.02,
+    "t": "That was always when the anxiety hit."
+  },
+  {
+    "s": 6952.44,
+    "e": 6952.74,
+    "t": "For example."
+  },
+  {
+    "s": 6953.6,
+    "e": 6954.76,
+    "t": "I'm in the dark, the silence."
+  },
+  {
+    "s": 6955.9,
+    "e": 6957.32,
+    "t": "Total darkness?"
+  },
+  {
+    "s": 6959.13,
+    "e": 6962.47,
+    "t": "It's as if something kept the light from finding its way."
+  },
+  {
+    "s": 7004.54,
+    "e": 7005.3,
+    "t": "And the day was breaking."
+  },
+  {
+    "s": 7010.56,
+    "e": 7011.54,
+    "t": "We could change the world, you and I."
+  },
+  {
     "s": 7014.1,
     "e": 7017.1,
     "t": "We could have done it.\nI swear, we could have."
+  },
+  {
+    "s": 7025.92,
+    "e": 7027.28,
+    "t": "Why doesn't he come see me, Félix?"
+  },
+  {
+    "s": 7036.7,
+    "e": 7037.64,
+    "t": "Still sulking."
+  },
+  {
+    "s": 7042.05,
+    "e": 7043.19,
+    "t": "Why didn't he come with you?"
+  },
+  {
+    "s": 7065.09,
+    "e": 7066.07,
+    "t": "You'll come see me again, Jeff."
+  },
+  {
+    "s": 7079.56,
+    "e": 7080.6,
+    "t": "You'll come see me again, Jack."
   },
   {
     "s": 7109.4,

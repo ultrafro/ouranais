@@ -115,6 +115,86 @@
 "t": "Ils ont brûlé la ferme des Piffaut."
 },
 {
+"s": 117.48,
+"e": 118.0,
+"t": "Tu viens d'où ?"
+},
+{
+"s": 118.63,
+"e": 119.17,
+"t": "Du village."
+},
+{
+"s": 123.49,
+"e": 124.37,
+"t": "Ce qui les gens t'emmènent ?"
+},
+{
+"s": 124.37,
+"e": 127.49,
+"t": "Ma soeur et son mari, ils ont passé la nuit chez moi et je les emmène à Gdil."
+},
+{
+"s": 130.95,
+"e": 132.01,
+"t": "Il ne faut pas être trop gentil."
+},
+{
+"s": 133.16,
+"e": 135.1,
+"t": "Il faut les regarder droit dans les yeux, c'est rare."
+},
+{
+"s": 135.64,
+"e": 136.28,
+"t": "Ça, c'est fun."
+},
+{
+"s": 136.9,
+"e": 138.44,
+"t": "On n'est pas seuls germains ici."
+},
+{
+"s": 138.7,
+"e": 140.28,
+"t": "Vous devez vous voir, vous dégagez d'ici."
+},
+{
+"s": 141.16,
+"e": 142.44,
+"t": "Ouais, ils nous ont brûlé l'affaire !"
+},
+{
+"s": 142.44,
+"e": 142.94,
+"t": "Il est là pour ça !"
+},
+{
+"s": 142.94,
+"e": 143.96,
+"t": "Vous croyez qu'on va rien faire ?"
+},
+{
+"s": 143.96,
+"e": 144.72,
+"t": "Vous rangez votre carail !"
+},
+{
+"s": 144.72,
+"e": 145.66,
+"t": "Oh Dieu, qu'est-ce qu'il vous prend ?"
+},
+{
+"s": 145.66,
+"e": 147.28,
+"t": "J'ai pas besoin de civile avec moi !"
+},
+{
+"s": 150.38,
+"e": 150.8,
+"t": "Vas-y !"
+},
+{
 "s": 167.8,
 "e": 169.2,
 "t": "T'es cinglé ?"
@@ -218,6 +298,36 @@
 "s": 297.8,
 "e": 298.6,
 "t": "Hamid !"
+},
+{
+"s": 314.45,
+"e": 317.05,
+"t": "C'était le dernier temps que je m'y méfiais, et maintenant je suis..."
+},
+{
+"s": 317.05,
+"e": 318.63,
+"t": "Mais laissez-moi vous expliquer, monsieur Cotillard !"
+},
+{
+"s": 318.63,
+"e": 319.35,
+"t": "Mais tu veux expliquer ?"
+},
+{
+"s": 319.35,
+"e": 321.95,
+"t": "Tu es chez l'Eiffel, et moi, qu'est-ce que je fais maintenant ?"
+},
+{
+"s": 323.03,
+"e": 324.17,
+"t": "Je t'emmène chez les militaires."
+},
+{
+"s": 324.21,
+"e": 325.93,
+"t": "Vous n'allez pas m'emmener chez les militaires, monsieur Cotillard ?"
 },
 {
 "s": 326.2,
@@ -548,6 +658,51 @@
 "s": 748.2,
 "e": 749.4,
 "t": "Vive l'Algérie !"
+},
+{
+"s": 764.97,
+"e": 765.99,
+"t": "Pendant la lutte,"
+},
+{
+"s": 766.7,
+"e": 768.28,
+"t": "Nous avons vécu des instants..."
+},
+{
+"s": 773.42,
+"e": 774.92,
+"t": "d'une intensité telle."
+},
+{
+"s": 779.37,
+"e": 780.23,
+"t": "Décision qu'il fallait prendre."
+},
+{
+"s": 782.92,
+"e": 784.16,
+"t": "J'étais à ce point qu'à plus tôt."
+},
+{
+"s": 787.82,
+"e": 789.14,
+"t": "Une fois le combat gagné..."
+},
+{
+"s": 790.32,
+"e": 791.66,
+"t": "Et la liberté à racheter."
+},
+{
+"s": 794.41,
+"e": 796.09,
+"t": "L'indépendance offerte au peuple."
+},
+{
+"s": 798.92,
+"e": 799.84,
+"t": "Avec le temps..."
 },
 {
 "s": 845.1,
@@ -1080,9 +1235,89 @@
 "t": "est-ce une allance\nentrefles deux pays ?"
 },
 {
+"s": 1388.2,
+"e": 1392.78,
+"t": "Non, nous voyons là que l'effet d'un cupidon malicieux dans les flèches ne connaissait qu'une frontière, monsieur."
+},
+{
+"s": 1394.3,
+"e": 1395.78,
+"t": "Revenons à des sujets plus politiques, s'il vous plaît."
+},
+{
+"s": 1396.66,
+"e": 1397.0,
+"t": "Indépendantien !"
+},
+{
 "s": 1413.6,
 "e": 1415.2,
 "t": "Je n'ai pas fini !"
+},
+{
+"s": 1434.25,
+"e": 1436.67,
+"t": "Quand je t'ai vu partir dans cette forêt, je me suis dit jamais je vais le revoir."
+},
+{
+"s": 1437.3,
+"e": 1438.08,
+"t": "Je me suis accroché."
+},
+{
+"s": 1443.62,
+"e": 1444.6,
+"t": "Souvenir du deuxième bureau."
+},
+{
+"s": 1445.6,
+"e": 1446.08,
+"t": "Oublions tout ça."
+},
+{
+"s": 1447.64,
+"e": 1448.38,
+"t": "Je vais te présenter ma femme."
+},
+{
+"s": 1465.47,
+"e": 1470.61,
+"t": "Alors justement, comment pourriez-vous définir la nouvelle relation qui va s'installer avec la France ?"
+},
+{
+"s": 1471.62,
+"e": 1474.76,
+"t": "La Méditerranée est bien peu de choses entre les peuples français et algériens."
+},
+{
+"s": 1490.04,
+"e": 1492.72,
+"t": "Mais vous avez subi quelques échecs aussi."
+},
+{
+"s": 1493.29,
+"e": 1494.31,
+"t": "Si vous en venez au fait."
+},
+{
+"s": 1498.33,
+"e": 1501.53,
+"t": "Vous l'avez dit vous-même, j'ai sacrifié 5 ans de ma vie à arracher l'indépendance de mon pays."
+},
+{
+"s": 1501.79,
+"e": 1504.31,
+"t": "Je suis prêt à sacrifier tout le reste pour construire cette indépendance."
+},
+{
+"s": 1504.47,
+"e": 1505.27,
+"t": "Je vous remercie."
+},
+{
+"s": 1508.38,
+"e": 1510.6,
+"t": "Monsieur, en tant que politique ou en tant que militaire ?"
 },
 {
 "s": 1514.6,
@@ -1105,9 +1340,164 @@
 "t": "mais je pensaiS\"pas atnmarläge"
 },
 {
+"s": 1560.47,
+"e": 1561.81,
+"t": "Ça va, ça va bien."
+},
+{
+"s": 1561.97,
+"e": 1562.49,
+"t": "S'il t'embête."
+},
+{
+"s": 1563.22,
+"e": 1563.76,
+"t": "C'est là ?"
+},
+{
+"s": 1565.1,
+"e": 1565.86,
+"t": "Mesdames et messieurs !"
+},
+{
+"s": 1566.55,
+"e": 1570.61,
+"t": "S'il vous plaît, un peu d'attention. Je voudrais tout d'abord vous dire combien je suis heureux que vous soyez tous là."
+},
+{
+"s": 1572.06,
+"e": 1573.6,
+"t": "Et je voudrais vous raconter une petite histoire."
+},
+{
+"s": 1575.06,
+"e": 1576.2,
+"t": "Au milieu de l'hiver 1957,"
+},
+{
+"s": 1577.72,
+"e": 1579.08,
+"t": "dans les montagnes de Kabylie."
+},
+{
+"s": 1579.59,
+"e": 1582.07,
+"t": "Un groupe de maquisards progresse dans le froid et la boue."
+},
+{
+"s": 1583.38,
+"e": 1585.68,
+"t": "Ce sont de nouvelles recrues qui rejoignent un camp de formation."
+},
+{
+"s": 1586.58,
+"e": 1588.52,
+"t": "Et voilà qu'ils sont accrochés par une patrouille française."
+},
+{
+"s": 1589.66,
+"e": 1592.8,
+"t": "Un combat virulent s'engage et contre toute attente."
+},
+{
+"s": 1593.49,
+"e": 1595.43,
+"t": "ils parviennent à mettre leur assaillant en déroute."
+},
+{
+"s": 1597.56,
+"e": 1600.8,
+"t": "Mais ils perdent l'officier qui était le seul à connaître la position du camp."
+},
+{
+"s": 1602.38,
+"e": 1604.82,
+"t": "Perdus au milieu de nulle part, ils ne savent absolument pas où ils doivent se rendre."
+},
+{
+"s": 1606.04,
+"e": 1608.5,
+"t": "Et dans la panique et la confusion qui se sont emparées du groupe,"
+},
+{
+"s": 1609.08,
+"e": 1609.8,
+"t": "Un seul homme."
+},
+{
 "s": 1610.6,
 "e": 1611.8,
 "t": "Un seul !"
+},
+{
+"s": 1611.98,
+"e": 1614.98,
+"t": "va faire la différence en témoignant d'un sang-froid exceptionnel."
+},
+{
+"s": 1615.82,
+"e": 1616.92,
+"t": "Il va regrouper les hommes."
+},
+{
+"s": 1617.65,
+"e": 1619.27,
+"t": "D'ici là, il est certain de faire ma charrière."
+},
+{
+"s": 1619.45,
+"e": 1623.61,
+"t": "Il va réussir à les convaincre qu'il faut absolument continuer jusqu'à retomber sur un de nos réseaux."
+},
+{
+"s": 1624.4,
+"e": 1626.3,
+"t": "Quand ils finissent enfin par retrouver leur route."
+},
+{
+"s": 1627.28,
+"e": 1631.86,
+"t": "L'Ouaharane, comme l'ont surnommé tous les hommes qu'il a guidés, est considéré par tous comme leur chef."
+},
+{
+"s": 1632.82,
+"e": 1634.34,
+"t": "Durant le reste de la guerre, il s'est battu."
+},
+{
+"s": 1635.4,
+"e": 1636.64,
+"t": "énergique, sans défaillance,"
+},
+{
+"s": 1637.06,
+"e": 1638.66,
+"t": "exigeant tout de lui-même comme de ses hommes,"
+},
+{
+"s": 1639.32,
+"e": 1640.8,
+"t": "animé dans l'accomplissement de sa tâche"
+},
+{
+"s": 1640.8,
+"e": 1641.6,
+"t": "par une foi ardente."
+},
+{
+"s": 1643.09,
+"e": 1643.85,
+"t": "Mesdames et messieurs,"
+},
+{
+"s": 1644.62,
+"e": 1645.74,
+"t": "L'ouranier avant la guerre."
+},
+{
+"s": 1648.91,
+"e": 1650.33,
+"t": "Et j'espère qu'il le restera."
 },
 {
 "s": 1662.2,
@@ -1135,6 +1525,81 @@
 "t": "Avec sa mi"
 },
 {
+"s": 1688.86,
+"e": 1689.84,
+"t": "Je fais une connerie à Hamid."
+},
+{
+"s": 1690.52,
+"e": 1691.26,
+"t": "C'est quelque chose."
+},
+{
+"s": 1692.82,
+"e": 1694.8,
+"t": "Ils ont douté de moi, ils ont pas cru que j'irais au bout."
+},
+{
+"s": 1696.46,
+"e": 1697.54,
+"t": "Tu plaisantes, pourquoi tu dis ça ?"
+},
+{
+"s": 1697.54,
+"e": 1700.36,
+"t": "Parce qu'on m'a rien dit de ce qui s'était passé pendant 5 ans, on m'a caché ce qui lui est arrivé."
+},
+{
+"s": 1707.13,
+"e": 1708.01,
+"t": "Je sais que c'est terrible."
+},
+{
+"s": 1709.2,
+"e": 1711.12,
+"t": "Ziad, il a su quelque chose ce soir-là et il n'a rien dit."
+},
+{
+"s": 1715.23,
+"e": 1716.41,
+"t": "C'était avec lui même le jour de sa mort."
+},
+{
+"s": 1716.65,
+"e": 1717.23,
+"t": "Je t'ai rien dit."
+},
+{
+"s": 1719.45,
+"e": 1720.43,
+"t": "Je pense qu'ils n'en savaient rien."
+},
+{
+"s": 1721.82,
+"e": 1723.04,
+"t": "Et la guerre l'a rendu tellement secret."
+},
+{
+"s": 1725.52,
+"e": 1726.44,
+"t": "Parce qu'il m'en aurait parlé."
+},
+{
+"s": 1740.76,
+"e": 1741.42,
+"t": "faire quoi du gosse"
+},
+{
+"s": 1743.87,
+"e": 1745.17,
+"t": "Ça le jette pas dans la première poubelle venue."
+},
+{
+"s": 1747.58,
+"e": 1748.44,
+"t": "Ils lui ressemblent."
+},
+{
 "s": 1772.1,
 "e": 1773.8,
 "t": "Tu vas vivre ici ?"
@@ -1158,6 +1623,86 @@
 "s": 1807.1,
 "e": 1808.7,
 "t": "Quels belle épouse !"
+},
+{
+"s": 1812.53,
+"e": 1813.77,
+"t": "Commandant Jaffer, mon plus vieil ami."
+},
+{
+"s": 1815.04,
+"e": 1817.9,
+"t": "Fyodor Kouligin, enchanté. C'est moi qui lui ai présenté sa femme."
+},
+{
+"s": 1826.64,
+"e": 1827.4,
+"t": "Ben voyons."
+},
+{
+"s": 1827.54,
+"e": 1829.26,
+"t": "Féodore a énormément soutenu la lutte."
+},
+{
+"s": 1830.77,
+"e": 1832.45,
+"t": "Il a ses entrées dans toutes les chancelleries."
+},
+{
+"s": 1833.68,
+"e": 1835.12,
+"t": "J'ai fait jouer mon carnet d'adresses."
+},
+{
+"s": 1835.82,
+"e": 1836.66,
+"t": "C'est peu de choses."
+},
+{
+"s": 1838.9,
+"e": 1840.3,
+"t": "Modeste, mais très généreux."
+},
+{
+"s": 1845.43,
+"e": 1845.79,
+"t": "À vous."
+},
+{
+"s": 1846.35,
+"e": 1847.43,
+"t": "à cette indépendance."
+},
+{
+"s": 1848.05,
+"e": 1848.89,
+"t": "Je suis beau pays."
+},
+{
+"s": 1854.32,
+"e": 1856.58,
+"t": "Nous n'aurons laissé que des photos des pierres et des cimetières."
+},
+{
+"s": 1856.62,
+"e": 1857.42,
+"t": "Et un bon cognac."
+},
+{
+"s": 1858.74,
+"e": 1860.0,
+"t": "Tu ne changeras pas toi."
+},
+{
+"s": 1877.52,
+"e": 1886.2,
+"t": "500 nationalisations décidées par le Conseil National de la Révolution ont abouti à la nomination d'un certain nombre de hauts fonctionnaires dont vous faites partie vous-même depuis quelques mois."
+},
+{
+"s": 1888.13,
+"e": 1889.03,
+"t": "Félicitations, tout d'abord."
 },
 {
 "s": 1905.8,
@@ -1223,6 +1768,66 @@
 "s": 1953.8,
 "e": 1957.0,
 "t": "L'est un grana\nqui m'a poussé-par terre"
+},
+{
+"s": 1977.66,
+"e": 1978.46,
+"t": "Et ils sont endormis"
+},
+{
+"s": 1987.14,
+"e": 1988.32,
+"t": "Tchala, le tien sera aussi beau."
+},
+{
+"s": 1997.15,
+"e": 1997.73,
+"t": "T'as compris ?"
+},
+{
+"s": 1997.73,
+"e": 1998.51,
+"t": "Le peuple qui s'exprime."
+},
+{
+"s": 1998.51,
+"e": 1998.89,
+"t": "Le peuple qui s'exprime."
+},
+{
+"s": 1998.89,
+"e": 1998.95,
+"t": "Le peuple qui s'exprime."
+},
+{
+"s": 1998.97,
+"e": 1999.01,
+"t": "Le peuple qui s'exprime."
+},
+{
+"s": 1999.01,
+"e": 1999.53,
+"t": "Le peuple qui s'exprime."
+},
+{
+"s": 1999.53,
+"e": 1999.87,
+"t": "Le peuple qui s'exprime."
+},
+{
+"s": 1999.87,
+"e": 2000.63,
+"t": "Le peuple qui s'exprime."
+},
+{
+"s": 2079.52,
+"e": 2080.2,
+"t": "À l'avenir."
+},
+{
+"s": 2131.52,
+"e": 2132.0,
+"t": "Allô ?"
 },
 {
 "s": 2156.2,
@@ -1315,6 +1920,121 @@
 "t": "Les cons les fils de pute"
 },
 {
+"s": 2396.84,
+"e": 2398.1,
+"t": "Je pensais que vous seriez mieux ici."
+},
+{
+"s": 2398.5,
+"e": 2399.84,
+"t": "Très bonne attention, monsieur Alcala."
+},
+{
+"s": 2400.86,
+"e": 2403.2,
+"t": "Vous êtes un très bon Espagnol, vous allez devenir un parfait Algérien."
+},
+{
+"s": 2403.56,
+"e": 2405.32,
+"t": "Nous avons le même hôtel pour la commande."
+},
+{
+"s": 2405.5,
+"e": 2407.34,
+"t": "Ça mérite une photo, c'est un lieu historique quand même."
+},
+{
+"s": 2413.61,
+"e": 2415.81,
+"t": "Et on a récupéré tous les autres établissements qui étaient là."
+},
+{
+"s": 2417.92,
+"e": 2419.24,
+"t": "Quand tu penses à l'endroit que c'était,"
+},
+{
+"s": 2419.72,
+"e": 2422.46,
+"t": "un tripot clandestin pourri, il a fait un paquebot de croisière."
+},
+{
+"s": 2422.46,
+"e": 2424.04,
+"t": "Un paquebot de croisière, ça va."
+},
+{
+"s": 2426.13,
+"e": 2427.89,
+"t": "Par coup de croisière, par coup de croisière."
+},
+{
+"s": 2428.19,
+"e": 2429.57,
+"t": "Elle est pas mal la métaphore quand même."
+},
+{
+"s": 2446.66,
+"e": 2448.7,
+"t": "La dernière fois que j'étais assis ici, elle était encore vivante."
+},
+{
+"s": 2463.97,
+"e": 2464.95,
+"t": "Je sais où elle habite en France."
+},
+{
+"s": 2468.9,
+"e": 2471.18,
+"t": "J'ai des gars sur place, on peut s'arranger."
+},
+{
+"s": 2472.52,
+"e": 2473.6,
+"t": "La guerre est finie, Jaafar."
+},
+{
+"s": 2477.32,
+"e": 2478.94,
+"t": "Tu veux pas qu'on fasse la peau au père du gosse ?"
+},
+{
+"s": 2480.07,
+"e": 2480.81,
+"t": "Le père du gosse, c'est moi."
+},
+{
+"s": 2499.62,
+"e": 2501.36,
+"t": "J'imagine la situation doit pas être simple pour toi."
+},
+{
+"s": 2501.52,
+"e": 2502.84,
+"t": "Mais tu crois pas qu'il serait préférable..."
+},
+{
+"s": 2502.84,
+"e": 2505.28,
+"t": "Elle connaîtra jamais le visage de sa mère, j'ai pas de photo, j'ai pas de photo d'elle."
+},
+{
+"s": 2510.5,
+"e": 2512.14,
+"t": "en ce qui concerne le visage de son père."
+},
+{
+"s": 2513.26,
+"e": 2516.56,
+"t": "En effet, c'est le préférable que jamais, jamais, jamais."
+},
+{
+"s": 2519.68,
+"e": 2520.58,
+"t": "Il n'y a aucun doute."
+},
+{
 "s": 2636.4,
 "e": 2638.9,
 "t": "Peur une'fettre, 14 tampons !"
@@ -1393,6 +2113,121 @@
 "s": 2760.0,
 "e": 2761.6,
 "t": "Merci ma fille"
+},
+{
+"s": 2774.87,
+"e": 2776.39,
+"t": "Est-ce que tu sais où on m'a qu'ici, Steve Jaffer ?"
+},
+{
+"s": 2777.46,
+"e": 2780.2,
+"t": "C'est la haute noblesse organisée, même les Français lui faisaient des coups bêtes à l'époque."
+},
+{
+"s": 2781.01,
+"e": 2782.21,
+"t": "J'ai besoin de lui, Jaffar."
+},
+{
+"s": 2782.63,
+"e": 2784.83,
+"t": "Si tu te maries avec sa fille, tu rentres dans une confrérie, dans un clan."
+},
+{
+"s": 2785.21,
+"e": 2786.49,
+"t": "Tu sais au moins ce que ça veut dire un clan ?"
+},
+{
+"s": 2787.4,
+"e": 2788.26,
+"t": "C'est encore mieux que le parti."
+},
+{
+"s": 2802.83,
+"e": 2803.83,
+"t": "Tiens, vous avez presque sept ans."
+},
+{
+"s": 2803.91,
+"e": 2804.67,
+"t": "Pour moi, c'était il y a deux jours."
+},
+{
+"s": 2819.89,
+"e": 2821.19,
+"t": "Pourquoi il ne m'a pas fait passer un message ?"
+},
+{
+"s": 2826.64,
+"e": 2828.2,
+"t": "Tu veux quoi questionner les morts maintenant ?"
+},
+{
+"s": 2828.2,
+"e": 2829.12,
+"t": "Pourquoi ils m'ont rien dit ?"
+},
+{
+"s": 2829.12,
+"e": 2831.46,
+"t": "Parce qu'on était en guerre, que tu étais au maquis."
+},
+{
+"s": 2832.52,
+"e": 2834.52,
+"t": "La priorité c'est ni ta vie ni ta famille, c'est la révolution."
+},
+{
+"s": 2835.29,
+"e": 2838.17,
+"t": "Et la règle de la clandestinité pour tout le monde, pour les hommes comme pour les officiers comme toi."
+},
+{
+"s": 2840.95,
+"e": 2842.21,
+"t": "Et en plus, ils pouvaient plus rien échanger."
+},
+{
+"s": 2842.39,
+"e": 2842.59,
+"t": "Si."
+},
+{
+"s": 2844.79,
+"e": 2847.95,
+"t": "J'aurais pu lui faire passer un message, lui dire que c'était pas sa faute, que j'allais revenir, que j'allais prendre soin d'elle."
+},
+{
+"s": 2849.68,
+"e": 2851.02,
+"t": "Ça aurait pu changer sa vie et la mienne."
+},
+{
+"s": 2875.57,
+"e": 2876.93,
+"t": "Tu n'es pas obligé de décider tout de suite."
+},
+{
+"s": 2878.26,
+"e": 2879.0,
+"t": "Rien ne presse."
+},
+{
+"s": 2879.62,
+"e": 2880.72,
+"t": "Passe un peu de temps avec la petite."
+},
+{
+"s": 2882.99,
+"e": 2884.27,
+"t": "Je suis sûr qu'elle va finir par te plaire."
+},
+{
+"s": 2889.36,
+"e": 2890.8,
+"t": "Elle s'appelle Sofia, c'est mignon, non ?"
 },
 {
 "s": 2968.9,
@@ -1540,6 +2375,11 @@
 "t": "Un vrai petit colonel"
 },
 {
+"s": 3590.78,
+"e": 3591.16,
+"t": "Je suis là."
+},
+{
 "s": 3605.8,
 "e": 3607.4,
 "t": "Mon-chéf'des armées"
@@ -1580,9 +2420,309 @@
 "t": "C'est rien"
 },
 {
+"s": 3655.91,
+"e": 3657.57,
+"t": "J'suis pas censé être un ancien Moudjahed ?"
+},
+{
+"s": 3657.96,
+"e": 3659.8,
+"t": "J'suis pas censé être un héros d'la révolution !"
+},
+{
+"s": 3664.26,
+"e": 3665.36,
+"t": "Et Sofia, tu en as fait quoi ?"
+},
+{
+"s": 3665.36,
+"e": 3669.8,
+"t": "J'ai pas passé cinq ans au maquis pour qu'un instinct de merde vienne traiter mon fils de Gauri,"
+},
+{
+"s": 3669.82,
+"e": 3672.1,
+"t": "mon propre fils, la chair de ma chair !"
+},
+{
+"s": 3672.46,
+"e": 3674.08,
+"t": "Tout à fait, la chair de ma chair !"
+},
+{
+"s": 3674.66,
+"e": 3675.16,
+"t": "Mon fils !"
+},
+{
+"s": 3676.33,
+"e": 3677.57,
+"t": "Ne me dis pas que t'as largué la petite."
+},
+{
+"s": 3677.87,
+"e": 3679.89,
+"t": "Elle m'emmerde la petite, arrête, elle m'emmerde la petite."
+},
+{
+"s": 3683.4,
+"e": 3685.88,
+"t": "Son père aussi m'emmerde avec ses airs de pneu trop gonflé."
+},
+{
+"s": 3685.94,
+"e": 3687.66,
+"t": "T'es complètement con, t'es censé l'épouser."
+},
+{
+"s": 3688.52,
+"e": 3689.54,
+"t": "Je vais lui arracher les cheveux."
+},
+{
+"s": 3690.18,
+"e": 3692.24,
+"t": "Je vais lui racheter les cheveux, les yeux et les couilles."
+},
+{
+"s": 3692.26,
+"e": 3693.62,
+"t": "Il va plus rien rester sur le bonhomme."
+},
+{
+"s": 3700.52,
+"e": 3702.1,
+"t": "J'avais même pas imaginé la tête du père."
+},
+{
 "s": 3711.2,
 "e": 3712.7,
 "t": "C'est un fils de pute !"
+},
+{
+"s": 3713.25,
+"e": 3714.09,
+"t": "Calme-toi, s'il te plaît."
+},
+{
+"s": 3718.39,
+"e": 3719.43,
+"t": "Comment ça va Maestro ?"
+},
+{
+"s": 3720.09,
+"e": 3721.19,
+"t": "Excuse-moi de t'appliciter."
+},
+{
+"s": 3723.9,
+"e": 3725.06,
+"t": "Eh bien, tant mieux, tant mieux."
+},
+{
+"s": 3726.89,
+"e": 3729.07,
+"t": "Écoute-moi, c'est beaucoup, j'aurais un petit service à te demander."
+},
+{
+"s": 3730.8,
+"e": 3732.08,
+"t": "Il s'agit de notre ami Jaffar."
+},
+{
+"s": 3732.86,
+"e": 3734.96,
+"t": "Oui monsieur, le roi Harani est en chair et en os."
+},
+{
+"s": 3735.12,
+"e": 3738.72,
+"t": "Si tu savais dans quel état on me l'a mis, tu es toujours à l'enseignement, dis-moi."
+},
+{
+"s": 3739.98,
+"e": 3742.8,
+"t": "Eh bien tant mieux, parce que je crois que c'est un petit instinct de chez toi."
+},
+{
+"s": 3743.42,
+"e": 3745.58,
+"t": "qui a fait preuve d'une grande indélicatesse envers le Harani."
+},
+{
+"s": 3769.53,
+"e": 3772.85,
+"t": "Quelle ? Aucune ! Parce que qu'est-ce qu'elle naturalise quand elle me naturalise moi ?"
+},
+{
+"s": 3773.52,
+"e": 3774.14,
+"t": "Mon argent ?"
+},
+{
+"s": 3774.66,
+"e": 3776.52,
+"t": "Dis-nous quelle nationalité tu es, c'est marrant."
+},
+{
+"s": 3777.22,
+"e": 3778.92,
+"t": "Écoute, je suis né à côté de Moscou."
+},
+{
+"s": 3779.42,
+"e": 3781.42,
+"t": "J'ai grandi en France, en Amérique."
+},
+{
+"s": 3781.52,
+"e": 3784.0,
+"t": "Ma femme est libanaise, du siègement groupe, et au Canada."
+},
+{
+"s": 3784.26,
+"e": 3785.14,
+"t": "Ben voilà, choisi."
+},
+{
+"s": 3785.87,
+"e": 3790.11,
+"t": "C'est l'identité qui compte, ça c'est quelque chose de précieux et on ne pourra jamais"
+},
+{
+"s": 3790.11,
+"e": 3793.43,
+"t": "te l'enlever parce que c'est inscrit sur aucune fiche, ça n'a pas de frontières."
+},
+{
+"s": 3794.07,
+"e": 3796.25,
+"t": "C'est ton passé, c'est ton avenir en même temps."
+},
+{
+"s": 3797.01,
+"e": 3802.07,
+"t": "Et si tu cherches à la faire taire ou à lui imposer quelque chose qui n'est pas à elle, ton identité."
+},
+{
+"s": 3802.83,
+"e": 3804.49,
+"t": "Il n'ira toujours pas te péter à la gueule."
+},
+{
+"s": 3824.45,
+"e": 3826.05,
+"t": "J'espère que vous avez mis le chambal aux frais."
+},
+{
+"s": 3827.55,
+"e": 3828.49,
+"t": "Tu veux du champagne ?"
+},
+{
+"s": 3828.49,
+"e": 3829.41,
+"t": "Oui, moi, moi, moi."
+},
+{
+"s": 3829.41,
+"e": 3829.75,
+"t": "C'est sûr ?"
+},
+{
+"s": 3830.07,
+"e": 3830.45,
+"t": "Vas-y."
+},
+{
+"s": 3831.24,
+"e": 3832.08,
+"t": "J'ai aucune idée."
+},
+{
+"s": 3832.28,
+"e": 3834.22,
+"t": "Celui-là, il y a un sac à dessus."
+},
+{
+"s": 3834.72,
+"e": 3835.82,
+"t": "Comment ça s'appelle ce sac à dessus ?"
+},
+{
+"s": 3835.82,
+"e": 3836.44,
+"t": "Blanc."
+},
+{
+"s": 3836.44,
+"e": 3837.02,
+"t": "La chantilly."
+},
+{
+"s": 3837.94,
+"e": 3838.4,
+"t": "C'est ça, là."
+},
+{
+"s": 3838.48,
+"e": 3839.26,
+"t": "Tu as fini..."
+},
+{
+"s": 3840.3,
+"e": 3841.46,
+"t": "Mais t'es pire qu'un gamin, toi."
+},
+{
+"s": 3841.66,
+"e": 3842.58,
+"t": "C'est très bon."
+},
+{
+"s": 3843.74,
+"e": 3844.84,
+"t": "C'est très bon."
+},
+{
+"s": 3844.92,
+"e": 3845.94,
+"t": "Jeff !"
+},
+{
+"s": 3875.32,
+"e": 3876.54,
+"t": "Bah quoi, le cadeau, c'est pas la table."
+},
+{
+"s": 3877.28,
+"e": 3879.46,
+"t": "Non, c'est pas la table, mais la table est fixée à ton cadeau."
+},
+{
+"s": 3899.75,
+"e": 3900.31,
+"t": "Il y a son nom."
+},
+{
+"s": 3916.8,
+"e": 3918.18,
+"t": "Mais c'est de la folie."
+},
+{
+"s": 3924.16,
+"e": 3926.1,
+"t": "Très sincèrement, je ne sais pas quoi dire."
+},
+{
+"s": 3926.22,
+"e": 3926.96,
+"t": "Le guérir ?"
+},
+{
+"s": 3933.93,
+"e": 3935.07,
+"t": "Il a fait plus fort que la chantille."
 },
 {
 "s": 3967.0,
@@ -1780,6 +2920,11 @@
 "t": "il ne le fera jamais"
 },
 {
+"s": 4249.46,
+"e": 4251.34,
+"t": "et tous les autres jours d'ici jusqu'à la fin du monde."
+},
+{
 "s": 4295.4,
 "e": 4296.5,
 "t": "Appurte le plat"
@@ -1790,14 +2935,459 @@
 "t": "Et mange toi aussi"
 },
 {
+"s": 4308.07,
+"e": 4309.81,
+"t": "Mais Faye, tu ne peux pas dire qu'on n'est pas des Arabes, quand même."
+},
+{
+"s": 4309.87,
+"e": 4311.87,
+"t": "Il n'est pas aussi simple de nous définir exclusivement comme ça."
+},
+{
+"s": 4311.89,
+"e": 4313.59,
+"t": "C'est pour les Français que nous étions tous des Arabes."
+},
+{
+"s": 4313.63,
+"e": 4314.37,
+"t": "Il ne faisait pas la différence."
+},
+{
+"s": 4314.65,
+"e": 4316.09,
+"t": "Et pourtant, c'est ça qui nous a unis pour gagner."
+},
+{
+"s": 4316.49,
+"e": 4318.01,
+"t": "Mais ce n'était pas plutôt l'islam ?"
+},
+{
+"s": 4318.01,
+"e": 4318.75,
+"t": "Non, pas exactement."
+},
+{
+"s": 4318.93,
+"e": 4319.95,
+"t": "Ne dis pas n'importe quoi, ma chérie."
+},
+{
+"s": 4319.99,
+"e": 4321.75,
+"t": "On n'a pas fait une guerre de religion, on a fait une guerre de libération."
+},
+{
+"s": 4321.83,
+"e": 4322.41,
+"t": "Et ce n'est même pas le sujet."
+},
+{
+"s": 4322.67,
+"e": 4324.69,
+"t": "On a un rendez-vous avec le monde arabe, on ne doit pas le rater."
+},
+{
+"s": 4325.13,
+"e": 4325.33,
+"t": "Hamid."
+},
+{
+"s": 4325.82,
+"e": 4329.2,
+"t": "Ma grand-mère, elle n'a jamais parlé ni français ni arabe de sa vie."
+},
+{
+"s": 4329.26,
+"e": 4330.4,
+"t": "La langue qu'elle parle, c'est le kabyle."
+},
+{
+"s": 4330.48,
+"e": 4331.92,
+"t": "Tu vas lui dire aujourd'hui que c'est une arabe."
+},
+{
+"s": 4331.96,
+"e": 4332.96,
+"t": "Tu vas te faire recevoir."
+},
+{
+"s": 4333.96,
+"e": 4335.98,
+"t": "Si on n'est pas des arabes, on est quoi alors ?"
+},
+{
+"s": 4335.98,
+"e": 4338.9,
+"t": "On est algériens, méditerranéens, maghrébins et africains."
+},
+{
+"s": 4348.36,
+"e": 4349.34,
+"t": "Tu m'échoues, viens chez nous."
+},
+{
+"s": 4362.03,
+"e": 4365.71,
+"t": "Mais Farid, t'es un garçon intelligent, j'te parle pas du passé, moi, j'te parle d'une génération future !"
+},
+{
+"s": 4365.71,
+"e": 4367.53,
+"t": "Mais tu peux pas séparer les choses comme ça, Emmanuelle !"
+},
+{
+"s": 4367.53,
+"e": 4371.63,
+"t": "Mais tu peux pas dire à une famille, à partir d'aujourd'hui, les vieux restent habiles et les jeunes deviennent arabes !"
+},
+{
+"s": 4371.63,
+"e": 4374.07,
+"t": "Putain, j'vais pas avoir une discussion sérieuse avec Farid, merde !"
+},
+{
+"s": 4379.51,
+"e": 4380.65,
+"t": "Alors comment tu vois les choses ?"
+},
+{
+"s": 4381.91,
+"e": 4384.97,
+"t": "C'est simple, après avoir été des pas complètement français, on va devenir des pas complètement arabes."
+},
+{
+"s": 4385.77,
+"e": 4387.45,
+"t": "Maintenant c'est une discussion internationale, c'est ça ?"
+},
+{
+"s": 4387.45,
+"e": 4388.39,
+"t": "C'est la réalité, Hamid."
+},
+{
+"s": 4388.77,
+"e": 4391.21,
+"t": "Mais c'est incroyable, on ne peut pas avoir une conversation sans que tu te fermes."
+},
+{
+"s": 4391.63,
+"e": 4394.37,
+"t": "Mais ça n'a rien à voir, je te parle d'un rendez-vous avec le monde arabe très important,"
+},
+{
+"s": 4394.49,
+"e": 4396.27,
+"t": "on ne peut pas aller là-bas alors que je connais des Africains, merde !"
+},
+{
+"s": 4396.69,
+"e": 4399.19,
+"t": "Justement, si on n'aborde pas ces questions, ce rendez-vous ne servira à rien."
+},
+{
+"s": 4399.55,
+"e": 4402.17,
+"t": "On est à la forêt, en pique-nique avec les gosses."
+},
+{
 "s": 4402.7,
 "e": 4405.6,
 "t": "ET VOUS NOUS DassInez\navec-votre sacrée politique !"
 },
 {
+"s": 4426.68,
+"e": 4427.3,
+"t": "Allez, dépêche-toi."
+},
+{
+"s": 4436.37,
+"e": 4437.09,
+"t": "On va pas une boum, hein."
+},
+{
+"s": 4467.09,
+"e": 4468.55,
+"t": "De toute façon, en ce moment, tout te fait chier."
+},
+{
+"s": 4469.52,
+"e": 4470.84,
+"t": "Te lever le matin, ça te fait chier."
+},
+{
+"s": 4470.94,
+"e": 4472.04,
+"t": "Dire bonjour, ça te fait chier."
+},
+{
+"s": 4472.04,
+"e": 4473.06,
+"t": "Faire un sourire, ça te fait chier."
+},
+{
+"s": 4473.1,
+"e": 4474.08,
+"t": "Aller à l'école, ça te fait chier."
+},
+{
+"s": 4474.1,
+"e": 4475.58,
+"t": "Maintenant, venir voir ta mère, ça te fait chier aussi."
+},
+{
+"s": 4475.7,
+"e": 4476.12,
+"t": "Ma mère ?"
+},
+{
 "s": 4476.4,
 "e": 4477.8,
 "t": "Je la connais même past"
+},
+{
+"s": 4498.78,
+"e": 4499.92,
+"t": "Ce n'est pas à moi ce remède."
+},
+{
+"s": 4500.67,
+"e": 4502.67,
+"t": "C'est de la production nationale, ça appartient au peuple."
+},
+{
+"s": 4503.38,
+"e": 4506.78,
+"t": "Je peux pas le distribuer au premier venu sous prétexte qu'il t'a offert un bateau pour ton anniversaire."
+},
+{
+"s": 4506.86,
+"e": 4509.08,
+"t": "Ça n'a rien à voir, Jeff. C'est un service que je te demande."
+},
+{
+"s": 4510.61,
+"e": 4514.23,
+"t": "Un jour t'es venu chez moi complètement bouleversé parce qu'on a ainsi t'avais traité ton fils de p'tit gowri."
+},
+{
+"s": 4514.57,
+"e": 4515.31,
+"t": "Oui ou non ?"
+},
+{
+"s": 4516.25,
+"e": 4517.59,
+"t": "C'est rendu service ou merde ?"
+},
+{
+"s": 4517.59,
+"e": 4519.07,
+"t": "Tu sais où s'est retrouvé le type ?"
+},
+{
+"s": 4527.18,
+"e": 4529.44,
+"t": "Jeff, je lui ai fait débourser un paquet de pognon pour la révolution."
+},
+{
+"s": 4529.58,
+"e": 4530.6,
+"t": "Je lui l'ai vu de mes propres yeux."
+},
+{
+"s": 4530.78,
+"e": 4533.1,
+"t": "C'est pas maintenant qu'il est dans la merde frappé par la crise de plein fouet"
+},
+{
+"s": 4533.1,
+"e": 4534.4,
+"t": "qu'on va rester comme ça les bras ballants."
+},
+{
+"s": 4534.72,
+"e": 4535.46,
+"t": "Il faut qu'on l'aide."
+},
+{
+"s": 4561.85,
+"e": 4562.89,
+"t": "Je voudrais te poser une question."
+},
+{
+"s": 4564.62,
+"e": 4565.34,
+"t": "Dépêche-toi, je suis pressé."
+},
+{
+"s": 4568.06,
+"e": 4570.68,
+"t": "Tu sais toi pourquoi je suis le seul dans la famille à voir les yeux bleus ?"
+},
+{
+"s": 4570.98,
+"e": 4571.66,
+"t": "Désolé, j'ai pas de réponse."
+},
+{
+"s": 4604.54,
+"e": 4605.38,
+"t": "Je te rappelle que c'est toi."
+},
+{
+"s": 4606.08,
+"e": 4608.12,
+"t": "C'est toi qui disais que le parti unique, c'était qu'une transition."
+},
+{
+"s": 4608.4,
+"e": 4610.52,
+"t": "C'est une question de cohérence, Ferry. On a toujours besoin d'unité."
+},
+{
+"s": 4610.84,
+"e": 4613.9,
+"t": "Le parti unique est le seul cadre cohérent qui peut nous garantir cette unité."
+},
+{
+"s": 4613.92,
+"e": 4616.2,
+"t": "Mais arrête avec ta rhétorique, tu veux. Tu parles pas à un journaliste, là."
+},
+{
+"s": 4616.36,
+"e": 4618.0,
+"t": "C'est Camille qui t'a parlé de mon petit problème."
+},
+{
+"s": 4620.67,
+"e": 4621.27,
+"t": "Ouais, ouais, il m'a dit."
+},
+{
+"s": 4626.78,
+"e": 4627.8,
+"t": "Il y a une chose que je ne comprends pas."
+},
+{
+"s": 4629.3,
+"e": 4631.24,
+"t": "Rampe au Canada le bois, c'est pas ce qu'il manque quand même."
+},
+{
+"s": 4632.7,
+"e": 4634.42,
+"t": "Il était bien sûr que ce n'est pas ce qu'il m'a appris."
+},
+{
+"s": 4635.44,
+"e": 4636.3,
+"t": "Mais là-bas, je le paye."
+},
+{
+"s": 4638.43,
+"e": 4642.53,
+"t": "Ecoute Jeff, tu sais très bien que je suis un ami de l'Algérie, je ne suis pas là pour la dévaliser."
+},
+{
+"s": 4643.03,
+"e": 4645.15,
+"t": "Mais j'ai vraiment besoin d'un petit coup de main."
+},
+{
+"s": 4645.59,
+"e": 4646.63,
+"t": "Les temps sont très difficiles."
+},
+{
+"s": 4646.63,
+"e": 4647.53,
+"t": "Oui, je sais, je sais."
+},
+{
+"s": 4650.97,
+"e": 4651.59,
+"t": "Je suis gêné."
+},
+{
+"s": 4656.09,
+"e": 4656.69,
+"t": "Tu sais très bien."
+},
+{
+"s": 4658.46,
+"e": 4660.14,
+"t": "Je saurais me montrer reconnaissant."
+},
+{
+"s": 4664.06,
+"e": 4666.06,
+"t": "Tu vas faire un bateau à moi aussi ou quoi ?"
+},
+{
+"s": 4669.06,
+"e": 4671.14,
+"t": "Les politiques économiques et sociales sont un succès."
+},
+{
+"s": 4671.38,
+"e": 4673.68,
+"t": "Il n'y a pas de chômage, on est consulté par toutes les chancelaires du monde."
+},
+{
+"s": 4673.82,
+"e": 4674.78,
+"t": "On est à la pointe du continent."
+},
+{
+"s": 4675.93,
+"e": 4677.77,
+"t": "Et puis du bon sur un bateau à 150 plaques."
+},
+{
+"s": 4680.09,
+"e": 4681.37,
+"t": "Hamid, je me fous de ton bateau."
+},
+{
+"s": 4682.1,
+"e": 4683.04,
+"t": "Crache pas dans la soupe, Ferry."
+},
+{
+"s": 4686.46,
+"e": 4689.14,
+"t": "C'est délicat. Quelle que soit ta décision, je le respecte."
+},
+{
+"s": 4690.24,
+"e": 4691.72,
+"t": "C'est délicat. Je ne veux pas te presser."
+},
+{
+"s": 4711.0,
+"e": 4712.0,
+"t": "Qu'est-ce que tu lui as dit ?"
+},
+{
+"s": 4712.28,
+"e": 4714.16,
+"t": "C'est lui qui joue au fier, laisse-le jouer au fier."
+},
+{
+"s": 4714.52,
+"e": 4717.92,
+"t": "Non, comment peut-ce être ? Vous êtes pire que des gosses, on peut pas vous laisser 5 minutes, merde !"
+},
+{
+"s": 4749.12,
+"e": 4749.98,
+"t": "C'est des gens de cons, ça."
 },
 {
 "s": 4750.3,
@@ -2095,6 +3685,81 @@
 "t": "f -\nJe vais m'en charger."
 },
 {
+"s": 5104.57,
+"e": 5105.07,
+"t": "dans des magouilles."
+},
+{
+"s": 5105.92,
+"e": 5107.34,
+"t": "des contrats avec des fournisseurs bidons,"
+},
+{
+"s": 5107.34,
+"e": 5109.46,
+"t": "des licences d'anciens combattants qu'ils revendent à prix d'or."
+},
+{
+"s": 5110.4,
+"e": 5112.88,
+"t": "Tu savais que lui, Elisabeth, était propriétaire de 14 humains ?"
+},
+{
+"s": 5114.01,
+"e": 5116.97,
+"t": "Mais tu peux me dire à quoi peuvent bien lui servir 14 hammams ?"
+},
+{
+"s": 5118.4,
+"e": 5120.56,
+"t": "C'est lui qui m'a envoyé aux quatre coins du monde pour étudier."
+},
+{
+"s": 5120.98,
+"e": 5124.76,
+"t": "Il disait que le plus grand défi ce n'était pas de gagner la guerre, mais de construire l'indépendance."
+},
+{
+"s": 5124.82,
+"e": 5129.04,
+"t": "Mais aujourd'hui, pour prétendre à des responsabilités, il ne faut pas de diplôme, il faut la carte du parti !"
+},
+{
+"s": 5130.01,
+"e": 5132.75,
+"t": "Et je fais comment, moi, pour trouver ma place au milieu de tout ça ?"
+},
+{
+"s": 5134.59,
+"e": 5135.51,
+"t": "Je sais à quoi !"
+},
+{
+"s": 5152.09,
+"e": 5155.29,
+"t": "Dans 20 ans, quand on se regardera dans les yeux, nos mensonges nous imposeront le silence."
+},
+{
+"s": 5173.31,
+"e": 5174.47,
+"t": "L'acte de propriété de l'armada."
+},
+{
+"s": 5175.02,
+"e": 5175.88,
+"t": "de la part de Féodal."
+},
+{
+"s": 5176.89,
+"e": 5178.89,
+"t": "Halima Farhani, on est officiellement l'appropriétaire."
+},
+{
+"s": 5179.74,
+"e": 5181.8,
+"t": "Il va falloir trouver quelqu'un pour gérer l'établissement à ta place."
+},
+{
 "s": 5222.1,
 "e": 5224.2,
 "t": "Vente de la société"
@@ -2103,6 +3768,156 @@
 "s": 5225.5,
 "e": 5226.6,
 "t": "El Armador."
+},
+{
+"s": 5233.02,
+"e": 5233.78,
+"t": "C'est une belle équipe."
+},
+{
+"s": 5234.24,
+"e": 5236.62,
+"t": "Farid ! Farid ! Farid !"
+},
+{
+"s": 5237.43,
+"e": 5238.77,
+"t": "A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A"
+},
+{
+"s": 5296.03,
+"e": 5296.45,
+"t": "Qu'est-ce qu'il y a ?"
+},
+{
+"s": 5298.13,
+"e": 5300.19,
+"t": "Calme-toi, calme-toi, calme-toi, qu'est-ce qu'il y a ?"
+},
+{
+"s": 5302.59,
+"e": 5303.01,
+"t": "J'arrive."
+},
+{
+"s": 5310.98,
+"e": 5313.5,
+"t": "Arrête de t'inquiéter, Nawel, il va finir par rentrer, je te jure."
+},
+{
+"s": 5313.56,
+"e": 5315.5,
+"t": "Non, deux jours, ça lui est jamais arrivé, Jeff. Jamais !"
+},
+{
+"s": 5315.94,
+"e": 5317.44,
+"t": "Je suis sûre qu'il est arrivé quelque chose, j'en suis sûre."
+},
+{
+"s": 5317.52,
+"e": 5318.34,
+"t": "Peut-être avec une fille ou..."
+},
+{
+"s": 5318.34,
+"e": 5319.52,
+"t": "Non, non, non, Jeff, non, non, non, pas lui."
+},
+{
+"s": 5326.6,
+"e": 5328.48,
+"t": "Il lui est arrivé quelque chose, j'en suis sûre, j'ai un mauvais pressentiment."
+},
+{
+"s": 5329.72,
+"e": 5331.3,
+"t": "Mais qu'est-ce que tu veux qu'il lui soit arrivé, là, un babac ?"
+},
+{
+"s": 5331.3,
+"e": 5332.88,
+"t": "Avec Hamid, ces alentours, ils arrêtaient pas de s'engueuler."
+},
+{
+"s": 5333.28,
+"e": 5334.22,
+"t": "J'ai pas confiance en ce type."
+},
+{
+"s": 5335.0,
+"e": 5336.6,
+"t": "Qu'est-ce que tu racontes ? T'es complètement folle ou quoi ?"
+},
+{
+"s": 5337.17,
+"e": 5339.45,
+"t": "Non mais ça l'a toujours agacé, qu'il parait de rendre pas dans le rang."
+},
+{
+"s": 5339.69,
+"e": 5340.75,
+"t": "Tu peux pas dire le contraire, Jeff."
+},
+{
+"s": 5343.31,
+"e": 5345.57,
+"t": "Je sais que c'est ton ami, mais ouvre les yeux, il a complètement changé."
+},
+{
+"s": 5349.34,
+"e": 5350.38,
+"t": "C'est ta responsabilité, c'est tout !"
+},
+{
+"s": 5350.38,
+"e": 5351.26,
+"t": "Tu refuses l'évidence !"
+},
+{
+"s": 5351.26,
+"e": 5353.54,
+"t": "Et t'as offert l'armada, alors maintenant tu fermes les yeux sur tout le reste !"
+},
+{
+"s": 5353.54,
+"e": 5354.06,
+"t": "Putain, mais là..."
+},
+{
+"s": 5354.06,
+"e": 5355.4,
+"t": "Ils sont bons, les révolutionnaires !"
+},
+{
+"s": 5355.68,
+"e": 5356.92,
+"t": "Bon, écoute, vaut mieux que j'y aille, Nawal."
+},
+{
+"s": 5357.5,
+"e": 5357.76,
+"t": "Tiens."
+},
+{
+"s": 5358.36,
+"e": 5359.2,
+"t": "Je veux comprendre mon mari."
+},
+{
+"s": 5359.82,
+"e": 5364.08,
+"t": "Mais il va revenir ton mari, arrête de t'inquiéter comme ça, repose-toi, occupe-toi de ton gosse, il va rentrer ton mari."
+},
+{
+"s": 5365.86,
+"e": 5367.14,
+"t": "Merci de m'avoir prévenu en tout cas."
+},
+{
+"s": 5369.66,
+"e": 5370.06,
+"t": "Voilà."
 },
 {
 "s": 5375.6,
@@ -2120,6 +3935,46 @@
 "t": "ils ont forcément consulté Hamid avant"
 },
 {
+"s": 5404.66,
+"e": 5405.02,
+"t": "Bonjour."
+},
+{
+"s": 5405.46,
+"e": 5405.82,
+"t": "Elisabeth."
+},
+{
+"s": 5406.04,
+"e": 5406.64,
+"t": "C'est la surprise."
+},
+{
+"s": 5406.94,
+"e": 5407.6,
+"t": "Ça va ?"
+},
+{
+"s": 5407.6,
+"e": 5408.22,
+"t": "Oui, ça va."
+},
+{
+"s": 5408.24,
+"e": 5409.08,
+"t": "Les enfants ça va bien ?"
+},
+{
+"s": 5409.08,
+"e": 5409.3,
+"t": "Oui."
+},
+{
+"s": 5409.44,
+"e": 5410.28,
+"t": "Vous jouez à nous ?"
+},
+{
 "s": 5411.0,
 "e": 5412.6,
 "t": "Je suis dans ton bureau"
@@ -2130,14 +3985,224 @@
 "t": "Reste la."
 },
 {
+"s": 5447.35,
+"e": 5448.81,
+"t": "C'est les services qui ont voulu un peu le secouer."
+},
+{
+"s": 5448.87,
+"e": 5449.79,
+"t": "Qu'il arrête ses conneries."
+},
+{
+"s": 5449.85,
+"e": 5450.61,
+"t": "Et toi, t'as laissé faire."
+},
+{
+"s": 5451.19,
+"e": 5453.21,
+"t": "Il respectait plus rien, Jarfol. Je pouvais plus le couvrir, moi."
+},
+{
+"s": 5455.65,
+"e": 5457.67,
+"t": "Un bonhomme qui s'est battu à vos côtés."
+},
+{
+"s": 5457.71,
+"e": 5458.79,
+"t": "Tu peux y aller avec tes discours."
+},
+{
+"s": 5459.01,
+"e": 5460.81,
+"t": "Un pays ne se dirige pas comme une direction régionale."
+},
+{
+"s": 5460.89,
+"e": 5462.03,
+"t": "C'est un peu plus compliqué, figure-toi."
+},
+{
+"s": 5464.83,
+"e": 5466.21,
+"t": "Chauve, signe-moi ce que tu veux comme papier."
+},
+{
+"s": 5466.67,
+"e": 5469.25,
+"t": "Tu me dis où il est. Je vais le chercher et je le ramène à sa femme."
+},
+{
+"s": 5469.41,
+"e": 5470.07,
+"t": "Ça va, Hector ?"
+},
+{
+"s": 5474.53,
+"e": 5475.21,
+"t": "Qu'est-ce qu'il y a, Hamid ?"
+},
+{
+"s": 5475.66,
+"e": 5476.48,
+"t": "Il doit un peu bousculer."
+},
+{
+"s": 5479.02,
+"e": 5480.5,
+"t": "Il a toujours été fragile du cœur, ce con."
+},
+{
+"s": 5481.11,
+"e": 5482.51,
+"t": "Qu'est-ce que t'es en train d'essayer de me dire, là ?"
+},
+{
+"s": 5482.75,
+"e": 5485.21,
+"t": "Je l'ai fait transporter immédiatement à l'hôpital militaire, mais ils ont rien pu faire."
+},
+{
+"s": 5485.61,
+"e": 5486.43,
+"t": "Ils sont encore à lâcher, Jack."
+},
+{
+"s": 5486.51,
+"e": 5487.03,
+"t": "Non, non !"
+},
+{
+"s": 5490.54,
+"e": 5492.14,
+"t": "C'est un cauchemar, je veux me réveiller !"
+},
+{
+"s": 5492.14,
+"e": 5493.22,
+"t": "Qu'est-ce que tu as fait ?"
+},
+{
+"s": 5495.76,
+"e": 5498.8,
+"t": "Tu te rends compte ? C'était ton frère Hamid, c'était ton frère !"
+},
+{
+"s": 5499.38,
+"e": 5500.7,
+"t": "Tu te rends compte de ce que ça veut dire ?"
+},
+{
+"s": 5500.94,
+"e": 5502.4,
+"t": "Tu te rends compte, Amine, de ce que ça veut dire ?"
+},
+{
+"s": 5502.4,
+"e": 5504.1,
+"t": "Tu viens de tuer ton propre frère !"
+},
+{
 "s": 5504.8,
 "e": 5506.0,
 "t": "Läche moi !"
 },
 {
+"s": 5506.98,
+"e": 5508.88,
+"t": "Qu'est-ce qu'on devient quand on tue son propre frère ?"
+},
+{
+"s": 5511.03,
+"e": 5512.71,
+"t": "Et qu'est-ce que tu vas faire ? Tu vas me tuer à moi aussi ?"
+},
+{
+"s": 5513.11,
+"e": 5514.13,
+"t": "Tu vas tous me tuer !"
+},
+{
+"s": 5516.48,
+"e": 5517.34,
+"t": "Je te maudis, Hamid."
+},
+{
+"s": 5520.2,
+"e": 5520.82,
+"t": "Je peux plus jamais te revoir."
+},
+{
+"s": 5595.11,
+"e": 5595.65,
+"t": "Je suis qui, moi ?"
+},
+{
+"s": 5613.83,
+"e": 5615.01,
+"t": "seul que tu peux avoir."
+},
+{
+"s": 5619.75,
+"e": 5621.21,
+"t": "La mer est une martyr de la révolution."
+},
+{
+"s": 5624.23,
+"e": 5625.39,
+"t": "Ça devrait être remplir de fierté."
+},
+{
+"s": 5626.7,
+"e": 5628.96,
+"t": "Au lieu de ça, tu prêtes l'oreille à des gens qu'on connaît pas."
+},
+{
+"s": 5631.36,
+"e": 5633.02,
+"t": "qui prennent plaisir à salir sa mémoire."
+},
+{
 "s": 5634.8,
 "e": 5636.0,
 "t": "Reste assise"
+},
+{
+"s": 5642.23,
+"e": 5644.25,
+"t": "Tu crois que du fond de sa tombe, c'est ce qu'elle mérite, ta mère ?"
+},
+{
+"s": 5649.78,
+"e": 5651.02,
+"t": "si tu continues à écouter ces voyous."
+},
+{
+"s": 5652.85,
+"e": 5653.59,
+"t": "Tu prends tes affaires."
+},
+{
+"s": 5654.42,
+"e": 5655.12,
+"t": "Et tu quittes cette maison."
+},
+{
+"s": 5657.43,
+"e": 5658.09,
+"t": "Si tu restes..."
+},
+{
+"s": 5658.87,
+"e": 5661.59,
+"t": "Je ne veux plus jamais entendre une allusion."
+},
+{
+"s": 5664.95,
+"e": 5665.65,
+"t": "Une putain."
 },
 {
 "s": 5774.7,
@@ -2275,6 +4340,21 @@
 "t": "Le president de la République."
 },
 {
+"s": 6132.4,
+"e": 6137.12,
+"t": "Vous savez que je l'ai connu de très près. C'est quand même quelqu'un qui a beaucoup donné au pays."
+},
+{
+"s": 6137.24,
+"e": 6145.12,
+"t": "Dans les années 70, il a joué un grand rôle. Il a été le deuxième assesseur du Conseil national de la Révolution."
+},
+{
+"s": 6145.12,
+"e": 6154.26,
+"t": "Mais avant ça, ça a été un combattant émérite de la libération du pays, de l'indépendance, et ensuite de la bataille du développement."
+},
+{
 "s": 6156.7,
 "e": 6160.3,
 "t": "FOUrQuUOI tU TOUIIIES\ndans-leggaffaires des autres ?"
@@ -2323,6 +4403,26 @@
 "s": 6211.7,
 "e": 6213.3,
 "t": "Enculé !"
+},
+{
+"s": 6225.06,
+"e": 6225.94,
+"t": "Je sais ce qui s'est passé."
+},
+{
+"s": 6228.78,
+"e": 6231.74,
+"t": "Si Ada sommait le commandant parce qu'il voulait rentrer chez lui."
+},
+{
+"s": 6234.5,
+"e": 6236.22,
+"t": "On n'a rien su de ce qui s'est passé au village."
+},
+{
+"s": 6239.78,
+"e": 6241.98,
+"t": "Alors que les autres, Ziad et Hamid,"
 },
 {
 "s": 6245.9,
@@ -2525,6 +4625,11 @@
 "t": "Chez Benaissa."
 },
 {
+"s": 6503.35,
+"e": 6503.85,
+"t": "Amène-nous lui."
+},
+{
 "s": 6530.9,
 "e": 6532.6,
 "t": "Tout va bien monsieur ?"
@@ -2620,9 +4725,204 @@
 "t": "Nique leur mère"
 },
 {
+"s": 6767.93,
+"e": 6769.45,
+"t": "Je jure que tout ce merdier ne sert à rien."
+},
+{
+"s": 6773.85,
+"e": 6775.03,
+"t": "C'est juste pour m'impressionner."
+},
+{
+"s": 6776.96,
+"e": 6778.7,
+"t": "Puis je dis oui à tout sans réfléchir."
+},
+{
+"s": 6780.76,
+"e": 6782.0,
+"t": "peuvent toujours attendre."
+},
+{
+"s": 6785.66,
+"e": 6786.3,
+"t": "Qu'est-ce que j'ai dit ?"
+},
+{
+"s": 6802.59,
+"e": 6803.21,
+"t": "Pourquoi t'es venu ?"
+},
+{
+"s": 6804.76,
+"e": 6805.68,
+"t": "C'est Elisabeth qui l'a demandé."
+},
+{
+"s": 6818.08,
+"e": 6821.04,
+"t": "Il m'apporte ça aujourd'hui en espérant les déposer demain sur ma tombe."
+},
+{
+"s": 6822.04,
+"e": 6823.04,
+"t": "Tous des vautours."
+},
+{
+"s": 6833.09,
+"e": 6833.17,
+"t": "des infirmières."
+},
+{
+"s": 6834.46,
+"e": 6835.8,
+"t": "Quand elles viennent, je fais semblant de dormir."
+},
+{
+"s": 6837.4,
+"e": 6838.4,
+"t": "pour les entendre parler."
+},
+{
+"s": 6839.28,
+"e": 6840.6,
+"t": "Ils ne font que se plaindre."
+},
+{
+"s": 6842.2,
+"e": 6842.94,
+"t": "Surtout tout le temps."
+},
+{
+"s": 6845.08,
+"e": 6846.86,
+"t": "Et médecin, alors pas que c'est encore pire."
+},
+{
+"s": 6850.27,
+"e": 6850.89,
+"t": "ce qu'il croit."
+},
+{
+"s": 6851.32,
+"e": 6852.66,
+"t": "Je peux tout régler avec un..."
+},
+{
+"s": 6853.24,
+"e": 6854.48,
+"t": "Un coup de baguette magique."
+},
+{
+"s": 6859.96,
+"e": 6861.18,
+"t": "Tu sais quoi, le peuple, Jaffer ?"
+},
+{
+"s": 6862.51,
+"e": 6864.99,
+"t": "Le peuple, ce n'est qu'une bouchée en ventre, rien d'autre."
+},
+{
+"s": 6888.44,
+"e": 6889.7,
+"t": "Voilà pourquoi tu t'es battu Jeff."
+},
+{
+"s": 6892.67,
+"e": 6894.09,
+"t": "pour ne pas avoir de l'eau à ton robinet."
+},
+{
+"s": 6928.03,
+"e": 6930.19,
+"t": "Il n'y a plus le bruit des animaux de la nuit."
+},
+{
+"s": 6931.84,
+"e": 6932.44,
+"t": "En Corse du jour."
+},
+{
+"s": 6934.62,
+"e": 6935.14,
+"t": "s'il n'y a pas de vent."
+},
+{
+"s": 6940.99,
+"e": 6942.25,
+"t": "C'est étouffant, ce silence."
+},
+{
+"s": 6946.59,
+"e": 6947.21,
+"t": "pendant toute la guerre."
+},
+{
+"s": 6948.06,
+"e": 6950.02,
+"t": "C'était toujours à ce moment-là que j'avais mes angoisses."
+},
+{
+"s": 6952.44,
+"e": 6952.74,
+"t": "Par exemple."
+},
+{
+"s": 6953.6,
+"e": 6954.76,
+"t": "Je suis dans le noir, le silence."
+},
+{
+"s": 6955.9,
+"e": 6957.32,
+"t": "L'obscurité totale ?"
+},
+{
+"s": 6959.13,
+"e": 6962.47,
+"t": "Et ça, c'est comme s'ils ont empêché la lumière de trouver son chemin."
+},
+{
+"s": 7004.54,
+"e": 7005.3,
+"t": "Et le jour qui se levait."
+},
+{
+"s": 7010.56,
+"e": 7011.54,
+"t": "On pouvait changer le monde, toi et moi."
+},
+{
 "s": 7014.1,
 "e": 7017.1,
 "t": "Un en etait capanie.\nJe te jure, on en était capable"
+},
+{
+"s": 7025.92,
+"e": 7027.28,
+"t": "Pourquoi il vient pas me voir, Félix ?"
+},
+{
+"s": 7036.7,
+"e": 7037.64,
+"t": "Fais toujours la gueule."
+},
+{
+"s": 7042.05,
+"e": 7043.19,
+"t": "Pourquoi il n'est pas venu avec toi ?"
+},
+{
+"s": 7065.09,
+"e": 7066.07,
+"t": "Tu reviendras me voir, Jeff."
+},
+{
+"s": 7079.56,
+"e": 7080.6,
+"t": "Tu reviendras me voir, Jack."
 },
 {
 "s": 7109.4,

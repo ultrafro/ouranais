@@ -100,9 +100,12 @@ do the work on busy backgrounds.
 ## Included subtitles
 
 The site includes French (`fr`), English (`en`), Spanish (`es`), Arabic (`ar`),
-German (`de`), and Mandarin in Simplified Chinese (`zh-Hans`). Each track contains
-528 cues with identical timings. English remains the player's default language;
-choose another language from the dropdown. Arabic subtitles use right-to-left text.
+German (`de`), and Mandarin in Simplified Chinese (`zh-Hans`). French and English
+now contain 988 cues, including reviewed dialogue recovered from previously
+unsubtitled audio windows. The other four tracks retain the 528-cue translated
+coverage and will need regeneration from the expanded French track. English remains
+the player's default language; choose another language from the dropdown. Arabic
+subtitles use right-to-left text.
 
 The French source was extracted with OCR. English is a draft translation of that
 source; Spanish, Arabic, German, and Mandarin were translated from the corrected
@@ -113,7 +116,9 @@ can serve them. Other generated JSON and VTT files remain gitignored.
 This is a translation of the extracted French text, not a new transcription of the
 audio. Obvious OCR errors are reconstructed from context; unrecoverable passages
 are marked `[Unclear dialogue]` or `[Illegible program title]` in English, with
-equivalent labels in the other translations. Five cues retain these markers. Those passages and
+equivalent labels in the other translations. Five original cues retain these markers;
+the recovered audio cues are limited to recognizer output reviewed for timing and
+obvious errors. Those passages and
 reconstructed wording still need checking against the video. Broadcast notices and
 the subtitle credit at the end are retained with their original timings.
 
