@@ -51,6 +51,11 @@ from scipy import ndimage
 # ---------------------------------------------------------------- tunables ---
 
 WHITE_MIN = 190        # min channel value for a glyph pixel
+WHITE_MIN_MARK = 138   # looser cutoff used only to recover small marks.
+                       # A cedilla or a comma is a thin stroke, so it loses more
+                       # of its brightness to anti-aliasing than a letter body
+                       # does and falls under WHITE_MIN. That one cause is why
+                       # "Ça" came out as "Ca" and why commas kept vanishing.
 WHITE_SAT = 35         # max (max-min) channel spread; glyphs are grey/white
 DARK_MAX = 100         # max channel value that counts as "outline dark"
 OUTLINE_R = 3          # rows to look up/down for that outline
@@ -72,6 +77,9 @@ CORE_GAP = 70          # letters further apart than this are separate runs
 MIN_RUN = 2            # a run of fewer cores than this is scenery
 MARK_MIN_AREA = 3      # small enough to keep a cedilla or the dot on an i
 MARK_MAX_AREA = 45     # ...but a real mark is never bigger than this
+LINE_GAP = 6           # blank rows that still count as the same text line
+PHANTOM_FRAC = 0.18    # a line with less ink than this share of the biggest
+                       # one is debris, not text
 
 
 @dataclass
@@ -133,12 +141,12 @@ def _dilate_rows(mask: np.ndarray, r: int) -> np.ndarray:
     return out
 
 
-def white_pixels(img: np.ndarray) -> np.ndarray:
+def white_pixels(img: np.ndarray, thresh: int = WHITE_MIN) -> np.ndarray:
     """Near-white, desaturated pixels — glyph bodies, plus bright scenery."""
     a = img.astype(np.int16)
     lo = a.min(2)
     hi = a.max(2)
-    return (lo >= WHITE_MIN) & ((hi - lo) <= WHITE_SAT)
+    return (lo >= thresh) & ((hi - lo) <= WHITE_SAT)
 
 
 def glyph_mask(img: np.ndarray) -> np.ndarray:
@@ -234,24 +242,64 @@ def grab_band(video: str, t: float, top: int, height: int, width: int,
 
 
 def static_glyphs(video: str, t: float, top: int, height: int, width: int,
-                  tmp: str, delta: float = 0.2) -> np.ndarray:
+                  tmp: str, delta: float = 0.2) -> tuple[np.ndarray, np.ndarray]:
     """
-    White pixels that hold still across +/-delta seconds.
+    White pixels that hold still across +/-delta seconds, at two thresholds.
 
     This is the same persistence insight the timing detector uses, and it is far
     better than a per-pixel outline test for *rendering*: the outline test only
     keeps pixels near a dark border, which hollows out the middle of every thick
     stroke and leaves tesseract reading speckle. Intersecting three frames keeps
     glyph bodies solid while moving picture behind them drops away.
+
+    Returns (strict, loose). Strict finds letter bodies; loose is used only to
+    recover thin marks that sit against a letter already found in strict.
     """
-    m: np.ndarray | None = None
+    strict: np.ndarray | None = None
+    loose: np.ndarray | None = None
     for d in (-delta, 0.0, delta):
-        w = white_pixels(grab_band(video, t + d, top, height, width, tmp))
-        m = w if m is None else (m & w)
-    return m if m is not None else np.zeros((height, width), bool)
+        img = grab_band(video, t + d, top, height, width, tmp)
+        s = white_pixels(img)
+        lo = white_pixels(img, WHITE_MIN_MARK)
+        strict = s if strict is None else (strict & s)
+        loose = lo if loose is None else (loose & lo)
+    empty = np.zeros((height, width), bool)
+    return (strict if strict is not None else empty,
+            loose if loose is not None else empty)
 
 
-def keep_glyph_blobs(mask: np.ndarray) -> np.ndarray:
+def prune_phantom_lines(mask: np.ndarray) -> np.ndarray:
+    """
+    Drop row bands carrying far too little ink to be a real line of subtitle.
+
+    Anti-aliasing debris under a baseline can form a whole row of specks, and
+    tesseract will happily read that row as a second line of text.
+    """
+    filled = mask.sum(1) > 0
+    height = mask.shape[0]
+    bands: list[tuple[int, int, int]] = []
+    y = 0
+    while y < height:
+        if not filled[y]:
+            y += 1
+            continue
+        y0, gap = y, 0
+        while y < height and (filled[y] or gap < LINE_GAP):
+            gap = 0 if filled[y] else gap + 1
+            y += 1
+        y1 = min(height, y - gap)
+        bands.append((y0, y1, int(mask[y0:y1].sum())))
+    if not bands:
+        return mask
+    strongest = max(b[2] for b in bands)
+    out = np.zeros_like(mask)
+    for y0, y1, ink in bands:
+        if ink >= strongest * PHANTOM_FRAC:
+            out[y0:y1] = mask[y0:y1]
+    return out
+
+
+def keep_glyph_blobs(strict: np.ndarray, loose: np.ndarray) -> np.ndarray:
     """
     Drop connected blobs that are not glyph-shaped.
 
@@ -265,15 +313,15 @@ def keep_glyph_blobs(mask: np.ndarray) -> np.ndarray:
     outside. Static bright scenery survives the persistence test but does not
     survive this, because it is the wrong shape and in the wrong place.
     """
-    lab, n = ndimage.label(mask)
+    lab, n = ndimage.label(strict)
     if n == 0:
-        return mask
+        return strict
     objs = ndimage.find_objects(lab)
 
     def box(sl):
         return sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
 
-    # Stage 1 — core letter bodies.
+    # Stage 1 — core letter bodies, from the strict mask only.
     cores: list[tuple[int, tuple[slice, slice]]] = []
     for i, sl in enumerate(objs, start=1):
         if sl is None:
@@ -287,7 +335,7 @@ def keep_glyph_blobs(mask: np.ndarray) -> np.ndarray:
             continue
         cores.append((i, sl))
     if not cores:
-        return np.zeros_like(mask)
+        return np.zeros_like(strict)
 
     # Stage 2 — discard cores that stand alone. Subtitle letters come in runs;
     # a lone letter-sized blob out in the picture is scenery.
@@ -304,15 +352,17 @@ def keep_glyph_blobs(mask: np.ndarray) -> np.ndarray:
     if len(run) >= MIN_RUN:
         keep += run
     if not keep:
-        return np.zeros_like(mask)
+        return np.zeros_like(strict)
 
     # Stage 3 — the region the letters occupy, with room above for accents and
     # below for cedillas, plus horizontal slack so a mark stays with its letter.
-    rows = np.zeros(mask.shape[0], bool)
-    cols = np.zeros(mask.shape[1], bool)
-    for _, sl in keep:
+    rows = np.zeros(strict.shape[0], bool)
+    cols = np.zeros(strict.shape[1], bool)
+    out = np.zeros_like(strict)
+    for i, sl in keep:
         rows[sl[0].start:sl[0].stop] = True
         cols[sl[1].start:sl[1].stop] = True
+        out[sl] |= lab[sl] == i
 
     band = rows.copy()
     for k in range(1, ACCENT_RISE + 1):
@@ -325,29 +375,36 @@ def keep_glyph_blobs(mask: np.ndarray) -> np.ndarray:
         span[:-k] |= cols[k:]
         span[k:] |= cols[:-k]
 
-    out = np.zeros_like(mask)
-    for i, sl in enumerate(objs, start=1):
-        if sl is None:
-            continue
-        h, w = box(sl)
-        if h > GLYPH_H_MAX or w > GLYPH_W_MAX:
-            continue
-        if band[sl[0].start:sl[0].stop].mean() < 0.6:
-            continue
-        if span[sl[1].start:sl[1].stop].mean() < 0.5:
-            continue
-        blob = lab[sl] == i
-        area = int(blob.sum())
-        if area < MARK_MIN_AREA:
-            continue
-        # Anything outside the letter bodies themselves has to be an actual
-        # mark — a cedilla or an accent. Letter-sized fragments hanging below
-        # the baseline are anti-aliasing debris, and tesseract reads a row of
-        # them as a whole phantom line of text.
-        if rows[sl[0].start:sl[0].stop].mean() < 0.5 and area > MARK_MAX_AREA:
-            continue
-        out[sl] |= blob
-    return out
+    # Stage 4 — recover thin marks from the loose mask, but only where they sit
+    # against a letter we already found. That is what brings back cedillas and
+    # commas without also letting the looser threshold drag in scenery.
+    lab2, n2 = ndimage.label(loose)
+    if n2:
+        for i, sl in enumerate(ndimage.find_objects(lab2), start=1):
+            if sl is None:
+                continue
+            h, w = box(sl)
+            if h > GLYPH_H_MAX or w > GLYPH_W_MAX:
+                continue
+            if band[sl[0].start:sl[0].stop].mean() < 0.6:
+                continue
+            if span[sl[1].start:sl[1].stop].mean() < 0.5:
+                continue
+            blob = lab2[sl] == i
+            area = int(blob.sum())
+            if area < MARK_MIN_AREA:
+                continue
+            # NB: an overlap guard here (skip loose blobs already covered by the
+            # strict mask) looks right and measurably hurts — a cedilla touches
+            # its letter, so the guard drops exactly what we came for.
+            # Outside the letter bodies themselves it has to be an actual mark.
+            # Letter-sized fragments hanging below the baseline are anti-aliasing
+            # debris, and tesseract reads a row of them as a phantom line.
+            if rows[sl[0].start:sl[0].stop].mean() < 0.5 and area > MARK_MAX_AREA:
+                continue
+            out[sl] |= blob
+
+    return prune_phantom_lines(out)
 
 
 def render_for_ocr(mask: np.ndarray) -> Image.Image | None:
@@ -397,9 +454,8 @@ def ocr_cues(video: str, cues: list[Cue], top: int, height: int, width: int,
         for n, c in enumerate(cues):
             # Middle of the cue: past any fade-in, before any fade-out.
             t = (c.s + c.e) / 2
-            mask = keep_glyph_blobs(
-                static_glyphs(video, t, top, height, width, tmp)
-            )
+            strict, loose = static_glyphs(video, t, top, height, width, tmp)
+            mask = keep_glyph_blobs(strict, loose)
             shot_img = render_for_ocr(mask)
             if shot_img is None:
                 continue

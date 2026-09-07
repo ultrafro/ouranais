@@ -69,17 +69,28 @@ Honest state of the code:
 - **Cue detection — working.** It reliably segments a film into cues with clean
   boundaries. Verified against a real hardsubbed feature; `--calibrate` located the
   subtitle band correctly across a full 123-minute film.
-- **OCR — readable, not yet accurate.** Words come out right and lines are legible.
-  Known defects, in rough order of how often they bite:
-  - cedillas are dropped, so `Ça` reads as `Ca`;
-  - commas are frequently lost;
-  - a cue occasionally grows a phantom second line from anti-aliasing debris that
-    survives the blob filter.
+- **OCR — good on clean backgrounds, poor on busy ones.** Over a plain or dark
+  background, lines come out verbatim with correct diacritics (`Ça`, `Grâce à`).
+  Remaining defects:
+  - a cue whose background is bright and textured can come back with letter-level
+    corruption — real words, wrong letters;
+  - commas are still inconsistent.
 
-The timing half is solid. The reading half is good enough to follow along and wrong
-often enough that you should not ship a track from it unreviewed. If you are picking
-up the OCR work, `--dump` writes every image handed to tesseract, which is by far the
-fastest way to see what the filter is doing.
+The timing half is solid. The reading half is right most of the time and wrong often
+enough that you should not ship a track from it unreviewed.
+
+If you pick up the OCR work: `--dump` writes every image handed to tesseract, which is
+by far the fastest way to see what the filter is doing. Two things that look like
+improvements and are not — both were tried and both measurably hurt:
+
+- An overlap guard rejecting loose-mask blobs already covered by the strict mask. A
+  cedilla touches its letter, so the guard drops exactly what it was added to recover.
+- Widening the band without the two-threshold split, which drags scenery in faster
+  than it recovers marks.
+
+The most promising next step is probably to stop hand-binarising altogether and hand
+tesseract a contrast-stretched greyscale crop, letting its own adaptive thresholding
+do the work on busy backgrounds.
 
 ## Subtitle data is not included
 
