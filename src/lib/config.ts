@@ -4,8 +4,8 @@ import type { Manifest } from "./subtitles";
  * Which video to play, and which subtitle tracks to offer.
  *
  * Cue data lives in `public/subtitles/<code>.json` and is produced by
- * `pipeline/extract_subtitles.py`. Those files are deliberately not committed —
- * see the README.
+ * `pipeline/extract_subtitles.py`. The English translation is committed for the
+ * site; other generated tracks remain local. See the README.
  */
 export const manifest: Manifest = {
   videoId: "WwH_xMhKZ2c",

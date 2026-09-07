@@ -97,15 +97,18 @@ The most promising next step is probably to stop hand-binarising altogether and 
 tesseract a contrast-stretched greyscale crop, letting its own adaptive thresholding
 do the work on busy backgrounds.
 
-## Subtitle data is not included
+## Included English subtitles
 
-`public/subtitles/*.json` is gitignored and no cue data is committed.
+`public/subtitles/en.json` contains an English draft translated from the local
+French OCR track. All 511 cue timings are preserved, and English is the player's
+default language. The file is committed so deployments can serve it at
+`/subtitles/en.json`. Other generated JSON and VTT tracks remain gitignored.
 
-The tooling here is general-purpose — it works on any video with burned-in subtitles,
-including your own footage, lecture recordings, and public-domain film. But a complete
-translated cue track for a commercial film is that film's entire screenplay in another
-language, and publishing one is the thing that gets subtitle repositories taken down.
-Run the pipeline against your own copy and keep the output local.
+This is a translation of the extracted French text, not a new transcription of the
+audio. Obvious OCR errors are reconstructed from context; unrecoverable passages
+are marked `[Unclear dialogue]` or `[Illegible program title]`. Those passages and
+reconstructed wording still need checking against the video. Broadcast notices and
+the subtitle credit at the end are retained with their original timings.
 
 ## Next steps
 

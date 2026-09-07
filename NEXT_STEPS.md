@@ -7,7 +7,9 @@ public/subtitles/fr.json    # what the player reads
 public/subtitles/fr.vtt     # same cues, standard WebVTT
 ```
 
-Both are gitignored. Everything below assumes they are there.
+Both are gitignored. The English draft, `public/subtitles/en.json`, is committed
+and available without running the pipeline. French review and extraction steps
+below assume the local source files are present.
 
 ---
 
@@ -18,9 +20,10 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000. The language dropdown will offer **Français**; the other
-entries are listed in `src/lib/config.ts` but have no data behind them yet, so picking
-one shows a "no track" warning rather than failing silently.
+Open http://localhost:3000. The player defaults to **English**, using the committed
+translation. **Français** works when the local French track exists. Other entries
+are listed in `src/lib/config.ts`; without locally generated data, selecting one
+shows a "no track" warning. Local test tracks may instead show placeholder markers.
 
 Two things worth checking immediately:
 
@@ -170,7 +173,7 @@ Caveats worth knowing before you run it:
 
 ## 6. Scope note
 
-`public/subtitles/` is gitignored and should stay that way. The tooling in this repo is
-general-purpose and MIT; a finished cue track for a specific commercial film is a
-different kind of artifact, and publishing one is what gets subtitle repositories taken
-down. Keep generated tracks local to your own copy.
+Generated subtitle files remain gitignored except for `public/subtitles/en.json`,
+which is included for the site. This English draft preserves all source timings;
+passages marked as unclear still need review against the video. The MIT license
+covers the code, not rights to the source video.
