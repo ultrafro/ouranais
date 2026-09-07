@@ -67,14 +67,19 @@ Honest state of the code:
 - **Player — working.** Embed, overlay, language switcher, hardsub masking, keyboard
   shortcuts.
 - **Cue detection — working.** It reliably segments a film into cues with clean
-  boundaries. Verified against a real hardsubbed feature.
-- **OCR — not yet good.** The glyph mask still lets through enough high-contrast image
-  edges that tesseract returns noise on busy backgrounds. The mask needs tightening
-  (stroke-width filtering, and a per-video threshold sweep) before the text is
-  trustworthy. `--calibrate` is the right place to start.
+  boundaries. Verified against a real hardsubbed feature; `--calibrate` located the
+  subtitle band correctly across a full 123-minute film.
+- **OCR — readable, not yet accurate.** Words come out right and lines are legible.
+  Known defects, in rough order of how often they bite:
+  - cedillas are dropped, so `Ça` reads as `Ca`;
+  - commas are frequently lost;
+  - a cue occasionally grows a phantom second line from anti-aliasing debris that
+    survives the blob filter.
 
-So: the timing half is solid, the reading half needs more work. Don't ship a track
-from this without checking it.
+The timing half is solid. The reading half is good enough to follow along and wrong
+often enough that you should not ship a track from it unreviewed. If you are picking
+up the OCR work, `--dump` writes every image handed to tesseract, which is by far the
+fastest way to see what the filter is doing.
 
 ## Subtitle data is not included
 
