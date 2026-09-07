@@ -28,7 +28,13 @@ export default function Player({ manifest }: { manifest: Manifest }) {
   const [cueError, setCueError] = useState<string | null>(null);
   const [line, setLine] = useState<string | null>(null);
 
-  const [maskHardsubs, setMaskHardsubs] = useState(true);
+  /**
+   * "above" stacks our line just over the burned-in original and draws no mask
+   * at all — nothing covers picture, which is the cheapest fix for the band of
+   * black the mask used to add. "cover" paints over the original instead, for
+   * when seeing two sets of subtitles is more distracting than losing the strip.
+   */
+  const [placement, setPlacement] = useState<"above" | "cover">("above");
   const [size, setSize] = useState(1);
 
   /* ---- create the YouTube player once ---- */
@@ -156,6 +162,13 @@ export default function Player({ manifest }: { manifest: Manifest }) {
       }
     : null;
 
+  // Sit just clear of the top of the burned-in band, or low in the letterbox
+  // when we are covering it instead.
+  const overlayBottom =
+    placement === "above" && band
+      ? `${(1 - band.top / band.videoHeight) * 100 + 1.5}%`
+      : "8%";
+
   return (
     <div className="w-full max-w-5xl">
       <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-black shadow-2xl ring-1 ring-white/10">
@@ -165,7 +178,7 @@ export default function Player({ manifest }: { manifest: Manifest }) {
             Only while a cue is actually on screen — our cues were read off the
             burned-in ones, so they share timings, and masking permanently would
             black out real picture for the ~85% of the film with no subtitle. */}
-        {maskHardsubs && maskStyle && line && (
+        {placement === "cover" && maskStyle && line && (
           <div
             className="pointer-events-none absolute inset-x-0 bg-black"
             style={maskStyle}
@@ -175,7 +188,10 @@ export default function Player({ manifest }: { manifest: Manifest }) {
 
         {/* Our own subtitle overlay */}
         {line && (
-          <div className="pointer-events-none absolute inset-x-0 bottom-[8%] flex justify-center px-[6%]">
+          <div
+            className="pointer-events-none absolute inset-x-0 flex justify-center px-[6%]"
+            style={{ bottom: overlayBottom }}
+          >
             <p
               className="whitespace-pre-line rounded-md bg-black/55 px-3 py-1 text-center font-medium leading-snug text-white [text-shadow:0_2px_4px_rgba(0,0,0,0.9)]"
               style={{ fontSize: `clamp(0.8rem, ${2.4 * size}vw, ${2.2 * size}rem)` }}
@@ -217,13 +233,15 @@ export default function Player({ manifest }: { manifest: Manifest }) {
         </label>
 
         <label className="flex items-center gap-2 text-sm text-white/80">
-          <input
-            type="checkbox"
-            checked={maskHardsubs}
-            onChange={(e) => setMaskHardsubs(e.target.checked)}
-            className="accent-white"
-          />
-          Hide burned-in subtitles
+          Position
+          <select
+            value={placement}
+            onChange={(e) => setPlacement(e.target.value as "above" | "cover")}
+            className="rounded-md border border-white/15 bg-neutral-900 px-2 py-1 text-sm text-white outline-none focus:border-white/40"
+          >
+            <option value="above">Above original</option>
+            <option value="cover">Cover original</option>
+          </select>
         </label>
 
         <label className="flex items-center gap-2 text-sm text-white/80">
