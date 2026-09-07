@@ -66,12 +66,14 @@ Honest state of the code:
 
 - **Player — working.** Embed, overlay, language switcher, hardsub masking, keyboard
   shortcuts.
-- **Cue detection — precise, but misses cues.** The boundaries it does find are clean
-  (median cue 1.90 s, 2 overlaps in 511), and `--calibrate` located the subtitle band
-  correctly across a full 123-minute film. But measured recall is only **~81%** — of 47
-  randomly sampled frames with subtitle text, 9 were missing from the track entirely.
-  Detection thresholds the outline mask, which is the one that fails on bright
-  backgrounds, so whole cues fall under `MIN_PIXELS`. See NEXT_STEPS.md §2.
+- **Cue detection — working.** Boundaries are clean (median cue 1.90 s, 2 overlaps in
+  511), `--calibrate` located the subtitle band correctly across a full 123-minute film,
+  and spot-checking 24 points the track calls unsubtitled found no missed subtitles.
+
+  A caution for anyone measuring this themselves: thresholding the raw glyph mask is
+  *not* a valid ground truth for "a subtitle is present here". It fires on bright
+  scenery and on the end credits, which will tell you recall is far worse than it is.
+  Verify against the actual pixels.
 - **OCR — good on clean backgrounds, poor on busy ones.** Over a plain or dark
   background, lines come out verbatim with correct diacritics (`Ça`, `Grâce à`).
   Remaining defects:

@@ -71,23 +71,28 @@ Much worse than that and the OCR is worth another pass first (see §4).
 | cues that are pure garbage | 0 |
 | overlapping cues | 2 of 511 |
 | median cue duration | 1.90 s |
-| **detection recall** | **~81%** |
+| missed subtitles, 24 uncovered points checked | 0 |
 
-Text quality is good. **Coverage is not.** Sampling 240 random timestamps and comparing
-against the track, 47 had subtitle text present and 9 of those were missing entirely —
-roughly one subtitle in five never got extracted, clustered in particular scenes rather
-than scattered evenly.
+Text quality is good and coverage looks sound.
 
-Fix recall before translating. A missing line is far harder to notice in a language you
-do not read than a wrong one, and translation will silently inherit every hole.
+### How not to measure recall
 
-### Improving recall
+A first pass at this reported ~81% recall and it was wrong, in a way worth recording
+because the mistake is easy to repeat.
 
-Detection currently thresholds `glyph_mask()` — the outline test — at `MIN_PIXELS`. That
-mask is the one that fails on bright backgrounds, so whole cues fall under the threshold
-and are never seen. The likely fix is the same one that fixed rendering: drive detection
-from the persistence mask instead, which keeps glyph bodies solid regardless of what is
-behind them. Lowering `MIN_PIXELS` alone will trade recall for false positives.
+The proxy was "single-frame `glyph_mask()` over `MIN_PIXELS` means a subtitle is present
+here", compared against the track. That fires on two things that are not subtitles:
+
+- **bright scenery** — a sunlit table or a white wall clears the pixel threshold easily;
+- **the end credits** — genuinely text, genuinely not subtitles.
+
+Every one of the nine "missed" cues it flagged turned out to be one of those. Sampling in
+the other direction instead — take points the track calls unsubtitled, render the band,
+and look — found no misses at all in 24 samples.
+
+If you need a recall number, verify against the pixels. A pixel-count heuristic cannot
+distinguish subtitle text from a bright background, which is the whole difficulty of the
+problem and precisely what it is being asked to adjudicate.
 
 ---
 
