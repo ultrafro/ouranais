@@ -7,9 +7,9 @@ public/subtitles/fr.json    # what the player reads
 public/subtitles/fr.vtt     # same cues, standard WebVTT
 ```
 
-Both are gitignored. The English draft, `public/subtitles/en.json`, is committed
-and available without running the pipeline. French review and extraction steps
-below assume the local source files are present.
+The French JSON and the English, Spanish, Arabic, German, and Mandarin draft tracks
+are committed and available without running the pipeline. The VTT file remains
+gitignored. Extraction steps below can regenerate the French source.
 
 ---
 
@@ -21,9 +21,9 @@ npm run dev
 ```
 
 Open http://localhost:3000. The player defaults to **English**, using the committed
-translation. **Français** works when the local French track exists. Other entries
-are listed in `src/lib/config.ts`; without locally generated data, selecting one
-shows a "no track" warning. Local test tracks may instead show placeholder markers.
+translation. **Français**, **Español**, **العربية**, **Deutsch**, and **普通话（简体）**
+also have committed tracks. Mandarin uses Simplified Chinese. All tracks share the
+same 528 cue timings; the translated drafts retain five uncertainty markers.
 
 Two things worth checking immediately:
 
@@ -156,8 +156,14 @@ python pipeline/translate_cues.py \
 ```
 
 Then the same for `--to Spanish --out public/subtitles/es.json`, and so on. The codes in
-`src/lib/config.ts` (`en`, `es`, `ar`, `de`) are what the player looks for, so the output
+`src/lib/config.ts` (`en`, `es`, `ar`, `de`, `zh-Hans`) are what the player looks for, so the output
 filename has to match.
+
+The included Spanish, Arabic, German, and Mandarin drafts were translated from the
+corrected English track. When the French source changes, update English first and
+then refresh all four translations, keeping every cue's start and end time aligned.
+For Mandarin, use `--to "Mandarin (Simplified Chinese)"` and
+`--out public/subtitles/zh-Hans.json`.
 
 Caveats worth knowing before you run it:
 
@@ -173,7 +179,7 @@ Caveats worth knowing before you run it:
 
 ## 6. Scope note
 
-Generated subtitle files remain gitignored except for `public/subtitles/en.json`,
-which is included for the site. This English draft preserves all source timings;
+Generated subtitle files remain gitignored except for the six site tracks in
+`public/subtitles/` (`fr`, `en`, `es`, `ar`, `de`, `zh-Hans`). All preserve source timings;
 passages marked as unclear still need review against the video. The MIT license
 covers the code, not rights to the source video.

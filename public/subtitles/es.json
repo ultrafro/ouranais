@@ -1,0 +1,2642 @@
+[
+  {
+    "s": 9.3,
+    "e": 13.3,
+    "t": "Tranquilo.\nSolo vamos a dar una vuelta."
+  },
+  {
+    "s": 13.4,
+    "e": 16.2,
+    "t": "Disfruta, ¡no seas idiota!\nNo quiero líos."
+  },
+  {
+    "s": 16.3,
+    "e": 18.8,
+    "t": "Pues deja de moverte así."
+  },
+  {
+    "s": 29.3,
+    "e": 31.2,
+    "t": "¡Mira cómo te vistes!"
+  },
+  {
+    "s": 32.5,
+    "e": 35.9,
+    "t": "Vas al baile del 14 de julio\ncon las francesas de Gambetta."
+  },
+  {
+    "s": 36.0,
+    "e": 37.9,
+    "t": "Y ahora vas en coche."
+  },
+  {
+    "s": 38.2,
+    "e": 41.2,
+    "t": "¿Qué quieres?\n¿Parecerte a Jean Gabin?"
+  },
+  {
+    "s": 41.9,
+    "e": 42.8,
+    "t": "Mimid."
+  },
+  {
+    "s": 43.0,
+    "e": 45.5,
+    "t": "¡Dimi! Es diminutivo de Dimitri."
+  },
+  {
+    "s": 48.9,
+    "e": 50.5,
+    "t": "La revolución ha comenzado."
+  },
+  {
+    "s": 50.7,
+    "e": 54.1,
+    "t": "Y si nos pillan los hermanos,\nlo pasarás mal."
+  },
+  {
+    "s": 55.0,
+    "e": 56.2,
+    "t": "¿Sabes qué?"
+  },
+  {
+    "s": 56.6,
+    "e": 59.6,
+    "t": "Se nota que malgastas el dinero\nen presumir."
+  },
+  {
+    "s": 59.9,
+    "e": 62.9,
+    "t": "¡Ni siquiera estoy seguro\nde que pagues el impuesto revolucionario!"
+  },
+  {
+    "s": 64.3,
+    "e": 66.0,
+    "t": "Dime que se lo pagas."
+  },
+  {
+    "s": 73.2,
+    "e": 74.5,
+    "t": "Un control. ¡Da la vuelta!"
+  },
+  {
+    "s": 74.6,
+    "e": 75.7,
+    "t": "¡Abre la puerta!\n¿Qué?"
+  },
+  {
+    "s": 75.8,
+    "e": 77.7,
+    "t": "¡Abre! Tengo una idea. ¡Abre!"
+  },
+  {
+    "s": 78.5,
+    "e": 79.6,
+    "t": "¡Abre la puerta!"
+  },
+  {
+    "s": 80.8,
+    "e": 82.6,
+    "t": "¿A Orán por Constantina?"
+  },
+  {
+    "s": 82.8,
+    "e": 85.7,
+    "t": "¿Qué haces?\nAsí llamaremos menos la atención."
+  },
+  {
+    "s": 103.5,
+    "e": 104.9,
+    "t": "Están buscando a alguien."
+  },
+  {
+    "s": 105.0,
+    "e": 107.6,
+    "t": "Han quemado la granja de los Piffaut."
+  },
+  {
+    "s": 167.8,
+    "e": 169.2,
+    "t": "¿Estás loco?"
+  },
+  {
+    "s": 170.7,
+    "e": 172.7,
+    "t": "¿A qué coño juegas?"
+  },
+  {
+    "s": 175.9,
+    "e": 179.6,
+    "t": "Perdónelo, hermana.\nNo tiene vergüenza."
+  },
+  {
+    "s": 192.1,
+    "e": 193.1,
+    "t": "¡Mira!"
+  },
+  {
+    "s": 193.3,
+    "e": 194.2,
+    "t": "¿Es Farid?"
+  },
+  {
+    "s": 195.1,
+    "e": 196.5,
+    "t": "¡Farid! ¡Es Farid!"
+  },
+  {
+    "s": 197.2,
+    "e": 198.2,
+    "t": "¡Para!"
+  },
+  {
+    "s": 202.8,
+    "e": 204.3,
+    "t": "¿Qué haces?"
+  },
+  {
+    "s": 205.6,
+    "e": 207.6,
+    "t": "¡Hamid! ¡Dime qué pasa!"
+  },
+  {
+    "s": 207.7,
+    "e": 208.8,
+    "t": "Luego."
+  },
+  {
+    "s": 233.5,
+    "e": 235.8,
+    "t": "Gracias, hermanos.\n¡Viva Argelia!"
+  },
+  {
+    "s": 251.6,
+    "e": 252.8,
+    "t": "Hamid, ¿quién es?"
+  },
+  {
+    "s": 253.0,
+    "e": 254.0,
+    "t": "La revolución."
+  },
+  {
+    "s": 266.9,
+    "e": 268.2,
+    "t": "¡Los soldados!"
+  },
+  {
+    "s": 269.8,
+    "e": 271.0,
+    "t": "¡Los soldados!"
+  },
+  {
+    "s": 271.6,
+    "e": 273.1,
+    "t": "¡Baja!"
+  },
+  {
+    "s": 273.4,
+    "e": 274.2,
+    "t": "¡Baja!"
+  },
+  {
+    "s": 274.8,
+    "e": 276.2,
+    "t": "¡Mierda, Farid!\n¡Corre!"
+  },
+  {
+    "s": 278.7,
+    "e": 280.6,
+    "t": "¡Corre! ¡No pares!"
+  },
+  {
+    "s": 280.7,
+    "e": 283.4,
+    "t": "¡Han cogido a Farid!\n¡Corre, joder!"
+  },
+  {
+    "s": 297.8,
+    "e": 298.6,
+    "t": "¡Hamid!"
+  },
+  {
+    "s": 326.2,
+    "e": 327.2,
+    "t": "¡Sigue!"
+  },
+  {
+    "s": 351.2,
+    "e": 352.4,
+    "t": "Está muerto."
+  },
+  {
+    "s": 353.7,
+    "e": 355.6,
+    "t": "¡Djaffar, los soldados!"
+  },
+  {
+    "s": 356.6,
+    "e": 357.7,
+    "t": "¡Ya vienen!"
+  },
+  {
+    "s": 358.6,
+    "e": 360.6,
+    "t": "¡Sígueme! ¡Corre!"
+  },
+  {
+    "s": 361.9,
+    "e": 363.0,
+    "t": "¡Djaffar, corre!"
+  },
+  {
+    "s": 364.0,
+    "e": 365.0,
+    "t": "He resbalado."
+  },
+  {
+    "s": 365.3,
+    "e": 366.9,
+    "t": "¡No lo he tocado!"
+  },
+  {
+    "s": 371.4,
+    "e": 373.4,
+    "t": "¡Estás acabado!"
+  },
+  {
+    "s": 412.7,
+    "e": 416.0,
+    "t": "¿Cuándo te uniste a los hermanos?\nDespués de tu boda."
+  },
+  {
+    "s": 419.4,
+    "e": 421.5,
+    "t": "¿Y Farid?\nNo lo sabía."
+  },
+  {
+    "s": 421.7,
+    "e": 425.0,
+    "t": "Solo sabía que un tipo\ntenía que enseñarnos el camino."
+  },
+  {
+    "s": 429.9,
+    "e": 431.4,
+    "t": "¡No podía decir nada!"
+  },
+  {
+    "s": 431.7,
+    "e": 433.4,
+    "t": "Podrías haber entrado en pánico."
+  },
+  {
+    "s": 433.6,
+    "e": 436.2,
+    "t": "¿En pánico?\n¿Me tomas por una cría?"
+  },
+  {
+    "s": 436.4,
+    "e": 438.4,
+    "t": "¿Habrías venido de saberlo?"
+  },
+  {
+    "s": 438.6,
+    "e": 441.3,
+    "t": "¿Tú qué sabes?\n¿Me lees la mente?"
+  },
+  {
+    "s": 442.1,
+    "e": 444.4,
+    "t": "¡Si no, ya te habrías alistado!"
+  },
+  {
+    "s": 444.5,
+    "e": 446.7,
+    "t": "¡Cabrón, he matado para salvarte!"
+  },
+  {
+    "s": 448.4,
+    "e": 449.5,
+    "t": "Siéntate."
+  },
+  {
+    "s": 473.5,
+    "e": 474.5,
+    "t": "Zyad."
+  },
+  {
+    "s": 475.3,
+    "e": 476.7,
+    "t": "Tú también, Zyad."
+  },
+  {
+    "s": 490.0,
+    "e": 491.5,
+    "t": "¿Ha pasado?"
+  },
+  {
+    "s": 491.6,
+    "e": 492.6,
+    "t": "En principio, sí."
+  },
+  {
+    "s": 492.8,
+    "e": 495.1,
+    "t": "Tuvo tiempo antes de que llegaran."
+  },
+  {
+    "s": 496.0,
+    "e": 498.2,
+    "t": "Dios mío, he matado al señor Kotias.\nLo sé."
+  },
+  {
+    "s": 499.2,
+    "e": 501.5,
+    "t": "Nos llevaba a la espalda\ncuando éramos niños."
+  },
+  {
+    "s": 502.2,
+    "e": 504.5,
+    "t": "Amenazó a Hamid con un arma."
+  },
+  {
+    "s": 504.6,
+    "e": 506.8,
+    "t": "Deja de llorar. Estamos en guerra."
+  },
+  {
+    "s": 508.7,
+    "e": 510.3,
+    "t": "Kotias no era mala persona."
+  },
+  {
+    "s": 512.2,
+    "e": 514.5,
+    "t": "Pero esta noche eligió su bando."
+  },
+  {
+    "s": 552.2,
+    "e": 556.7,
+    "t": "Esta noche...\n¿De qué está hecha esa noche?"
+  },
+  {
+    "s": 557.0,
+    "e": 562.3,
+    "t": "Esta noche, la luna está torcida.\nEsta noche, corren mis lágrimas."
+  },
+  {
+    "s": 589.8,
+    "e": 592.0,
+    "t": "Se han llevado a Farid a inteligencia militar."
+  },
+  {
+    "s": 597.2,
+    "e": 599.9,
+    "t": "Es un crío, pero es buen chico."
+  },
+  {
+    "s": 600.0,
+    "e": 603.0,
+    "t": "Aguantará los tres días reglamentarios\nantes de hablar."
+  },
+  {
+    "s": 603.5,
+    "e": 605.4,
+    "t": "Pero no podemos demorarnos."
+  },
+  {
+    "s": 606.6,
+    "e": 608.3,
+    "t": "Sigue sentado, Djaffar."
+  },
+  {
+    "s": 619.7,
+    "e": 621.2,
+    "t": "Nos iremos esta noche."
+  },
+  {
+    "s": 624.1,
+    "e": 625.4,
+    "t": "¿Irnos?"
+  },
+  {
+    "s": 626.7,
+    "e": 628.8,
+    "t": "No voy a ninguna parte.\nMe vuelvo a casa."
+  },
+  {
+    "s": 629.1,
+    "e": 632.4,
+    "t": "No puedes.\nEl chico acabará hablando."
+  },
+  {
+    "s": 632.7,
+    "e": 634.8,
+    "t": "E irán directos a tu casa."
+  },
+  {
+    "s": 635.7,
+    "e": 637.6,
+    "t": "No voy a dejar sola a Yasmine."
+  },
+  {
+    "s": 638.2,
+    "e": 639.9,
+    "t": "He dado instrucciones."
+  },
+  {
+    "s": 640.0,
+    "e": 641.9,
+    "t": "La Organización cuidará de ella.\n¿Cómo?"
+  },
+  {
+    "s": 642.3,
+    "e": 644.9,
+    "t": "No necesito a nadie para eso."
+  },
+  {
+    "s": 652.5,
+    "e": 654.8,
+    "t": "Ni siquiera sabía"
+  },
+  {
+    "s": 655.0,
+    "e": 657.8,
+    "t": "que os habíais unido a la lucha."
+  },
+  {
+    "s": 658.0,
+    "e": 659.3,
+    "t": "Ahora lo sabes."
+  },
+  {
+    "s": 663.0,
+    "e": 664.0,
+    "t": "Zyad."
+  },
+  {
+    "s": 664.4,
+    "e": 665.7,
+    "t": "¡Déjame ir!"
+  },
+  {
+    "s": 666.4,
+    "e": 667.2,
+    "t": "¡Hamid!"
+  },
+  {
+    "s": 670.0,
+    "e": 671.0,
+    "t": "¡Ayúdame!"
+  },
+  {
+    "s": 672.8,
+    "e": 675.0,
+    "t": "Cálmate.\n¡No me toques!"
+  },
+  {
+    "s": 678.6,
+    "e": 679.8,
+    "t": "¡Todos fuera!"
+  },
+  {
+    "s": 688.1,
+    "e": 689.0,
+    "t": "¡Vamos!"
+  },
+  {
+    "s": 689.2,
+    "e": 691.1,
+    "t": "Esta noche..."
+  },
+  {
+    "s": 691.2,
+    "e": 693.2,
+    "t": "¿De qué está hecha?"
+  },
+  {
+    "s": 727.3,
+    "e": 729.7,
+    "t": "La muerte de Kotias\nva a enfurecer a todos."
+  },
+  {
+    "s": 729.9,
+    "e": 732.2,
+    "t": "Querrán un culpable."
+  },
+  {
+    "s": 733.4,
+    "e": 736.4,
+    "t": "Avisa de que la célula\nsuspende su actividad."
+  },
+  {
+    "s": 738.9,
+    "e": 741.7,
+    "t": "Me voy a Marruecos con Hamid."
+  },
+  {
+    "s": 741.8,
+    "e": 743.9,
+    "t": "Tú y Djaffar, id al este."
+  },
+  {
+    "s": 745.3,
+    "e": 747.9,
+    "t": "¿Te fías del crío?\n¿El crío? ¿Qué crío?"
+  },
+  {
+    "s": 748.2,
+    "e": 749.4,
+    "t": "¡Viva Argelia!"
+  },
+  {
+    "s": 845.1,
+    "e": 846.3,
+    "t": "¡Su Excelencia!"
+  },
+  {
+    "s": 847.9,
+    "e": 849.6,
+    "t": "¿Cómo estás?"
+  },
+  {
+    "s": 853.7,
+    "e": 855.1,
+    "t": "[Diálogo ininteligible]\nExacto."
+  },
+  {
+    "s": 856.0,
+    "e": 858.1,
+    "t": "¡Houari! ¡Houari!"
+  },
+  {
+    "s": 859.5,
+    "e": 861.6,
+    "t": "Atiende al señor Benaissa."
+  },
+  {
+    "s": 863.2,
+    "e": 866.1,
+    "t": "Hoy hace cuatro años, en 1982."
+  },
+  {
+    "s": 866.2,
+    "e": 869.2,
+    "t": "Lo recordaréis."
+  },
+  {
+    "s": 869.3,
+    "e": 874.3,
+    "t": "Fue aquel famoso partido:\nArgelia contra Alemania."
+  },
+  {
+    "s": 880.6,
+    "e": 884.3,
+    "t": "Estaban Belloumi, Madjer y Assad,"
+  },
+  {
+    "s": 884.5,
+    "e": 887.9,
+    "t": "igual que hoy,\naquí en Guadalajara, México."
+  },
+  {
+    "s": 888.2,
+    "e": 890.0,
+    "t": "Y todos esperamos..."
+  },
+  {
+    "s": 892.4,
+    "e": 893.6,
+    "t": "¡Buenas noches, señor!"
+  },
+  {
+    "s": 896.6,
+    "e": 899.0,
+    "t": "Que el Todopoderoso proteja tu vida."
+  },
+  {
+    "s": 902.0,
+    "e": 905.4,
+    "t": "Y que permanezcas en los corazones\npor toda la eternidad."
+  },
+  {
+    "s": 906.4,
+    "e": 908.1,
+    "t": "Adiós, señor Djaffar."
+  },
+  {
+    "s": 918.9,
+    "e": 920.2,
+    "t": "¡Viva Argelia!"
+  },
+  {
+    "s": 936.1,
+    "e": 937.7,
+    "t": "¡Viva Argelia!"
+  },
+  {
+    "s": 945.0,
+    "e": 946.1,
+    "t": "¡Qué guapo estás!"
+  },
+  {
+    "s": 954.8,
+    "e": 957.0,
+    "t": "¡Abdou!\nDos años en inteligencia militar."
+  },
+  {
+    "s": 959.1,
+    "e": 961.1,
+    "t": "¡Saïd! Saïd viene conmigo."
+  },
+  {
+    "s": 968.5,
+    "e": 969.9,
+    "t": "¡Viva Argelia!"
+  },
+  {
+    "s": 995.6,
+    "e": 996.8,
+    "t": "Nuestra revolución"
+  },
+  {
+    "s": 997.0,
+    "e": 998.6,
+    "t": "dio a luz a héroes."
+  },
+  {
+    "s": 999.6,
+    "e": 1001.5,
+    "t": "Las montañas son testigo."
+  },
+  {
+    "s": 1001.6,
+    "e": 1004.1,
+    "t": "Hombres y mujeres\ntomaron las armas."
+  },
+  {
+    "s": 1004.6,
+    "e": 1006.6,
+    "t": "¡Sí, mujeres y hombres!"
+  },
+  {
+    "s": 1006.8,
+    "e": 1008.6,
+    "t": "Y la tierra se tiñó\ncon la sangre de los mártires."
+  },
+  {
+    "s": 1008.6,
+    "e": 1009.2,
+    "t": "Y la tierra se tiñó\ncon la sangre de los mártires."
+  },
+  {
+    "s": 1009.2,
+    "e": 1010.0,
+    "t": "Y la tierra se tiñó\ncon la sangre de los mártires."
+  },
+  {
+    "s": 1010.2,
+    "e": 1011.6,
+    "t": "Tú que fuiste a combatir,"
+  },
+  {
+    "s": 1011.8,
+    "e": 1014.8,
+    "t": "devolviste a tu país\nel respeto que merece."
+  },
+  {
+    "s": 1015.1,
+    "e": 1016.2,
+    "t": "¡Gracias a ti, oranés!"
+  },
+  {
+    "s": 1016.4,
+    "e": 1017.6,
+    "t": "¡En carne y hueso!"
+  },
+  {
+    "s": 1017.7,
+    "e": 1020.1,
+    "t": "Por la mañana despertamos\ncomo hombres libres."
+  },
+  {
+    "s": 1020.4,
+    "e": 1021.8,
+    "t": "¡Bienvenido a casa!"
+  },
+  {
+    "s": 1028.8,
+    "e": 1030.0,
+    "t": "Es el alcalde."
+  },
+  {
+    "s": 1030.1,
+    "e": 1032.1,
+    "t": "¿Ahora eres alcalde?\n¿No lo sabías?"
+  },
+  {
+    "s": 1032.4,
+    "e": 1033.6,
+    "t": "Déjame bajar."
+  },
+  {
+    "s": 1034.1,
+    "e": 1035.8,
+    "t": "¡Ven!\n¿Adónde?"
+  },
+  {
+    "s": 1036.4,
+    "e": 1039.2,
+    "t": "Al estrado.\nTodos tienen que verte."
+  },
+  {
+    "s": 1039.6,
+    "e": 1041.2,
+    "t": "Perdonadme, hermanos."
+  },
+  {
+    "s": 1041.3,
+    "e": 1043.6,
+    "t": "Dejadme saludar primero a mi mujer."
+  },
+  {
+    "s": 1043.8,
+    "e": 1046.8,
+    "t": "Después de cinco años,\nsi no voy a verla..."
+  },
+  {
+    "s": 1049.2,
+    "e": 1050.4,
+    "t": "¿Qué pasa?"
+  },
+  {
+    "s": 1050.9,
+    "e": 1052.4,
+    "t": "¿Qué está pasando?"
+  },
+  {
+    "s": 1055.6,
+    "e": 1056.8,
+    "t": "¿Qué está pasando?"
+  },
+  {
+    "s": 1065.1,
+    "e": 1066.3,
+    "t": "¿Dónde está mi mujer?"
+  },
+  {
+    "s": 1068.3,
+    "e": 1069.3,
+    "t": "¿Dónde está mi mujer?"
+  },
+  {
+    "s": 1069.6,
+    "e": 1071.6,
+    "t": "¿Dónde está Yasmine?"
+  },
+  {
+    "s": 1074.6,
+    "e": 1076.1,
+    "t": "¿Dónde está Yasmine?"
+  },
+  {
+    "s": 1076.2,
+    "e": 1077.8,
+    "t": "¿Me vas a responder?"
+  },
+  {
+    "s": 1077.9,
+    "e": 1080.7,
+    "t": "Ha muerto."
+  },
+  {
+    "s": 1080.9,
+    "e": 1082.6,
+    "t": "¡No! ¡No!"
+  },
+  {
+    "s": 1093.1,
+    "e": 1094.9,
+    "t": "¿No te han dicho nada?"
+  },
+  {
+    "s": 1106.9,
+    "e": 1109.7,
+    "t": "¡Te están mirando, Djaffar!"
+  },
+  {
+    "s": 1112.1,
+    "e": 1115.0,
+    "t": "Levanta la cabeza. Mírame."
+  },
+  {
+    "s": 1115.2,
+    "e": 1116.6,
+    "t": "Mírame, Djaffar."
+  },
+  {
+    "s": 1116.7,
+    "e": 1118.3,
+    "t": "Ayúdame. ¡Tienes que levantarte!"
+  },
+  {
+    "s": 1120.7,
+    "e": 1121.9,
+    "t": "Déjalo."
+  },
+  {
+    "s": 1123.3,
+    "e": 1125.3,
+    "t": "Volví por ella."
+  },
+  {
+    "s": 1127.4,
+    "e": 1128.6,
+    "t": "Te está mirando."
+  },
+  {
+    "s": 1131.4,
+    "e": 1133.0,
+    "t": "El niño te está mirando."
+  },
+  {
+    "s": 1135.7,
+    "e": 1136.8,
+    "t": "Te está mirando."
+  },
+  {
+    "s": 1142.5,
+    "e": 1144.2,
+    "t": "Es el pequeño Bachir."
+  },
+  {
+    "s": 1145.7,
+    "e": 1147.2,
+    "t": "El hijo de Yasmine."
+  },
+  {
+    "s": 1195.8,
+    "e": 1198.1,
+    "t": "La noche que te uniste a la resistencia,"
+  },
+  {
+    "s": 1199.1,
+    "e": 1202.4,
+    "t": "los soldados nos reunieron\nen medio del pueblo."
+  },
+  {
+    "s": 1204.2,
+    "e": 1206.2,
+    "t": "No veía a mi hija."
+  },
+  {
+    "s": 1208.2,
+    "e": 1210.5,
+    "t": "Fui a ver al teniente."
+  },
+  {
+    "s": 1212.4,
+    "e": 1214.2,
+    "t": "Me respondió con desprecio."
+  },
+  {
+    "s": 1215.2,
+    "e": 1218.1,
+    "t": "Tenía una sonrisa..."
+  },
+  {
+    "s": 1219.3,
+    "e": 1221.7,
+    "t": "De esas que nunca se olvidan."
+  },
+  {
+    "s": 1222.2,
+    "e": 1223.5,
+    "t": "Me dijo:"
+  },
+  {
+    "s": 1224.4,
+    "e": 1226.0,
+    "t": "«No puedes verla."
+  },
+  {
+    "s": 1226.7,
+    "e": 1229.4,
+    "t": "La estamos interrogando»."
+  },
+  {
+    "s": 1232.2,
+    "e": 1234.0,
+    "t": "Estaba el hijo de Kotias."
+  },
+  {
+    "s": 1235.0,
+    "e": 1236.2,
+    "t": "Victor."
+  },
+  {
+    "s": 1238.2,
+    "e": 1239.4,
+    "t": "¿Patrick?"
+  },
+  {
+    "s": 1242.8,
+    "e": 1245.2,
+    "t": "Dijo que habías matado a su padre."
+  },
+  {
+    "s": 1245.8,
+    "e": 1248.4,
+    "t": "Estaba escondido detrás de un árbol."
+  },
+  {
+    "s": 1250.4,
+    "e": 1251.4,
+    "t": "Después..."
+  },
+  {
+    "s": 1253.7,
+    "e": 1255.9,
+    "t": "los hicieron callar a todos."
+  },
+  {
+    "s": 1261.4,
+    "e": 1262.4,
+    "t": "Después..."
+  },
+  {
+    "s": 1267.9,
+    "e": 1270.0,
+    "t": "Después oímos gritos."
+  },
+  {
+    "s": 1271.7,
+    "e": 1273.2,
+    "t": "Era Yasmine."
+  },
+  {
+    "s": 1274.8,
+    "e": 1277.3,
+    "t": "El teniente nos miraba sonriendo."
+  },
+  {
+    "s": 1278.8,
+    "e": 1281.6,
+    "t": "Dijo que el hijo vengaba al padre."
+  },
+  {
+    "s": 1285.0,
+    "e": 1286.4,
+    "t": "Y no dejaba de repetir:"
+  },
+  {
+    "s": 1287.3,
+    "e": 1288.5,
+    "t": "«Decídselo a Djaffar»."
+  },
+  {
+    "s": 1291.0,
+    "e": 1293.2,
+    "t": "Pero nadie te dijo nada."
+  },
+  {
+    "s": 1293.8,
+    "e": 1295.6,
+    "t": "¿Cómo murió?"
+  },
+  {
+    "s": 1298.3,
+    "e": 1300.3,
+    "t": "Te esperó, Djaffar."
+  },
+  {
+    "s": 1301.4,
+    "e": 1302.8,
+    "t": "Esperó."
+  },
+  {
+    "s": 1304.1,
+    "e": 1307.5,
+    "t": "Esperaba noticias tuyas,\npero nunca llegaron."
+  },
+  {
+    "s": 1312.7,
+    "e": 1315.6,
+    "t": "Dejó de comer. Adelgazó."
+  },
+  {
+    "s": 1317.6,
+    "e": 1319.5,
+    "t": "Pero le creció el vientre."
+  },
+  {
+    "s": 1322.0,
+    "e": 1325.1,
+    "t": "Quería matar al niño,\npero él resistió."
+  },
+  {
+    "s": 1327.6,
+    "e": 1329.8,
+    "t": "Dios quiso que viviera."
+  },
+  {
+    "s": 1332.1,
+    "e": 1334.3,
+    "t": "Estuve en el parto."
+  },
+  {
+    "s": 1337.4,
+    "e": 1339.6,
+    "t": "Vi la muerte en sus ojos."
+  },
+  {
+    "s": 1341.0,
+    "e": 1343.0,
+    "t": "Ya no quería vivir."
+  },
+  {
+    "s": 1364.4,
+    "e": 1365.8,
+    "t": "¡Bienvenido!"
+  },
+  {
+    "s": 1369.0,
+    "e": 1371.3,
+    "t": "¡Djaffar! ¡Ya era hora!"
+  },
+  {
+    "s": 1371.4,
+    "e": 1373.6,
+    "t": "¿Dónde estamos?\nEn casa de Hamid. ¡Hamid!"
+  },
+  {
+    "s": 1382.6,
+    "e": 1385.6,
+    "t": "Que un representante de una joven democracia\nse case con una estadounidense,"
+  },
+  {
+    "s": 1386.1,
+    "e": 1388.2,
+    "t": "¿es una alianza\nentre los dos países?"
+  },
+  {
+    "s": 1413.6,
+    "e": 1415.2,
+    "t": "¡No he terminado!"
+  },
+  {
+    "s": 1514.6,
+    "e": 1516.5,
+    "t": "¡Estuvo perfecto!"
+  },
+  {
+    "s": 1518.4,
+    "e": 1521.0,
+    "t": "¿Lo has vuelto a ver?\n¡Una vez!"
+  },
+  {
+    "s": 1536.2,
+    "e": 1537.1,
+    "t": "¿Y ella?"
+  },
+  {
+    "s": 1554.4,
+    "e": 1556.9,
+    "t": "Pero no pensaba en casarme."
+  },
+  {
+    "s": 1610.6,
+    "e": 1611.8,
+    "t": "¡Solo uno!"
+  },
+  {
+    "s": 1662.2,
+    "e": 1663.8,
+    "t": "Ha pasado mucho tiempo."
+  },
+  {
+    "s": 1663.7,
+    "e": 1664.7,
+    "t": "[Diálogo ininteligible]"
+  },
+  {
+    "s": 1664.6,
+    "e": 1666.1,
+    "t": "¿Sabes contar?"
+  },
+  {
+    "s": 1680.5,
+    "e": 1682.4,
+    "t": "Está enterrada en Krystel."
+  },
+  {
+    "s": 1683.8,
+    "e": 1685.0,
+    "t": "Con su madre."
+  },
+  {
+    "s": 1772.1,
+    "e": 1773.8,
+    "t": "¿Vas a vivir aquí?"
+  },
+  {
+    "s": 1778.7,
+    "e": 1780.4,
+    "t": "He reabierto el taller."
+  },
+  {
+    "s": 1784.5,
+    "e": 1785.8,
+    "t": "Es mi oficio."
+  },
+  {
+    "s": 1793.3,
+    "e": 1795.1,
+    "t": "No sé hacer otra cosa."
+  },
+  {
+    "s": 1807.1,
+    "e": 1808.7,
+    "t": "¡Qué esposa tan guapa!"
+  },
+  {
+    "s": 1905.8,
+    "e": 1907.8,
+    "t": "¡Salgo en la tele!"
+  },
+  {
+    "s": 1908.8,
+    "e": 1910.6,
+    "t": "¡Date prisa!"
+  },
+  {
+    "s": 1920.1,
+    "e": 1921.3,
+    "t": "¡Ven a ver esto!"
+  },
+  {
+    "s": 1922.0,
+    "e": 1924.1,
+    "t": "¡Abre bien los ojos!"
+  },
+  {
+    "s": 1925.7,
+    "e": 1927.1,
+    "t": "¿Quién es?"
+  },
+  {
+    "s": 1927.3,
+    "e": 1928.8,
+    "t": "¿Quién es ese tipo?"
+  },
+  {
+    "s": 1933.2,
+    "e": 1935.6,
+    "t": "Esto lo va a cambiar todo."
+  },
+  {
+    "s": 1935.7,
+    "e": 1937.1,
+    "t": "Pero es una marca francesa."
+  },
+  {
+    "s": 1937.4,
+    "e": 1940.1,
+    "t": "¡También fabricaremos nuestras propias teles!"
+  },
+  {
+    "s": 1941.2,
+    "e": 1943.7,
+    "t": "¿Eres el comandante Djaffar?"
+  },
+  {
+    "s": 1947.5,
+    "e": 1948.9,
+    "t": "¿Qué es eso?"
+  },
+  {
+    "s": 1952.3,
+    "e": 1953.5,
+    "t": "¿Qué has hecho?"
+  },
+  {
+    "s": 1953.8,
+    "e": 1957.0,
+    "t": "Un chico mayor\nme tiró al suelo."
+  },
+  {
+    "s": 2156.2,
+    "e": 2157.6,
+    "t": "Sí, Farouk, te escucho."
+  },
+  {
+    "s": 2159.8,
+    "e": 2161.5,
+    "t": "¿Quién trabajaba en ella antes?"
+  },
+  {
+    "s": 2161.6,
+    "e": 2163.5,
+    "t": "Los ingenieros franceses."
+  },
+  {
+    "s": 2164.9,
+    "e": 2167.6,
+    "t": "¿Se fueron sin explicaros nada?"
+  },
+  {
+    "s": 2170.4,
+    "e": 2174.2,
+    "t": "Querían quemarlo todo al irse.\n¡Como para explicar nada!"
+  },
+  {
+    "s": 2174.3,
+    "e": 2176.2,
+    "t": "Deberías habérmelo dicho enseguida."
+  },
+  {
+    "s": 2176.7,
+    "e": 2181.0,
+    "t": "Con los del ministerio y la televisión,\nno me atreví."
+  },
+  {
+    "s": 2223.2,
+    "e": 2225.4,
+    "t": "Bachir, ven a comer."
+  },
+  {
+    "s": 2243.9,
+    "e": 2245.6,
+    "t": "¡Mira qué trabajo!"
+  },
+  {
+    "s": 2245.7,
+    "e": 2248.0,
+    "t": "Por eso los franceses\nno querían explicar nada."
+  },
+  {
+    "s": 2248.1,
+    "e": 2251.4,
+    "t": "Recuperaremos el ritmo de producción\ncon la misma calidad."
+  },
+  {
+    "s": 2251.8,
+    "e": 2254.0,
+    "t": "¡Tenemos que hacerlo igual de bien!"
+  },
+  {
+    "s": 2254.2,
+    "e": 2257.7,
+    "t": "¡Debemos estar orgullosos\nde lo que producimos!"
+  },
+  {
+    "s": 2260.5,
+    "e": 2265.0,
+    "t": "¡Quiero que vengan de Canadá\na comprarnos madera aquí!"
+  },
+  {
+    "s": 2265.2,
+    "e": 2267.5,
+    "t": "¡Quiero clientes canadienses!"
+  },
+  {
+    "s": 2277.8,
+    "e": 2279.7,
+    "t": "¡Te lo juro!\nCálmate, Djaffar."
+  },
+  {
+    "s": 2297.7,
+    "e": 2300.0,
+    "t": "Da vueltas y acaba perdiéndose."
+  },
+  {
+    "s": 2303.6,
+    "e": 2305.3,
+    "t": "Idiotas. Hijos de puta."
+  },
+  {
+    "s": 2636.4,
+    "e": 2638.9,
+    "t": "¡Catorce sellos para una carta!"
+  },
+  {
+    "s": 2642.8,
+    "e": 2644.2,
+    "t": "¿Cómo estás?"
+  },
+  {
+    "s": 2645.8,
+    "e": 2647.4,
+    "t": "Bien, gracias."
+  },
+  {
+    "s": 2653.5,
+    "e": 2655.1,
+    "t": "¿Y usted, cómo está?"
+  },
+  {
+    "s": 2655.6,
+    "e": 2656.7,
+    "t": "Gracias a Dios."
+  },
+  {
+    "s": 2664.5,
+    "e": 2667.0,
+    "t": "Señor Kaddour, le hablé al comandante"
+  },
+  {
+    "s": 2668.7,
+    "e": 2671.5,
+    "t": "de nuestra conversación y..."
+  },
+  {
+    "s": 2676.1,
+    "e": 2678.4,
+    "t": "Y está totalmente dispuesto a..."
+  },
+  {
+    "s": 2678.8,
+    "e": 2680.0,
+    "t": "Muy bien."
+  },
+  {
+    "s": 2683.0,
+    "e": 2684.9,
+    "t": "¡Es lo más natural!"
+  },
+  {
+    "s": 2690.1,
+    "e": 2691.2,
+    "t": "Será perfecto."
+  },
+  {
+    "s": 2693.3,
+    "e": 2694.9,
+    "t": "¿Tomamos el té, entonces?"
+  },
+  {
+    "s": 2698.6,
+    "e": 2699.6,
+    "t": "¡El té!"
+  },
+  {
+    "s": 2740.8,
+    "e": 2741.7,
+    "t": "Gracias."
+  },
+  {
+    "s": 2749.8,
+    "e": 2750.6,
+    "t": "Gracias."
+  },
+  {
+    "s": 2760.0,
+    "e": 2761.6,
+    "t": "Gracias, hija."
+  },
+  {
+    "s": 2968.9,
+    "e": 2971.2,
+    "t": "[Diálogo ininteligible dirigido a Djaffar]"
+  },
+  {
+    "s": 3448.0,
+    "e": 3451.0,
+    "t": "Pero los argelinos no luchaban\ncontra los franceses."
+  },
+  {
+    "s": 3451.3,
+    "e": 3454.6,
+    "t": "¡Luchaban contra el colonialismo!"
+  },
+  {
+    "s": 3459.9,
+    "e": 3462.2,
+    "t": "Y si el colonialismo\nno tenía ninguna posibilidad,"
+  },
+  {
+    "s": 3462.6,
+    "e": 3464.8,
+    "t": "no fue porque\nestuviéramos mejor armados."
+  },
+  {
+    "s": 3472.9,
+    "e": 3474.9,
+    "t": "¡Sí, morir por esta tierra!"
+  },
+  {
+    "s": 3478.7,
+    "e": 3482.3,
+    "t": "Sus soldados llegaban en barco\ny se iban en ataúdes,"
+  },
+  {
+    "s": 3482.7,
+    "e": 3484.4,
+    "t": "con una sola frase en los labios."
+  },
+  {
+    "s": 3487.2,
+    "e": 3489.1,
+    "t": "Pero hoy, hermanos míos,"
+  },
+  {
+    "s": 3489.2,
+    "e": 3492.8,
+    "t": "¿quién se atreve a tratar a un argelino\ncomo a un don nadie?"
+  },
+  {
+    "s": 3492.9,
+    "e": 3494.0,
+    "t": "¡Nadie!"
+  },
+  {
+    "s": 3494.9,
+    "e": 3496.8,
+    "t": "¿Quién se atreve a prohibirle a un argelino"
+  },
+  {
+    "s": 3497.2,
+    "e": 3499.6,
+    "t": "cruzar la tierra de sus antepasados?"
+  },
+  {
+    "s": 3499.7,
+    "e": 3500.9,
+    "t": "¡Nadie!"
+  },
+  {
+    "s": 3501.0,
+    "e": 3505.0,
+    "t": "¿Quién se atreve a prohibirle\nviajar de Australia a América?"
+  },
+  {
+    "s": 3505.1,
+    "e": 3506.2,
+    "t": "¡Nadie!"
+  },
+  {
+    "s": 3507.0,
+    "e": 3508.3,
+    "t": "¿Quién puede siquiera"
+  },
+  {
+    "s": 3509.0,
+    "e": 3511.9,
+    "t": "pedirle los papeles a un argelino?"
+  },
+  {
+    "s": 3512.2,
+    "e": 3513.2,
+    "t": "¡Nadie!"
+  },
+  {
+    "s": 3514.9,
+    "e": 3516.8,
+    "t": "Esto es lo que el Partido ofrece a la nación."
+  },
+  {
+    "s": 3517.8,
+    "e": 3520.9,
+    "t": "Esto es lo que pone\na los pies de sus hijos."
+  },
+  {
+    "s": 3521.4,
+    "e": 3524.2,
+    "t": "Que nadie les imponga jamás"
+  },
+  {
+    "s": 3524.3,
+    "e": 3526.9,
+    "t": "ni su ley ni su verdad."
+  },
+  {
+    "s": 3531.2,
+    "e": 3533.1,
+    "t": "¡El mundo nos mira!"
+  },
+  {
+    "s": 3534.2,
+    "e": 3536.0,
+    "t": "¡Sí, el mundo nos mira!"
+  },
+  {
+    "s": 3536.1,
+    "e": 3537.8,
+    "t": "¡Seamos dignos de la victoria!"
+  },
+  {
+    "s": 3562.4,
+    "e": 3563.4,
+    "t": "¿Has comido bien?"
+  },
+  {
+    "s": 3565.0,
+    "e": 3566.1,
+    "t": "¡Muchas gracias!"
+  },
+  {
+    "s": 3577.0,
+    "e": 3578.6,
+    "t": "Todo un pequeño coronel."
+  },
+  {
+    "s": 3605.8,
+    "e": 3607.4,
+    "t": "Mi comandante en jefe."
+  },
+  {
+    "s": 3607.9,
+    "e": 3609.2,
+    "t": "¡Ven aquí!"
+  },
+  {
+    "s": 3611.3,
+    "e": 3612.4,
+    "t": "Te he echado de menos."
+  },
+  {
+    "s": 3619.2,
+    "e": 3621.1,
+    "t": "¿Tengo cara de niño francés?"
+  },
+  {
+    "s": 3624.0,
+    "e": 3625.0,
+    "t": "¿Qué?"
+  },
+  {
+    "s": 3633.3,
+    "e": 3635.3,
+    "t": "Será por el pelo rubio."
+  },
+  {
+    "s": 3637.2,
+    "e": 3638.6,
+    "t": "¡Cállate! ¡Para!"
+  },
+  {
+    "s": 3644.1,
+    "e": 3645.2,
+    "t": "No es nada."
+  },
+  {
+    "s": 3711.2,
+    "e": 3712.7,
+    "t": "¡Es un hijo de puta!"
+  },
+  {
+    "s": 3967.0,
+    "e": 3968.6,
+    "t": "Es una buena inversión."
+  },
+  {
+    "s": 3971.0,
+    "e": 3973.0,
+    "t": "Veinticinco años de independencia."
+  },
+  {
+    "s": 3985.4,
+    "e": 3986.9,
+    "t": "Hizo bien en invertir."
+  },
+  {
+    "s": 3989.5,
+    "e": 3990.8,
+    "t": "¿De qué hablas?"
+  },
+  {
+    "s": 3993.3,
+    "e": 3995.1,
+    "t": "Con todo mi respeto,"
+  },
+  {
+    "s": 3995.6,
+    "e": 3998.0,
+    "t": "¿crees que se nos\nescapa algo?"
+  },
+  {
+    "s": 4000.0,
+    "e": 4003.0,
+    "t": "Sé que solo eres el gerente."
+  },
+  {
+    "s": 4005.2,
+    "e": 4007.4,
+    "t": "Y el restaurante pertenece"
+  },
+  {
+    "s": 4007.9,
+    "e": 4009.0,
+    "t": "al comandante."
+  },
+  {
+    "s": 4013.4,
+    "e": 4014.7,
+    "t": "¿Qué quieres?"
+  },
+  {
+    "s": 4016.8,
+    "e": 4018.8,
+    "t": "¡No, yo no soy así!"
+  },
+  {
+    "s": 4018.9,
+    "e": 4022.1,
+    "t": "No quiero causarle problemas\nal comandante."
+  },
+  {
+    "s": 4024.6,
+    "e": 4025.7,
+    "t": "¿Qué vas a tomar?"
+  },
+  {
+    "s": 4026.5,
+    "e": 4029.3,
+    "t": "Una cerveza, con todo mi respeto."
+  },
+  {
+    "s": 4041.9,
+    "e": 4045.6,
+    "t": "Al ver un sitio así,"
+  },
+  {
+    "s": 4045.9,
+    "e": 4049.5,
+    "t": "uno piensa que\nrecibiréis suministros regularmente."
+  },
+  {
+    "s": 4051.0,
+    "e": 4053.0,
+    "t": "Hoy en día es un lujo."
+  },
+  {
+    "s": 4053.8,
+    "e": 4056.9,
+    "t": "Es verdad.\nNo hay mantequilla ni huevos."
+  },
+  {
+    "s": 4058.0,
+    "e": 4059.8,
+    "t": "Y del aceite, ni hablemos."
+  },
+  {
+    "s": 4063.7,
+    "e": 4066.3,
+    "t": "Cuando vuelvo a casa\ncon las manos vacías,"
+  },
+  {
+    "s": 4066.6,
+    "e": 4068.5,
+    "t": "mi mujer me monta una guerra."
+  },
+  {
+    "s": 4072.6,
+    "e": 4076.6,
+    "t": "Pasa por la cocina al salir.\nAsí tendrás paz."
+  },
+  {
+    "s": 4081.5,
+    "e": 4082.7,
+    "t": "Te escucho."
+  },
+  {
+    "s": 4090.4,
+    "e": 4091.7,
+    "t": "Mehdi Laloui."
+  },
+  {
+    "s": 4092.0,
+    "e": 4094.0,
+    "t": "Periodista cultural."
+  },
+  {
+    "s": 4095.2,
+    "e": 4097.6,
+    "t": "Ese hijo de puta ha decidido"
+  },
+  {
+    "s": 4097.9,
+    "e": 4099.6,
+    "t": "meterse en política."
+  },
+  {
+    "s": 4100.0,
+    "e": 4101.6,
+    "t": "Pero lo vigilamos."
+  },
+  {
+    "s": 4102.5,
+    "e": 4104.4,
+    "t": "Está husmeando en vuestros asuntos."
+  },
+  {
+    "s": 4104.6,
+    "e": 4106.5,
+    "t": "Pero no sé qué busca."
+  },
+  {
+    "s": 4108.7,
+    "e": 4109.8,
+    "t": "¿Dónde lo encuentro?"
+  },
+  {
+    "s": 4120.9,
+    "e": 4122.0,
+    "t": "Excelencia,"
+  },
+  {
+    "s": 4123.3,
+    "e": 4125.3,
+    "t": "eres un veterano."
+  },
+  {
+    "s": 4125.7,
+    "e": 4128.8,
+    "t": "¿Por qué proteges al comandante?"
+  },
+  {
+    "s": 4129.5,
+    "e": 4130.8,
+    "t": "¿A ti qué te importa?"
+  },
+  {
+    "s": 4132.7,
+    "e": 4134.2,
+    "t": "Avísame cuando vuelva."
+  },
+  {
+    "s": 4134.8,
+    "e": 4136.8,
+    "t": "Lo recogeré en el aeropuerto."
+  },
+  {
+    "s": 4150.8,
+    "e": 4153.4,
+    "t": "Quien no se haga rico\ncon este presidente"
+  },
+  {
+    "s": 4153.5,
+    "e": 4155.0,
+    "t": "no lo hará nunca."
+  },
+  {
+    "s": 4295.4,
+    "e": 4296.5,
+    "t": "Trae la fuente."
+  },
+  {
+    "s": 4296.7,
+    "e": 4298.2,
+    "t": "Y come tú también."
+  },
+  {
+    "s": 4402.7,
+    "e": 4405.6,
+    "t": "¡Nos aburrís hasta la muerte\ncon vuestra maldita política!"
+  },
+  {
+    "s": 4476.4,
+    "e": 4477.8,
+    "t": "¡Ni siquiera la conozco!"
+  },
+  {
+    "s": 4750.3,
+    "e": 4751.5,
+    "t": "Lo sabes, ¿no?"
+  },
+  {
+    "s": 4760.1,
+    "e": 4762.9,
+    "t": "Azzedine ha decidido\nque en la unidad de producción"
+  },
+  {
+    "s": 4763.0,
+    "e": 4765.3,
+    "t": "tenemos que hablar\nárabe clásico."
+  },
+  {
+    "s": 4765.4,
+    "e": 4768.9,
+    "t": "Es sencillo. Si no nos entendemos\nen la cadena de producción,"
+  },
+  {
+    "s": 4769.5,
+    "e": 4772.0,
+    "t": "ponemos en peligro a los trabajadores."
+  },
+  {
+    "s": 4772.1,
+    "e": 4773.3,
+    "t": "¿En árabe clásico?"
+  },
+  {
+    "s": 4773.6,
+    "e": 4776.6,
+    "t": "Yo negarme a hablar\nen lengua de colonizador."
+  },
+  {
+    "s": 4776.9,
+    "e": 4780.2,
+    "t": "Comandante, veterano,\nejemplo dar tú debes."
+  },
+  {
+    "s": 4780.6,
+    "e": 4782.0,
+    "t": "Te lo suplico."
+  },
+  {
+    "s": 4786.0,
+    "e": 4787.0,
+    "t": "Un minuto."
+  },
+  {
+    "s": 4788.7,
+    "e": 4790.8,
+    "t": "Podrías haberme avisado."
+  },
+  {
+    "s": 4791.0,
+    "e": 4792.4,
+    "t": "Habérmelo comentado antes."
+  },
+  {
+    "s": 4794.0,
+    "e": 4796.6,
+    "t": "Precisamente... Yo..."
+  },
+  {
+    "s": 4796.7,
+    "e": 4798.8,
+    "t": "Evidente parecía que era."
+  },
+  {
+    "s": 4799.7,
+    "e": 4802.0,
+    "t": "¡Espera! Habla normal."
+  },
+  {
+    "s": 4803.2,
+    "e": 4805.3,
+    "t": "Es la ley, Excelencia."
+  },
+  {
+    "s": 4806.0,
+    "e": 4807.6,
+    "t": "¡Es la ley!"
+  },
+  {
+    "s": 4808.2,
+    "e": 4809.4,
+    "t": "Señor Djaffar,"
+  },
+  {
+    "s": 4809.8,
+    "e": 4812.0,
+    "t": "siempre he trabajado en esta fábrica."
+  },
+  {
+    "s": 4812.8,
+    "e": 4815.3,
+    "t": "Y aprendí el oficio en francés."
+  },
+  {
+    "s": 4816.0,
+    "e": 4817.3,
+    "t": "¿Es culpa mía?"
+  },
+  {
+    "s": 4817.4,
+    "e": 4818.2,
+    "t": "No."
+  },
+  {
+    "s": 4820.5,
+    "e": 4822.2,
+    "t": "¡Ni siquiera sé cómo se dice"
+  },
+  {
+    "s": 4822.4,
+    "e": 4825.2,
+    "t": "«sierra metálica» en árabe clásico!"
+  },
+  {
+    "s": 4825.4,
+    "e": 4827.4,
+    "t": "«Sierra metálica». Pues quizá..."
+  },
+  {
+    "s": 4828.0,
+    "e": 4832.3,
+    "t": "Quizá Azzedine sepa decir\n«sierra metálica» en árabe clásico."
+  },
+  {
+    "s": 4834.4,
+    "e": 4835.3,
+    "t": "¿Azzedine?"
+  },
+  {
+    "s": 4836.4,
+    "e": 4839.6,
+    "t": "¿«Sierra metálica» en árabe clásico?"
+  },
+  {
+    "s": 4861.6,
+    "e": 4862.6,
+    "t": "Es sencillo."
+  },
+  {
+    "s": 4863.8,
+    "e": 4865.9,
+    "t": "Farouk usará la «sierra metálica»,"
+  },
+  {
+    "s": 4866.2,
+    "e": 4868.0,
+    "t": "y Azzedine trabajará con una"
+  },
+  {
+    "s": 4868.1,
+    "e": 4869.4,
+    "t": "«sierru»"
+  },
+  {
+    "s": 4869.9,
+    "e": 4871.3,
+    "t": "«metálicu»."
+  },
+  {
+    "s": 4872.5,
+    "e": 4873.6,
+    "t": "Buena suerte."
+  },
+  {
+    "s": 4875.5,
+    "e": 4876.5,
+    "t": "Lárgate."
+  },
+  {
+    "s": 4885.3,
+    "e": 4887.2,
+    "t": "¿Por qué nunca celebramos mi cumpleaños?"
+  },
+  {
+    "s": 4894.2,
+    "e": 4896.8,
+    "t": "Celebraremos el próximo. ¿Por qué no?"
+  },
+  {
+    "s": 4907.0,
+    "e": 4909.2,
+    "t": "¿Cómo era mi madre?"
+  },
+  {
+    "s": 4912.3,
+    "e": 4914.8,
+    "t": "Era una mujer muy valiente."
+  },
+  {
+    "s": 4915.2,
+    "e": 4918.4,
+    "t": "Luchó contra los soldados"
+  },
+  {
+    "s": 4918.6,
+    "e": 4920.4,
+    "t": "para protegerme, y la mataron."
+  },
+  {
+    "s": 4920.5,
+    "e": 4921.5,
+    "t": "¡Lo sé!"
+  },
+  {
+    "s": 4921.7,
+    "e": 4924.7,
+    "t": "¿Eso es todo? ¿Nació\ny murió el mismo día?"
+  },
+  {
+    "s": 4926.3,
+    "e": 4928.2,
+    "t": "Hablas de tu madre, Bachir."
+  },
+  {
+    "s": 4930.4,
+    "e": 4933.0,
+    "t": "¿Qué le gustaba?"
+  },
+  {
+    "s": 4933.2,
+    "e": 4935.2,
+    "t": "¿Qué hacía\ncuando tenía mi edad?"
+  },
+  {
+    "s": 4935.4,
+    "e": 4937.8,
+    "t": "Parece que nunca tuvo mi edad."
+  },
+  {
+    "s": 4942.4,
+    "e": 4944.2,
+    "t": "Lee lo que pone ahí."
+  },
+  {
+    "s": 4944.3,
+    "e": 4947.1,
+    "t": "¡No la mataron los soldados!\n¡Lo sé!"
+  },
+  {
+    "s": 4957.0,
+    "e": 4958.1,
+    "t": "Me mentiste."
+  },
+  {
+    "s": 4962.5,
+    "e": 4964.3,
+    "t": "¡Me ocultas cosas!"
+  },
+  {
+    "s": 4983.3,
+    "e": 4985.3,
+    "t": "¡Un pedido para los canadienses!"
+  },
+  {
+    "s": 4988.7,
+    "e": 4991.1,
+    "t": "¡Felicidades, comandante Djaffar!"
+  },
+  {
+    "s": 4991.4,
+    "e": 4994.3,
+    "t": "¡Lo conseguimos! ¡Llegamos a la meta!"
+  },
+  {
+    "s": 4994.4,
+    "e": 4996.2,
+    "t": "¡Un pedido canadiense!"
+  },
+  {
+    "s": 4999.2,
+    "e": 5000.2,
+    "t": "Farouk,"
+  },
+  {
+    "s": 5001.1,
+    "e": 5002.4,
+    "t": "mándame"
+  },
+  {
+    "s": 5003.5,
+    "e": 5005.9,
+    "t": "la orden de compra. Me encargo yo."
+  },
+  {
+    "s": 5006.7,
+    "e": 5008.2,
+    "t": "Yo me ocuparé."
+  },
+  {
+    "s": 5222.1,
+    "e": 5224.2,
+    "t": "Venta de la empresa"
+  },
+  {
+    "s": 5225.5,
+    "e": 5226.6,
+    "t": "El Armador."
+  },
+  {
+    "s": 5375.6,
+    "e": 5376.7,
+    "t": "¡Desaparecido!"
+  },
+  {
+    "s": 5380.6,
+    "e": 5382.5,
+    "t": "Si son los servicios de inteligencia,"
+  },
+  {
+    "s": 5383.1,
+    "e": 5385.4,
+    "t": "habrán consultado antes a Hamid."
+  },
+  {
+    "s": 5411.0,
+    "e": 5412.6,
+    "t": "Estoy en tu despacho."
+  },
+  {
+    "s": 5422.8,
+    "e": 5424.0,
+    "t": "Quédate ahí."
+  },
+  {
+    "s": 5504.8,
+    "e": 5506.0,
+    "t": "¡Suéltame!"
+  },
+  {
+    "s": 5634.8,
+    "e": 5636.0,
+    "t": "Sigue sentada."
+  },
+  {
+    "s": 5774.7,
+    "e": 5777.0,
+    "t": "Dijo cinco al día, no quince."
+  },
+  {
+    "s": 5779.4,
+    "e": 5781.6,
+    "t": "Eso ya no es fe, es rabia."
+  },
+  {
+    "s": 5801.4,
+    "e": 5811.7,
+    "t": "Bueno..."
+  },
+  {
+    "s": 5848.1,
+    "e": 5850.0,
+    "t": "El periodista tenía reserva en ese vuelo."
+  },
+  {
+    "s": 5850.1,
+    "e": 5853.0,
+    "t": "[Diálogo ininteligible]"
+  },
+  {
+    "s": 5853.3,
+    "e": 5855.0,
+    "t": "¿Le avisaron?\n¿Tú qué crees?"
+  },
+  {
+    "s": 5855.1,
+    "e": 5858.4,
+    "t": "Le habrán dicho que lo esperaba\nun imbécil de los servicios."
+  },
+  {
+    "s": 5861.5,
+    "e": 5863.6,
+    "t": "Da igual, lo pillaré en su casa."
+  },
+  {
+    "s": 5864.7,
+    "e": 5867.1,
+    "t": "¿Crees que es tan tonto\ncomo para volver a casa"
+  },
+  {
+    "s": 5867.2,
+    "e": 5868.9,
+    "t": "sabiendo que lo buscamos?"
+  },
+  {
+    "s": 5870.9,
+    "e": 5872.7,
+    "t": "Sé a quién irá a ver."
+  },
+  {
+    "s": 5897.7,
+    "e": 5899.5,
+    "t": "¡Bachir, no hay suficiente profundidad!"
+  },
+  {
+    "s": 5899.8,
+    "e": 5901.6,
+    "t": "¡Bachir, salta si eres un hombre!"
+  },
+  {
+    "s": 6011.3,
+    "e": 6012.2,
+    "t": "Nadir."
+  },
+  {
+    "s": 6013.7,
+    "e": 6015.0,
+    "t": "Me la voy a follar."
+  },
+  {
+    "s": 6035.3,
+    "e": 6036.7,
+    "t": "¿Quieres otra?"
+  },
+  {
+    "s": 6084.7,
+    "e": 6086.2,
+    "t": "¿Quieres seguirlo?\nNo."
+  },
+  {
+    "s": 6086.4,
+    "e": 6087.3,
+    "t": "Nos quedamos sentados."
+  },
+  {
+    "s": 6088.3,
+    "e": 6090.5,
+    "t": "No os asustéis, hijos de puta.\nYa estoy aquí."
+  },
+  {
+    "s": 6090.9,
+    "e": 6093.5,
+    "t": "¿No lo has relevado?\nNo, te toca a ti."
+  },
+  {
+    "s": 6095.9,
+    "e": 6097.6,
+    "t": "Yo invito a las copas. Ve a relevarlo."
+  },
+  {
+    "s": 6098.0,
+    "e": 6099.7,
+    "t": "¡Vamos, levántate!"
+  },
+  {
+    "s": 6099.9,
+    "e": 6100.7,
+    "t": "¡Muévete!"
+  },
+  {
+    "s": 6105.6,
+    "e": 6106.8,
+    "t": "¿Quién es este tipo?"
+  },
+  {
+    "s": 6107.2,
+    "e": 6108.6,
+    "t": "Un buscador de trapos sucios."
+  },
+  {
+    "s": 6126.8,
+    "e": 6131.0,
+    "t": "Lo trasladaron al hospital militar,\ndonde recibió atención médica."
+  },
+  {
+    "s": 6131.3,
+    "e": 6132.4,
+    "t": "El presidente de la República."
+  },
+  {
+    "s": 6156.7,
+    "e": 6160.3,
+    "t": "¿Por qué husmeas\nen los asuntos de los demás?"
+  },
+  {
+    "s": 6161.2,
+    "e": 6162.8,
+    "t": "¿Qué estás buscando?"
+  },
+  {
+    "s": 6171.2,
+    "e": 6172.8,
+    "t": "Dime qué buscas."
+  },
+  {
+    "s": 6172.9,
+    "e": 6174.9,
+    "t": "¿Qué quieres del hijo del jefe?"
+  },
+  {
+    "s": 6175.2,
+    "e": 6177.2,
+    "t": "Lloras como una niña."
+  },
+  {
+    "s": 6183.9,
+    "e": 6185.3,
+    "t": "¿Te estás quedando conmigo?"
+  },
+  {
+    "s": 6196.1,
+    "e": 6197.3,
+    "t": "¡Espera!"
+  },
+  {
+    "s": 6198.3,
+    "e": 6199.7,
+    "t": "Nos está liando."
+  },
+  {
+    "s": 6199.9,
+    "e": 6201.7,
+    "t": "Déjanos. Yo me encargo."
+  },
+  {
+    "s": 6211.7,
+    "e": 6213.3,
+    "t": "¡Cabrón!"
+  },
+  {
+    "s": 6245.9,
+    "e": 6247.5,
+    "t": "¿Cómo sabes eso?"
+  },
+  {
+    "s": 6249.5,
+    "e": 6251.4,
+    "t": "No había nadie más allí aquella..."
+  },
+  {
+    "s": 6296.0,
+    "e": 6297.0,
+    "t": "¿Qué?"
+  },
+  {
+    "s": 6297.4,
+    "e": 6298.9,
+    "t": "¿Qué pasa?"
+  },
+  {
+    "s": 6299.4,
+    "e": 6301.2,
+    "t": "El hijo de Kotias os vio."
+  },
+  {
+    "s": 6301.3,
+    "e": 6303.3,
+    "t": "Los soldados fueron a por Yasmine."
+  },
+  {
+    "s": 6304.6,
+    "e": 6306.4,
+    "t": "¿Qué hicieron esos perros?"
+  },
+  {
+    "s": 6307.7,
+    "e": 6308.8,
+    "t": "¿La mataron?"
+  },
+  {
+    "s": 6309.0,
+    "e": 6310.2,
+    "t": "Ojalá."
+  },
+  {
+    "s": 6311.8,
+    "e": 6314.4,
+    "t": "El hijo de Kotias la violó."
+  },
+  {
+    "s": 6326.5,
+    "e": 6328.3,
+    "t": "No, Hamid.\nLa ira te ciega."
+  },
+  {
+    "s": 6328.6,
+    "e": 6329.5,
+    "t": "Déjame pasar."
+  },
+  {
+    "s": 6330.8,
+    "e": 6332.1,
+    "t": "Déjame pasar."
+  },
+  {
+    "s": 6332.2,
+    "e": 6334.0,
+    "t": "¡Contrólate, Hamid!"
+  },
+  {
+    "s": 6345.6,
+    "e": 6347.2,
+    "t": "Se volverá loco cuando lo sepa."
+  },
+  {
+    "s": 6347.5,
+    "e": 6348.8,
+    "t": "No lo sabrá."
+  },
+  {
+    "s": 6349.2,
+    "e": 6350.5,
+    "t": "No le diremos nada."
+  },
+  {
+    "s": 6353.5,
+    "e": 6354.5,
+    "t": "¿Qué?"
+  },
+  {
+    "s": 6354.8,
+    "e": 6357.2,
+    "t": "Podrían haberla llevado al cuartel."
+  },
+  {
+    "s": 6357.5,
+    "e": 6358.5,
+    "t": "En lugar de eso,"
+  },
+  {
+    "s": 6359.3,
+    "e": 6360.8,
+    "t": "el hijo de Kotias"
+  },
+  {
+    "s": 6361.6,
+    "e": 6363.7,
+    "t": "la viola y la deja allí."
+  },
+  {
+    "s": 6364.5,
+    "e": 6365.6,
+    "t": "¿Por qué?"
+  },
+  {
+    "s": 6366.5,
+    "e": 6370.1,
+    "t": "Para que enloquezca de rabia\ny quiera vengarse."
+  },
+  {
+    "s": 6370.5,
+    "e": 6372.4,
+    "t": "Y funciona. Tú mismo ibas a ir."
+  },
+  {
+    "s": 6372.6,
+    "e": 6374.9,
+    "t": "Atrapado como un zorro hambriento."
+  },
+  {
+    "s": 6376.1,
+    "e": 6377.6,
+    "t": "Un hombre al límite"
+  },
+  {
+    "s": 6378.0,
+    "e": 6379.3,
+    "t": "siempre acaba hablando."
+  },
+  {
+    "s": 6380.2,
+    "e": 6382.5,
+    "t": "No me pidas eso.\nElla es lo único que tiene."
+  },
+  {
+    "s": 6382.6,
+    "e": 6383.8,
+    "t": "Nunca me perdonará."
+  },
+  {
+    "s": 6384.8,
+    "e": 6386.9,
+    "t": "Zyad, por favor."
+  },
+  {
+    "s": 6405.6,
+    "e": 6407.3,
+    "t": "Estamos en guerra."
+  },
+  {
+    "s": 6408.1,
+    "e": 6410.2,
+    "t": "La lucha exige sacrificios."
+  },
+  {
+    "s": 6411.9,
+    "e": 6414.8,
+    "t": "Y nuestra determinación tiene un precio."
+  },
+  {
+    "s": 6416.2,
+    "e": 6419.7,
+    "t": "Para mí, para ti, Djaffar, los hermanos."
+  },
+  {
+    "s": 6420.6,
+    "e": 6423.0,
+    "t": "La determinación es nuestra única arma."
+  },
+  {
+    "s": 6424.8,
+    "e": 6426.8,
+    "t": "Si Djaffar cae en la trampa,"
+  },
+  {
+    "s": 6427.4,
+    "e": 6429.3,
+    "t": "todo lo que hemos construido se derrumba."
+  },
+  {
+    "s": 6449.4,
+    "e": 6450.8,
+    "t": "Estate listo en una hora."
+  },
+  {
+    "s": 6501.6,
+    "e": 6502.8,
+    "t": "A casa de Benaissa."
+  },
+  {
+    "s": 6530.9,
+    "e": 6532.6,
+    "t": "¿Todo bien, señor?"
+  },
+  {
+    "s": 6535.4,
+    "e": 6536.8,
+    "t": "Más vale que sí."
+  },
+  {
+    "s": 6557.4,
+    "e": 6559.8,
+    "t": "Comandante, ¿le llamo un taxi?"
+  },
+  {
+    "s": 6563.8,
+    "e": 6566.2,
+    "t": "El comandante está muerto. Muerto."
+  },
+  {
+    "s": 6581.9,
+    "e": 6583.8,
+    "t": "¡Hijo de puta, lárgate!"
+  },
+  {
+    "s": 6638.0,
+    "e": 6641.0,
+    "t": "No fui yo quien se marchó.\nCaminé contra mi voluntad,"
+  },
+  {
+    "s": 6641.4,
+    "e": 6643.5,
+    "t": "mientras otros\nsellaban mi destino."
+  },
+  {
+    "s": 6643.6,
+    "e": 6646.6,
+    "t": "No fui yo quien corrió.\nMe arrastró la carrera."
+  },
+  {
+    "s": 6646.9,
+    "e": 6649.1,
+    "t": "Y desde entonces, bajo mis pies,\nel mundo se escapa."
+  },
+  {
+    "s": 6649.2,
+    "e": 6651.7,
+    "t": "Recuerdo la sal que compartimos."
+  },
+  {
+    "s": 6652.0,
+    "e": 6654.6,
+    "t": "Desde entonces me persigue tu imagen.\nMe cierra los ojos."
+  },
+  {
+    "s": 6654.8,
+    "e": 6657.4,
+    "t": "¿Cuántas veces me has curado"
+  },
+  {
+    "s": 6657.6,
+    "e": 6660.3,
+    "t": "de mis obsesiones errantes?"
+  },
+  {
+    "s": 6671.4,
+    "e": 6674.1,
+    "t": "Cuántas noches, cuántas noches..."
+  },
+  {
+    "s": 6674.2,
+    "e": 6676.7,
+    "t": "Cada noche trae otra."
+  },
+  {
+    "s": 6677.1,
+    "e": 6679.5,
+    "t": "Esta noche, la luna está torcida."
+  },
+  {
+    "s": 6679.8,
+    "e": 6682.7,
+    "t": "Esta noche, corren mis lágrimas."
+  },
+  {
+    "s": 6704.9,
+    "e": 6710.1,
+    "t": "Esta noche...\n¿De qué está hecha esa noche?"
+  },
+  {
+    "s": 6761.9,
+    "e": 6763.4,
+    "t": "Que les jodan."
+  },
+  {
+    "s": 7014.1,
+    "e": 7017.1,
+    "t": "Podíamos haberlo hecho.\nTe juro que podíamos."
+  },
+  {
+    "s": 7109.4,
+    "e": 7120.5,
+    "t": "Este programa está disponible a la carta."
+  },
+  {
+    "s": 7121.3,
+    "e": 7132.8,
+    "t": "A continuación:\n[Título del programa ilegible]"
+  },
+  {
+    "s": 7383.8,
+    "e": 7386.4,
+    "t": "Subtítulos de CMC."
+  }
+]

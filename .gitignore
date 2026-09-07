@@ -40,9 +40,14 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# generated subtitle cue data; include the English site track
+# generated subtitle cue data; include the site's language tracks
 /public/subtitles/*.json
 !/public/subtitles/en.json
+!/public/subtitles/fr.json
+!/public/subtitles/es.json
+!/public/subtitles/ar.json
+!/public/subtitles/de.json
+!/public/subtitles/zh-Hans.json
 /public/subtitles/*.vtt
 
 # tesseract language data (large; fetched by setup)

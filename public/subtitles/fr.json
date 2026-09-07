@@ -1,0 +1,2642 @@
+[
+{
+"s": 9.3,
+"e": 13.3,
+"t": "Vetenas-IoI,\non fait juste une petite ballade"
+},
+{
+"s": 13.4,
+"e": 16.2,
+"t": "Frotite, soIS pas IGIOT!\nJe veux pas d'ennuis."
+},
+{
+"s": 16.3,
+"e": 18.8,
+"t": "Alors arrête de bouger comme ça"
+},
+{
+"s": 29.3,
+"e": 31.2,
+"t": "T'as vu comment tu t'habilles !"
+},
+{
+"s": 32.5,
+"e": 35.9,
+"t": "lU Vas au Dal au 14 JUIllet\navec les Français&s de Gambetta"
+},
+{
+"s": 36.0,
+"e": 37.9,
+"t": "maintenant tu roules en voiture"
+},
+{
+"s": 38.2,
+"e": 41.2,
+"t": "lu Veux quoi\nRessembler à Jean Gabin ?"
+},
+{
+"s": 41.9,
+"e": 42.8,
+"t": "Mimid"
+},
+{
+"s": 43.0,
+"e": 45.5,
+"t": "Dimi ! C'est le diminutif de Dimitri"
+},
+{
+"s": 48.9,
+"e": 50.5,
+"t": "La révolution a commencé"
+},
+{
+"s": 50.7,
+"e": 54.1,
+"t": "et SI les Treres nous lIlperent\nça ira mal pour toi."
+},
+{
+"s": 55.0,
+"e": 56.2,
+"t": "Tu sais‘quoi"
+},
+{
+"s": 56.6,
+"e": 59.6,
+"t": "La se VoIt que tu gaspiIles ton-TrIc\na faire le beau."
+},
+{
+"s": 59.9,
+"e": 62.9,
+"t": "J'suis meme pas sur - -\nque tu payes l'impôt révolutionnaire !"
+},
+{
+"s": 64.3,
+"e": 66.0,
+"t": "Dis moi que tu le payes"
+},
+{
+"s": 73.2,
+"e": 74.5,
+"t": "Un barrage demi tour"
+},
+{
+"s": 74.6,
+"e": 75.7,
+"t": "Uuvre Ia porte!\nQuoi ?"
+},
+{
+"s": 75.8,
+"e": 77.7,
+"t": "Ouvre j'ai mon idée ouvre"
+},
+{
+"s": 78.5,
+"e": 79.6,
+"t": "Ouvre la porte !"
+},
+{
+"s": 80.8,
+"e": 82.6,
+"t": "Oran par Constantine ?"
+},
+{
+"s": 82.8,
+"e": 85.7,
+"t": "QU'eSst-Ce que TUTails 7”\nOn sera plus discret comme ça"
+},
+{
+"s": 103.5,
+"e": 104.9,
+"t": "Ils cherchent quelqu'un"
+},
+{
+"s": 105.0,
+"e": 107.6,
+"t": "Ils ont brûlé la ferme des Piffaut."
+},
+{
+"s": 167.8,
+"e": 169.2,
+"t": "T'es cinglé ?"
+},
+{
+"s": 170.7,
+"e": 172.7,
+"t": "À quoi tu joues merde ?"
+},
+{
+"s": 175.9,
+"e": 179.6,
+"t": "rr'Taut l'excuser, ma sœur.\nCelui-là, il a honte de rien"
+},
+{
+"s": 192.1,
+"e": 193.1,
+"t": "Regarde !"
+},
+{
+"s": 193.3,
+"e": 194.2,
+"t": "C'est Farid ?"
+},
+{
+"s": 195.1,
+"e": 196.5,
+"t": "Farid ! C'est Farid !"
+},
+{
+"s": 197.2,
+"e": 198.2,
+"t": "Arrête-toi !"
+},
+{
+"s": 202.8,
+"e": 204.3,
+"t": "Tu fais quoi ?"
+},
+{
+"s": 205.6,
+"e": 207.6,
+"t": "Hamid ! Explique moi !"
+},
+{
+"s": 207.7,
+"e": 208.8,
+"t": "Plus tard"
+},
+{
+"s": 233.5,
+"e": 235.8,
+"t": "Verci, mes Treres\nVive l'Algérie !"
+},
+{
+"s": 251.6,
+"e": 252.8,
+"t": "Hamid c'est qui ?"
+},
+{
+"s": 253.0,
+"e": 254.0,
+"t": "La révolution"
+},
+{
+"s": 266.9,
+"e": 268.2,
+"t": "Les-militaires !"
+},
+{
+"s": 269.8,
+"e": 271.0,
+"t": "Les militaires !"
+},
+{
+"s": 271.6,
+"e": 273.1,
+"t": "Descends !"
+},
+{
+"s": 273.4,
+"e": 274.2,
+"t": "Desceñds !"
+},
+{
+"s": 274.8,
+"e": 276.2,
+"t": "verae, Haria !\nCours !"
+},
+{
+"s": 278.7,
+"e": 280.6,
+"t": "Cours ! Ne t'arrête pas !"
+},
+{
+"s": 280.7,
+"e": 283.4,
+"t": "IIS ONT FArIG !\nCours, putain !"
+},
+{
+"s": 297.8,
+"e": 298.6,
+"t": "Hamid !"
+},
+{
+"s": 326.2,
+"e": 327.2,
+"t": "Avance !"
+},
+{
+"s": 351.2,
+"e": 352.4,
+"t": "est mort"
+},
+{
+"s": 353.7,
+"e": 355.6,
+"t": "Djaffar, les militaires !"
+},
+{
+"s": 356.6,
+"e": 357.7,
+"t": "Ils arrivent !"
+},
+{
+"s": 358.6,
+"e": 360.6,
+"t": "Suis moi Cours !"
+},
+{
+"s": 361.9,
+"e": 363.0,
+"t": "Djaffar cours !"
+},
+{
+"s": 364.0,
+"e": 365.0,
+"t": "J'ai glissé"
+},
+{
+"s": 365.3,
+"e": 366.9,
+"t": "Je l'ai pas touché !"
+},
+{
+"s": 371.4,
+"e": 373.4,
+"t": "Toi t'as ton compte !"
+},
+{
+"s": 412.7,
+"e": 416.0,
+"t": "lU As reJOINt Ies Treres quana\nAprès ton mariage."
+},
+{
+"s": 419.4,
+"e": 421.5,
+"t": "Et Faria\nJe savais pas"
+},
+{
+"s": 421.7,
+"e": 425.0,
+"t": "Je savais juste qu'un rype\ndevait nous montrer la voie"
+},
+{
+"s": 429.9,
+"e": 431.4,
+"t": "Je pouvais rien dire !"
+},
+{
+"s": 431.7,
+"e": 433.4,
+"t": "T'aurais pu paniquer"
+},
+{
+"s": 433.6,
+"e": 436.2,
+"t": "raniquer /\nTu me prends pour une gonzesse ?"
+},
+{
+"s": 436.4,
+"e": 438.4,
+"t": "Tu serais venu si t'avais su ?"
+},
+{
+"s": 438.6,
+"e": 441.3,
+"t": "QU'ESI-CE que Ten sais\nt'es dans ma tête ?"
+},
+{
+"s": 442.1,
+"e": 444.4,
+"t": "Sinon tu te serais déjà engagé !"
+},
+{
+"s": 444.5,
+"e": 446.7,
+"t": "Sale con j'ai tué pour te sauver !"
+},
+{
+"s": 448.4,
+"e": 449.5,
+"t": "Assieds-toi"
+},
+{
+"s": 473.5,
+"e": 474.5,
+"t": "Zyad"
+},
+{
+"s": 475.3,
+"e": 476.7,
+"t": "Toi aussi Zyad"
+},
+{
+"s": 490.0,
+"e": 491.5,
+"t": "Elle est passée ?"
+},
+{
+"s": 491.6,
+"e": 492.6,
+"t": "Normalement, oui"
+},
+{
+"s": 492.8,
+"e": 495.1,
+"t": "Elle a eu du temps avant qu'ils arrivent."
+},
+{
+"s": 496.0,
+"e": 498.2,
+"t": "BON VieU j'ailtue M'SsiIeur Kotlas\nJe sais."
+},
+{
+"s": 499.2,
+"e": 501.5,
+"t": "I NOUS portait sur son aos\nquand on était gosse."
+},
+{
+"s": 502.2,
+"e": 504.5,
+"t": "Il a menacé Hamid d'une arme"
+},
+{
+"s": 504.6,
+"e": 506.8,
+"t": "Arrête de pleurnicher on est en guerre"
+},
+{
+"s": 508.7,
+"e": 510.3,
+"t": "Kotias n'était pas méchant"
+},
+{
+"s": 512.2,
+"e": 514.5,
+"t": "mais ce soi: il a choisi son camp"
+},
+{
+"s": 552.2,
+"e": 556.7,
+"t": "Lerre nuit,\ncetie nuit-là, de quoi est-elle faite ?"
+},
+{
+"s": 557.0,
+"e": 562.3,
+"t": "Uerre nuit, 18 1UNe esi Dancaie,\ncette nuit, mes larmes coulent."
+},
+{
+"s": 589.8,
+"e": 592.0,
+"t": "Ils ont emmené Farid au 2ème bureau"
+},
+{
+"s": 597.2,
+"e": 599.9,
+"t": "C'est un gosse mais c'est un bon gars"
+},
+{
+"s": 600.0,
+"e": 603.0,
+"t": "Ii attendra les 3 Jours reglemenraires\npour parler."
+},
+{
+"s": 603.5,
+"e": 605.4,
+"t": "Mais on ne doit pas traîner."
+},
+{
+"s": 606.6,
+"e": 608.3,
+"t": "Reste assis Djaffar"
+},
+{
+"s": 619.7,
+"e": 621.2,
+"t": "On partira ce soir"
+},
+{
+"s": 624.1,
+"e": 625.4,
+"t": "Partir ?"
+},
+{
+"s": 626.7,
+"e": 628.8,
+"t": "Je vais nulle part.\nje rentre chez moi"
+},
+{
+"s": 629.1,
+"e": 632.4,
+"t": "lu ne peux pas.\nLe gosse finira par parler"
+},
+{
+"s": 632.7,
+"e": 634.8,
+"t": "Et ils iront directement chez toi"
+},
+{
+"s": 635.7,
+"e": 637.6,
+"t": "Yasmine je la laisse pas toute seule"
+},
+{
+"s": 638.2,
+"e": 639.9,
+"t": "J'ai donné des consignes"
+},
+{
+"s": 640.0,
+"e": 641.9,
+"t": "L'Organisation va s'occuper d'elle\nComment ?"
+},
+{
+"s": 642.3,
+"e": 644.9,
+"t": "J'ai besoin de personne pour ça"
+},
+{
+"s": 652.5,
+"e": 654.8,
+"t": "Moi j'étais même pas au courant"
+},
+{
+"s": 655.0,
+"e": 657.8,
+"t": "que vous aviez rejoint la lutte"
+},
+{
+"s": 658.0,
+"e": 659.3,
+"t": "Maintenant tu le sais"
+},
+{
+"s": 663.0,
+"e": 664.0,
+"t": "Zyad"
+},
+{
+"s": 664.4,
+"e": 665.7,
+"t": "laisse moi partir !"
+},
+{
+"s": 666.4,
+"e": 667.2,
+"t": "Hamid !"
+},
+{
+"s": 670.0,
+"e": 671.0,
+"t": "Aide moi !"
+},
+{
+"s": 672.8,
+"e": 675.0,
+"t": "Laime-lOI.\nMe touche pas toi !"
+},
+{
+"s": 678.6,
+"e": 679.8,
+"t": "Tout le monde dehors !"
+},
+{
+"s": 688.1,
+"e": 689.0,
+"t": "Allez !"
+},
+{
+"s": 689.2,
+"e": 691.1,
+"t": "Cette nuit,"
+},
+{
+"s": 691.2,
+"e": 693.2,
+"t": "de quoi est-elle faite ?"
+},
+{
+"s": 727.3,
+"e": 729.7,
+"t": "La Mort de Kotlas\nva énerver tout le monde"
+},
+{
+"s": 729.9,
+"e": 732.2,
+"t": "Ils vont vouloir un coupable"
+},
+{
+"s": 733.4,
+"e": 736.4,
+"t": "Fais savoir que Ia cellule\nse met en sommeil."
+},
+{
+"s": 738.9,
+"e": 741.7,
+"t": "Je pars au Maroc avec Hamid"
+},
+{
+"s": 741.8,
+"e": 743.9,
+"t": "toi et Djaffar, partez a l'Est"
+},
+{
+"s": 745.3,
+"e": 747.9,
+"t": "l'es sur au mome /\nLe môme, quel môme ?"
+},
+{
+"s": 748.2,
+"e": 749.4,
+"t": "Vive l'Algérie !"
+},
+{
+"s": 845.1,
+"e": 846.3,
+"t": "Son excellence !"
+},
+{
+"s": 847.9,
+"e": 849.6,
+"t": "Comment vas-tu ?"
+},
+{
+"s": 853.7,
+"e": 855.1,
+"t": "VvOuSs etes »L /\nExact."
+},
+{
+"s": 856.0,
+"e": 858.1,
+"t": "Houari ! Houari !"
+},
+{
+"s": 859.5,
+"e": 861.6,
+"t": "Occupe-toi de M Benaissa"
+},
+{
+"s": 863.2,
+"e": 866.1,
+"t": "Il y à 4 ans, jour pour jour, en 1982."
+},
+{
+"s": 866.2,
+"e": 869.2,
+"t": "VOUS VOUS €N SOUVENEZ."
+},
+{
+"s": 869.3,
+"e": 874.3,
+"t": "C'EIAIt 1€ TaEMeUXx MaIcn ae rAIgerie\ncontre l'Allemagne."
+},
+{
+"s": 880.6,
+"e": 884.3,
+"t": "Il y avait Belloumi, Madjer, Assad,"
+},
+{
+"s": 884.5,
+"e": 887.9,
+"t": "rour comme aujouranui\nici à Guadalajara au Mexique."
+},
+{
+"s": 888.2,
+"e": 890.0,
+"t": "Et on espère tous."
+},
+{
+"s": 892.4,
+"e": 893.6,
+"t": "Bonsoir Monsieur !"
+},
+{
+"s": 896.6,
+"e": 899.0,
+"t": "Que le Tout Puissant protège ta vie"
+},
+{
+"s": 902.0,
+"e": 905.4,
+"t": "Et que 1U restes aans le cœur aes nommes\npour l'éternité."
+},
+{
+"s": 906.4,
+"e": 908.1,
+"t": "Au revoir, M Djaffar"
+},
+{
+"s": 918.9,
+"e": 920.2,
+"t": "Vive l'Algérie !"
+},
+{
+"s": 936.1,
+"e": 937.7,
+"t": "Vive l'Algérie !"
+},
+{
+"s": 945.0,
+"e": 946.1,
+"t": "T'es beau ! À"
+},
+{
+"s": 954.8,
+"e": 957.0,
+"t": "ADAaou !\nDeux ans au 2ème bureau"
+},
+{
+"s": 959.1,
+"e": 961.1,
+"t": "Saïd | Said il est avec moi"
+},
+{
+"s": 968.5,
+"e": 969.9,
+"t": "Vive l'Algérie !"
+},
+{
+"s": 995.6,
+"e": 996.8,
+"t": "(Notre révolution"
+},
+{
+"s": 997.0,
+"e": 998.6,
+"t": "a erifanté des héros"
+},
+{
+"s": 999.6,
+"e": 1001.5,
+"t": "les montagnes en sont témoins"
+},
+{
+"s": 1001.6,
+"e": 1004.1,
+"t": "Ves nommes er des remmes\nont pris les armes."
+},
+{
+"s": 1004.6,
+"e": 1006.6,
+"t": "Out des femmes et des hommes !"
+},
+{
+"s": 1006.8,
+"e": 1008.6,
+"t": "Et le sol fut souillé du sang des martyrs"
+},
+{
+"s": 1008.6,
+"e": 1009.2,
+"t": "Et le sol fut Souillé du sang des martyrs"
+},
+{
+"s": 1009.2,
+"e": 1010.0,
+"t": "Et le sol fut souillé du sang des martyrs"
+},
+{
+"s": 1010.2,
+"e": 1011.6,
+"t": "Oh toi qui es allé combattre"
+},
+{
+"s": 1011.8,
+"e": 1014.8,
+"t": "lu as renau a ton pays\nl'estime qui lui est due."
+},
+{
+"s": 1015.1,
+"e": 1016.2,
+"t": "Grace à toi l'Oranais !"
+},
+{
+"s": 1016.4,
+"e": 1017.6,
+"t": "En chair et en os !"
+},
+{
+"s": 1017.7,
+"e": 1020.1,
+"t": "Au Matin, nous nous evellames\nen hommes libres."
+},
+{
+"s": 1020.4,
+"e": 1021.8,
+"t": "Bienvenue chez toi !"
+},
+{
+"s": 1028.8,
+"e": 1030.0,
+"t": "C'est le maire “"
+},
+{
+"s": 1030.1,
+"e": 1032.1,
+"t": "lu es devenu maire “\nMi savais pas ?"
+},
+{
+"s": 1032.4,
+"e": 1033.6,
+"t": "(Basse moi descendre"
+},
+{
+"s": 1034.1,
+"e": 1035.8,
+"t": "VIens !\nOu ?"
+},
+{
+"s": 1036.4,
+"e": 1039.2,
+"t": "dur l'estradge,\nil faut que tout le monde te voie"
+},
+{
+"s": 1039.6,
+"e": 1041.2,
+"t": "Mes frères pardonnez moi"
+},
+{
+"s": 1041.3,
+"e": 1043.6,
+"t": "laissez moi d'abord saluer ma femme"
+},
+{
+"s": 1043.8,
+"e": 1046.8,
+"t": "Apres cinq ans,\nsi je ne vaiSpas la voir"
+},
+{
+"s": 1049.2,
+"e": 1050.4,
+"t": "Qu'est-ce quil y a ?"
+},
+{
+"s": 1050.9,
+"e": 1052.4,
+"t": "Qu'est-ce qu'il se passe ?"
+},
+{
+"s": 1055.6,
+"e": 1056.8,
+"t": "Qu'est-ce qu'il se passe ?"
+},
+{
+"s": 1065.1,
+"e": 1066.3,
+"t": "Ou est ma femme ?”"
+},
+{
+"s": 1068.3,
+"e": 1069.3,
+"t": "Où est md femme ?"
+},
+{
+"s": 1069.6,
+"e": 1071.6,
+"t": "Ou est‘Yasmine ?"
+},
+{
+"s": 1074.6,
+"e": 1076.1,
+"t": "Ou est Yasmine ?"
+},
+{
+"s": 1076.2,
+"e": 1077.8,
+"t": "Tu vas me répondre ?"
+},
+{
+"s": 1077.9,
+"e": 1080.7,
+"t": "Elle est morte"
+},
+{
+"s": 1080.9,
+"e": 1082.6,
+"t": "Non ! Non !"
+},
+{
+"s": 1093.1,
+"e": 1094.9,
+"t": "On ne t'a rien dit ?"
+},
+{
+"s": 1106.9,
+"e": 1109.7,
+"t": "+ Ils te regardent Djaffar !"
+},
+{
+"s": 1112.1,
+"e": 1115.0,
+"t": "Redresse la tête regarde moi"
+},
+{
+"s": 1115.2,
+"e": 1116.6,
+"t": "Regarde moi Djaffar"
+},
+{
+"s": 1116.7,
+"e": 1118.3,
+"t": "Aide moi il faut (e relever !"
+},
+{
+"s": 1120.7,
+"e": 1121.9,
+"t": "Laisse le"
+},
+{
+"s": 1123.3,
+"e": 1125.3,
+"t": "C'est pour elle que je suis rentré"
+},
+{
+"s": 1127.4,
+"e": 1128.6,
+"t": "Il te regarde"
+},
+{
+"s": 1131.4,
+"e": 1133.0,
+"t": "L'enfant te regarde"
+},
+{
+"s": 1135.7,
+"e": 1136.8,
+"t": "Il te regarde"
+},
+{
+"s": 1142.5,
+"e": 1144.2,
+"t": "C'est le petit Bachir."
+},
+{
+"s": 1145.7,
+"e": 1147.2,
+"t": "Le fils de Yasmine"
+},
+{
+"s": 1195.8,
+"e": 1198.1,
+"t": "La nuit où tu es monté au maquis"
+},
+{
+"s": 1199.1,
+"e": 1202.4,
+"t": "les SOIdAIS NOUS ONT regroupes\nau milieu du village."
+},
+{
+"s": 1204.2,
+"e": 1206.2,
+"t": "Je ne voyais pas ma fille"
+},
+{
+"s": 1208.2,
+"e": 1210.5,
+"t": "Je suis allé voir le lieutenant,"
+},
+{
+"s": 1212.4,
+"e": 1214.2,
+"t": "il m'a répondu avec mépris"
+},
+{
+"s": 1215.2,
+"e": 1218.1,
+"t": "Il avait un de ces sourires"
+},
+{
+"s": 1219.3,
+"e": 1221.7,
+"t": "Un de ceux qu'on n'oublie pas"
+},
+{
+"s": 1222.2,
+"e": 1223.5,
+"t": "m'a répondu"
+},
+{
+"s": 1224.4,
+"e": 1226.0,
+"t": "‘Tu peux pas la voir"
+},
+{
+"s": 1226.7,
+"e": 1229.4,
+"t": "On l'interroge"
+},
+{
+"s": 1232.2,
+"e": 1234.0,
+"t": "Y avait le fils à Kotias"
+},
+{
+"s": 1235.0,
+"e": 1236.2,
+"t": "Victor."
+},
+{
+"s": 1238.2,
+"e": 1239.4,
+"t": "Patrick ?"
+},
+{
+"s": 1242.8,
+"e": 1245.2,
+"t": "a dit que tu avais tué son père"
+},
+{
+"s": 1245.8,
+"e": 1248.4,
+"t": "était caché derrière un arbre"
+},
+{
+"s": 1250.4,
+"e": 1251.4,
+"t": "Après"
+},
+{
+"s": 1253.7,
+"e": 1255.9,
+"t": "ils ont fait taire tout le monde"
+},
+{
+"s": 1261.4,
+"e": 1262.4,
+"t": "Après"
+},
+{
+"s": 1267.9,
+"e": 1270.0,
+"t": "Après on a entendu des cris"
+},
+{
+"s": 1271.7,
+"e": 1273.2,
+"t": "c'était Yasmine"
+},
+{
+"s": 1274.8,
+"e": 1277.3,
+"t": "Le lieutenant nous regardait en souriant"
+},
+{
+"s": 1278.8,
+"e": 1281.6,
+"t": "Il a dit que le fils vengeait le père"
+},
+{
+"s": 1285.0,
+"e": 1286.4,
+"t": "Et il répétait"
+},
+{
+"s": 1287.3,
+"e": 1288.5,
+"t": "Dites le à Djaffar"
+},
+{
+"s": 1291.0,
+"e": 1293.2,
+"t": "Mais personne ne t'a rien dit"
+},
+{
+"s": 1293.8,
+"e": 1295.6,
+"t": "Comment elle est morte ?"
+},
+{
+"s": 1298.3,
+"e": 1300.3,
+"t": "Elle t'a attendu Djaffar"
+},
+{
+"s": 1301.4,
+"e": 1302.8,
+"t": "Elle a attendu"
+},
+{
+"s": 1304.1,
+"e": 1307.5,
+"t": "Elle esperait un signe de TOI\nqui ne venait pas."
+},
+{
+"s": 1312.7,
+"e": 1315.6,
+"t": "Elle a cessé de manger elle a maigri"
+},
+{
+"s": 1317.6,
+"e": 1319.5,
+"t": "Mais son ventre a gonflé"
+},
+{
+"s": 1322.0,
+"e": 1325.1,
+"t": "Elle voulait tuer l'entant\nmais il a tenu."
+},
+{
+"s": 1327.6,
+"e": 1329.8,
+"t": "Dieu a voulu qu'il vive"
+},
+{
+"s": 1332.1,
+"e": 1334.3,
+"t": "J'étais là à l'accouchement"
+},
+{
+"s": 1337.4,
+"e": 1339.6,
+"t": "J'ai vu la mort dans ses yeux"
+},
+{
+"s": 1341.0,
+"e": 1343.0,
+"t": "Elle ne voulait plus vivre"
+},
+{
+"s": 1364.4,
+"e": 1365.8,
+"t": "Bienvenue !"
+},
+{
+"s": 1369.0,
+"e": 1371.3,
+"t": "Djaffar ! |! était temps !"
+},
+{
+"s": 1371.4,
+"e": 1373.6,
+"t": "@ :WVN.eSI OÙ / ,\n- Chez Hamid Hamid !"
+},
+{
+"s": 1382.6,
+"e": 1385.6,
+"t": "QUE Ie representant d'une jeune aemocratie\népouse une Américaine,"
+},
+{
+"s": 1386.1,
+"e": 1388.2,
+"t": "est-ce une allance\nentrefles deux pays ?"
+},
+{
+"s": 1413.6,
+"e": 1415.2,
+"t": "Je n'ai pas fini !"
+},
+{
+"s": 1514.6,
+"e": 1516.5,
+"t": "ll a été parfait !"
+},
+{
+"s": 1518.4,
+"e": 1521.0,
+"t": "\"U l'as nevu-depuis /\nUne fois ! -"
+},
+{
+"s": 1536.2,
+"e": 1537.1,
+"t": "Et elle ?"
+},
+{
+"s": 1554.4,
+"e": 1556.9,
+"t": "mais je pensaiS\"pas atnmarläge"
+},
+{
+"s": 1610.6,
+"e": 1611.8,
+"t": "Un seul !"
+},
+{
+"s": 1662.2,
+"e": 1663.8,
+"t": "5] em\nV Ga fait longtermps"
+},
+{
+"s": 1663.7,
+"e": 1664.7,
+"t": "EF"
+},
+{
+"s": 1664.6,
+"e": 1666.1,
+"t": "Y Tu sais,compter"
+},
+{
+"s": 1680.5,
+"e": 1682.4,
+"t": ", À\na | , x a A\nElle est enterrée a érystel 2 2"
+},
+{
+"s": 1683.8,
+"e": 1685.0,
+"t": "Avec sa mi"
+},
+{
+"s": 1772.1,
+"e": 1773.8,
+"t": "Tu vas vivre ici ?"
+},
+{
+"s": 1778.7,
+"e": 1780.4,
+"t": "J'ai rouvert l'atelie:"
+},
+{
+"s": 1784.5,
+"e": 1785.8,
+"t": "C'est mon métier"
+},
+{
+"s": 1793.3,
+"e": 1795.1,
+"t": "Je sais rien faire d'autre"
+},
+{
+"s": 1807.1,
+"e": 1808.7,
+"t": "Quels belle épouse !"
+},
+{
+"s": 1905.8,
+"e": 1907.8,
+"t": "Je swis-dans'e poste“"
+},
+{
+"s": 1908.8,
+"e": 1910.6,
+"t": "Dépéchestoir"
+},
+{
+"s": 1920.1,
+"e": 1921.3,
+"t": "Viens voir ça !"
+},
+{
+"s": 1922.0,
+"e": 1924.1,
+"t": "Ouvre grand tes yeux !"
+},
+{
+"s": 1925.7,
+"e": 1927.1,
+"t": "Cest qui celuilà ?"
+},
+{
+"s": 1927.3,
+"e": 1928.8,
+"t": "C'est qui celui la ; le"
+},
+{
+"s": 1933.2,
+"e": 1935.6,
+"t": "Ce truc ya tout,révolutionner."
+},
+{
+"s": 1935.7,
+"e": 1937.1,
+"t": "y“\nMais c'est une marque française"
+},
+{
+"s": 1937.4,
+"e": 1940.1,
+"t": "NOUS aus\n> aus on va ranriquer»\npropres telés !* ."
+},
+{
+"s": 1941.2,
+"e": 1943.7,
+"t": "C'est toi le Commandant Djaffar %"
+},
+{
+"s": 1947.5,
+"e": 1948.9,
+"t": "C'esi quoi'çà ?"
+},
+{
+"s": 1952.3,
+"e": 1953.5,
+"t": "Qu'est-ce que-t'as fait ?"
+},
+{
+"s": 1953.8,
+"e": 1957.0,
+"t": "L'est un grana\nqui m'a poussé-par terre"
+},
+{
+"s": 2156.2,
+"e": 2157.6,
+"t": "Oui Farouk j'écoute"
+},
+{
+"s": 2159.8,
+"e": 2161.5,
+"t": "Qui travaillait dessus avant ?"
+},
+{
+"s": 2161.6,
+"e": 2163.5,
+"t": "Les ingénieurs français"
+},
+{
+"s": 2164.9,
+"e": 2167.6,
+"t": "Ils sont partis sans vous expliquer ?"
+},
+{
+"s": 2170.4,
+"e": 2174.2,
+"t": "A leur depart, IIS VOUIAaleNnTt [OUT DruIer\nalors nous expliquer."
+},
+{
+"s": 2174.3,
+"e": 2176.2,
+"t": "fallait m'en parler de suite"
+},
+{
+"s": 2176.7,
+"e": 2181.0,
+"t": "AVEC ies gars au ministere, la television\nj'ai pas osé, moi"
+},
+{
+"s": 2223.2,
+"e": 2225.4,
+"t": "Bachir viens manger"
+},
+{
+"s": 2243.9,
+"e": 2245.6,
+"t": "Regärde le travail !"
+},
+{
+"s": 2245.7,
+"e": 2248.0,
+"t": "L'est pour ça qu'ils voulalent\n= = w ”\nrien expliquer, les Français."
+},
+{
+"s": 2248.1,
+"e": 2251.4,
+"t": "Un relance la cadence\navec la même qualité.\nÉ"
+},
+{
+"s": 2251.8,
+"e": 2254.0,
+"t": "On doit faite aussi bien qu'eux !"
+},
+{
+"s": 2254.2,
+"e": 2257.7,
+"t": "I! TAUT etre Tier\nde ce qui sert de chez nous !"
+},
+{
+"s": 2260.5,
+"e": 2265.0,
+"t": "Je veux qu'onpvienne au Lanaga\npour nous acheter du bois ici !"
+},
+{
+"s": 2265.2,
+"e": 2267.5,
+"t": "Je veux.des clients canadiens !"
+},
+{
+"s": 2277.8,
+"e": 2279.7,
+"t": "Je te jure !\nCalme-toi, Djaffar"
+},
+{
+"s": 2297.7,
+"e": 2300.0,
+"t": "Elle tourne et elle finit par se perdre"
+},
+{
+"s": 2303.6,
+"e": 2305.3,
+"t": "Les cons les fils de pute"
+},
+{
+"s": 2636.4,
+"e": 2638.9,
+"t": "Peur une'fettre, 14 tampons !"
+},
+{
+"s": 2642.8,
+"e": 2644.2,
+"t": "Ça va bien vous ?"
+},
+{
+"s": 2645.8,
+"e": 2647.4,
+"t": "Ça va merci"
+},
+{
+"s": 2653.5,
+"e": 2655.1,
+"t": "Et vous ça va ?"
+},
+{
+"s": 2655.6,
+"e": 2656.7,
+"t": "Grâce à Dieu"
+},
+{
+"s": 2664.5,
+"e": 2667.0,
+"t": "M Kaddour, j'ai parlé au Commandant"
+},
+{
+"s": 2668.7,
+"e": 2671.5,
+"t": "de notre conversation et"
+},
+{
+"s": 2676.1,
+"e": 2678.4,
+"t": "Et il est tout à fait dispose a"
+},
+{
+"s": 2678.8,
+"e": 2680.0,
+"t": "Tres bien"
+},
+{
+"s": 2683.0,
+"e": 2684.9,
+"t": "Quai de plus naturel !"
+},
+{
+"s": 2690.1,
+"e": 2691.2,
+"t": "sera parfait"
+},
+{
+"s": 2693.3,
+"e": 2694.9,
+"t": "Alors on boit le the ”"
+},
+{
+"s": 2698.6,
+"e": 2699.6,
+"t": "- uw\nLe thé !"
+},
+{
+"s": 2740.8,
+"e": 2741.7,
+"t": "Merci"
+},
+{
+"s": 2749.8,
+"e": 2750.6,
+"t": "Merci"
+},
+{
+"s": 2760.0,
+"e": 2761.6,
+"t": "Merci ma fille"
+},
+{
+"s": 2968.9,
+"e": 2971.2,
+"t": "Tétais«beaturavantulasquente Djaffarta!"
+},
+{
+"s": 3448.0,
+"e": 3451.0,
+"t": "VIais l'Algerien n'a pas combattu\nle Français,"
+},
+{
+"s": 3451.3,
+"e": 3454.6,
+"t": "il a combattu le colonialisme !"
+},
+{
+"s": 3459.9,
+"e": 3462.2,
+"t": "ET Sigre colonialisme\nn'avait aucune chance"
+},
+{
+"s": 3462.6,
+"e": 3464.8,
+"t": "ce n'est pas parce quejnous etions\nmieux armés que lui,"
+},
+{
+"s": 3472.9,
+"e": 3474.9,
+"t": "Oui à mourir pour cette terre !"
+},
+{
+"s": 3478.7,
+"e": 3482.3,
+"t": "Leurs SOIGAIS arrivalent en patreau\net repartaient en cercueil,"
+},
+{
+"s": 3482.7,
+"e": 3484.4,
+"t": "avec aux lèvres une seule phrase"
+},
+{
+"s": 3487.2,
+"e": 3489.1,
+"t": "Mais aujourd'hui mes frères"
+},
+{
+"s": 3489.2,
+"e": 3492.8,
+"t": "qui ose traiter l'Aigerien\ncomme un moins que rien ?"
+},
+{
+"s": 3492.9,
+"e": 3494.0,
+"t": "Personne !"
+},
+{
+"s": 3494.9,
+"e": 3496.8,
+"t": "Qui ose interdire à l'Algérien"
+},
+{
+"s": 3497.2,
+"e": 3499.6,
+"t": "de traverser la terre de-ses pères ?"
+},
+{
+"s": 3499.7,
+"e": 3500.9,
+"t": "Personne !"
+},
+{
+"s": 3501.0,
+"e": 3505.0,
+"t": "QUI Ose Interaire'a raugerien\nde voyager d'Australie en Amérique ?\nÏ"
+},
+{
+"s": 3505.1,
+"e": 3506.2,
+"t": "Personne !"
+},
+{
+"s": 3507.0,
+"e": 3508.3,
+"t": "Qui peut seulement"
+},
+{
+"s": 3509.0,
+"e": 3511.9,
+"t": "demander ses papiers a l'Algérien ?"
+},
+{
+"s": 3512.2,
+"e": 3513.2,
+"t": "Personne !"
+},
+{
+"s": 3514.9,
+"e": 3516.8,
+"t": "Voilà ce que le Parti offre à la nation"
+},
+{
+"s": 3517.8,
+"e": 3520.9,
+"t": "volla ce qu'il aepose\naux pieds de ses enfants"
+},
+{
+"s": 3521.4,
+"e": 3524.2,
+"t": "Que jamais personne ne leur impose"
+},
+{
+"s": 3524.3,
+"e": 3526.9,
+"t": "ni sa loi ni sa verité"
+},
+{
+"s": 3531.2,
+"e": 3533.1,
+"t": "Le monde nous regarde !"
+},
+{
+"s": 3534.2,
+"e": 3536.0,
+"t": "Oui le monde nous regarde !"
+},
+{
+"s": 3536.1,
+"e": 3537.8,
+"t": "Soyons dignes de la victoire !"
+},
+{
+"s": 3562.4,
+"e": 3563.4,
+"t": "Bièn mange ?”"
+},
+{
+"s": 3565.0,
+"e": 3566.1,
+"t": "Merci beaucoup !"
+},
+{
+"s": 3577.0,
+"e": 3578.6,
+"t": "Un vrai petit colonel"
+},
+{
+"s": 3605.8,
+"e": 3607.4,
+"t": "Mon-chéf'des armées"
+},
+{
+"s": 3607.9,
+"e": 3609.2,
+"t": "Viens !"
+},
+{
+"s": 3611.3,
+"e": 3612.4,
+"t": "Tu m'as manqué"
+},
+{
+"s": 3619.2,
+"e": 3621.1,
+"t": "J'ai une têté de p'tit français ?"
+},
+{
+"s": 3624.0,
+"e": 3625.0,
+"t": "Quoi ?"
+},
+{
+"s": 3633.3,
+"e": 3635.3,
+"t": ", É,\nC'est surement les cheveux blonds >"
+},
+{
+"s": 3637.2,
+"e": 3638.6,
+"t": "Tais-toi Môrñte"
+},
+{
+"s": 3644.1,
+"e": 3645.2,
+"t": "C'est rien"
+},
+{
+"s": 3711.2,
+"e": 3712.7,
+"t": "C'est un fils de pute !"
+},
+{
+"s": 3967.0,
+"e": 3968.6,
+"t": "C'est une bonne affaire ça"
+},
+{
+"s": 3971.0,
+"e": 3973.0,
+"t": "25 ans d'indépendance"
+},
+{
+"s": 3985.4,
+"e": 3986.9,
+"t": "a bien fait d'inYEstir"
+},
+{
+"s": 3989.5,
+"e": 3990.8,
+"t": "De quoi tu parles ?"
+},
+{
+"s": 3993.3,
+"e": 3995.1,
+"t": "Avec tout mon ré&Spect"
+},
+{
+"s": 3995.6,
+"e": 3998.0,
+"t": "tu CroIs que aes cnoses\npeuvent nous échäpper ?"
+},
+{
+"s": 4000.0,
+"e": 4003.0,
+"t": "Je sais que tu es justé\"T6 gérant"
+},
+{
+"s": 4005.2,
+"e": 4007.4,
+"t": "et me restaurant il appartient"
+},
+{
+"s": 4007.9,
+"e": 4009.0,
+"t": "y au Commandant"
+},
+{
+"s": 4013.4,
+"e": 4014.7,
+"t": "Tu veux quoi ?"
+},
+{
+"s": 4016.8,
+"e": 4018.8,
+"t": "Non je suis pas comme ça !"
+},
+{
+"s": 4018.9,
+"e": 4022.1,
+"t": "Je ne veux pas creer ae proniemes\nau Commandant."
+},
+{
+"s": 4024.6,
+"e": 4025.7,
+"t": ", Tu bois quoi ?"
+},
+{
+"s": 4026.5,
+"e": 4029.3,
+"t": "Une bière avec tout mon respect"
+},
+{
+"s": 4041.9,
+"e": 4045.6,
+"t": "Quand on voit un endroit pareil"
+},
+{
+"s": 4045.9,
+"e": 4049.5,
+"t": "on se ait que\nvous devez être livrés régulièrement"
+},
+{
+"s": 4051.0,
+"e": 4053.0,
+"t": "Aujourd'hui c'est un luxe"
+},
+{
+"s": 4053.8,
+"e": 4056.9,
+"t": "L'Est vral,\non ne trouve ni beurre ni œufs"
+},
+{
+"s": 4058.0,
+"e": 4059.8,
+"t": "l'huile n'en parlons pas"
+},
+{
+"s": 4063.7,
+"e": 4066.3,
+"t": "QUAana je rentre cnez moi\nles mains vides,"
+},
+{
+"s": 4066.6,
+"e": 4068.5,
+"t": "ma femme me fait la guerre"
+},
+{
+"s": 4072.6,
+"e": 4076.6,
+"t": "En sortant, passe par Ia CuIsine\net tu auras la paix."
+},
+{
+"s": 4081.5,
+"e": 4082.7,
+"t": "Je t'écoute"
+},
+{
+"s": 4090.4,
+"e": 4091.7,
+"t": "Mehdi Laloui"
+},
+{
+"s": 4092.0,
+"e": 4094.0,
+"t": "journaliste culturel"
+},
+{
+"s": 4095.2,
+"e": 4097.6,
+"t": "Ce fils de pute a décidé"
+},
+{
+"s": 4097.9,
+"e": 4099.6,
+"t": "de faire de la politique"
+},
+{
+"s": 4100.0,
+"e": 4101.6,
+"t": "(mais on le surveille"
+},
+{
+"s": 4102.5,
+"e": 4104.4,
+"t": "fouille dans vos affaires"
+},
+{
+"s": 4104.6,
+"e": 4106.5,
+"t": "mais je sais pas ce qu'il cherche"
+},
+{
+"s": 4108.7,
+"e": 4109.8,
+"t": "f . Je le trouve où ?"
+},
+{
+"s": 4120.9,
+"e": 4122.0,
+"t": "Ton excellence"
+},
+{
+"s": 4123.3,
+"e": 4125.3,
+"t": "tu es un ancien combattant"
+},
+{
+"s": 4125.7,
+"e": 4128.8,
+"t": "pourquoi tu protèges le Commandant ?"
+},
+{
+"s": 4129.5,
+"e": 4130.8,
+"t": "De quoi je me mêle ?"
+},
+{
+"s": 4132.7,
+"e": 4134.2,
+"t": "Préviens moi à son retour"
+},
+{
+"s": 4134.8,
+"e": 4136.8,
+"t": "J'irai le cueillir à l'aéroport"
+},
+{
+"s": 4150.8,
+"e": 4153.4,
+"t": "Lelul qui ne S'enricnit pas\nsous ce président"
+},
+{
+"s": 4153.5,
+"e": 4155.0,
+"t": "il ne le fera jamais"
+},
+{
+"s": 4295.4,
+"e": 4296.5,
+"t": "Appurte le plat"
+},
+{
+"s": 4296.7,
+"e": 4298.2,
+"t": "Et mange toi aussi"
+},
+{
+"s": 4402.7,
+"e": 4405.6,
+"t": "ET VOUS NOUS DassInez\navec-votre sacrée politique !"
+},
+{
+"s": 4476.4,
+"e": 4477.8,
+"t": "Je la connais même past"
+},
+{
+"s": 4750.3,
+"e": 4751.5,
+"t": "Tu le sais non ”"
+},
+{
+"s": 4760.1,
+"e": 4762.9,
+"t": "AZzzeaine a aeciae\nque dans l'unité de production"
+},
+{
+"s": 4763.0,
+"e": 4765.3,
+"t": "on devait se parier\nen ‘arabe classique:"
+},
+{
+"s": 4765.4,
+"e": 4768.9,
+"t": "L'est sImple,\nsi on:se comprend pas sur-la chaîne"
+},
+{
+"s": 4769.5,
+"e": 4772.0,
+"t": "on prend des risques pour les gars"
+},
+{
+"s": 4772.1,
+"e": 4773.3,
+"t": "En ‘arabe classique\" ?"
+},
+{
+"s": 4773.6,
+"e": 4776.6,
+"t": "MOI reruser aans iangue ae coron\n- m'exprimer. -- -"
+},
+{
+"s": 4776.9,
+"e": 4780.2,
+"t": "LCOMMaANaam ancien compatrant,\n“donner l'exemple, tu dois. -"
+},
+{
+"s": 4780.6,
+"e": 4782.0,
+"t": "Je t'en conjure."
+},
+{
+"s": 4786.0,
+"e": 4787.0,
+"t": "Une minute"
+},
+{
+"s": 4788.7,
+"e": 4790.8,
+"t": "T'aurais pu mesprévenir."
+},
+{
+"s": 4791.0,
+"e": 4792.4,
+"t": "m'en parlermavant"
+},
+{
+"s": 4794.0,
+"e": 4796.6,
+"t": "Justementaä Moi"
+},
+{
+"s": 4796.7,
+"e": 4798.8,
+"t": "évident il semblait que c'était."
+},
+{
+"s": 4799.7,
+"e": 4802.0,
+"t": "Attends ! Parle normalement."
+},
+{
+"s": 4803.2,
+"e": 4805.3,
+"t": "C'est la loi, ton excellence."
+},
+{
+"s": 4806.0,
+"e": 4807.6,
+"t": "C'est /a loi !"
+},
+{
+"s": 4808.2,
+"e": 4809.4,
+"t": "Monsieur Djaffar,"
+},
+{
+"s": 4809.8,
+"e": 4812.0,
+"t": "j'ai toujours travaillé dans cette usine"
+},
+{
+"s": 4812.8,
+"e": 4815.3,
+"t": "et j'ai appris le métier en français"
+},
+{
+"s": 4816.0,
+"e": 4817.3,
+"t": "c'est ma faute"
+},
+{
+"s": 4817.4,
+"e": 4818.2,
+"t": "Non"
+},
+{
+"s": 4820.5,
+"e": 4822.2,
+"t": "Je ne sais même pas comment on dit"
+},
+{
+"s": 4822.4,
+"e": 4825.2,
+"t": "‘scie métallique\" en classique !"
+},
+{
+"s": 4825.4,
+"e": 4827.4,
+"t": "‘Scie métallique'* Alors-peut-être"
+},
+{
+"s": 4828.0,
+"e": 4832.3,
+"t": "reur-etre,que Azzeaimne ga comment aire\n‘scie 'Métallique\" én*classique."
+},
+{
+"s": 4834.4,
+"e": 4835.3,
+"t": "Azzedine"
+},
+{
+"s": 4836.4,
+"e": 4839.6,
+"t": "‘scie métallique' en arabe classiqueg"
+},
+{
+"s": 4861.6,
+"e": 4862.6,
+"t": "C'est Simple"
+},
+{
+"s": 4863.8,
+"e": 4865.9,
+"t": "Farouk utilisé là‘scie métallique"
+},
+{
+"s": 4866.2,
+"e": 4868.0,
+"t": "et Âzzedine tfAVäillera avec une"
+},
+{
+"s": 4868.1,
+"e": 4869.4,
+"t": "‘scyou"
+},
+{
+"s": 4869.9,
+"e": 4871.3,
+"t": "elmétällïquou"
+},
+{
+"s": 4872.5,
+"e": 4873.6,
+"t": "BON COUFAGE"
+},
+{
+"s": 4875.5,
+"e": 4876.5,
+"t": "Dégage"
+},
+{
+"s": 4885.3,
+"e": 4887.2,
+"t": "on fête jamais mon anniversaire ?"
+},
+{
+"s": 4894.2,
+"e": 4896.8,
+"t": "On fêtera le prochain pourquoispas."
+},
+{
+"s": 4907.0,
+"e": 4909.2,
+"t": "Ma mère elle était comment ?"
+},
+{
+"s": 4912.3,
+"e": 4914.8,
+"t": "a\nClétait une femme très courageuse"
+},
+{
+"s": 4915.2,
+"e": 4918.4,
+"t": "tlle S'est pattue…\n‘ “Contre des soldats"
+},
+{
+"s": 4918.6,
+"e": 4920.4,
+"t": "À - péeur me protéger et ils l'ont tuée"
+},
+{
+"s": 4920.5,
+"e": 4921.5,
+"t": "Je sais !"
+},
+{
+"s": 4921.7,
+"e": 4924.7,
+"t": "UYESTHOUT. / Elle est nee\net elle(est morte le même jour ?"
+},
+{
+"s": 4926.3,
+"e": 4928.2,
+"t": "Tu parles de ta mère Bachir."
+},
+{
+"s": 4930.4,
+"e": 4933.0,
+"t": "+ | Qu'est-ce qu'elle aimait ?"
+},
+{
+"s": 4933.2,
+"e": 4935.2,
+"t": "QU'ESt-Ce qu'elle Taisait\nÀ a mon âge ?"
+},
+{
+"s": 4935.4,
+"e": 4937.8,
+"t": "An dital elle n'a iamai\nL n eivait qu'elle Na jJamailS €U MON age"
+},
+{
+"s": 4942.4,
+"e": 4944.2,
+"t": "Lis ce qui est écrit la."
+},
+{
+"s": 4944.3,
+"e": 4947.1,
+"t": "LFESt pas les Militaires qui l'ONntTuee\nje le sais !"
+},
+{
+"s": 4957.0,
+"e": 4958.1,
+"t": "Tu m'as menti"
+},
+{
+"s": 4962.5,
+"e": 4964.3,
+"t": "Aliu.me cäches des-ehoses !"
+},
+{
+"s": 4983.3,
+"e": 4985.3,
+"t": "ne commande pour les Canadiens !"
+},
+{
+"s": 4988.7,
+"e": 4991.1,
+"t": "Félicitations. Commandant Djaffar !"
+},
+{
+"s": 4991.4,
+"e": 4994.3,
+"t": "Omy”ést arrivé on a atteint le but !"
+},
+{
+"s": 4994.4,
+"e": 4996.2,
+"t": "Une commande canadienne !"
+},
+{
+"s": 4999.2,
+"e": 5000.2,
+"t": "Farouk"
+},
+{
+"s": 5001.1,
+"e": 5002.4,
+"t": "envoie moi"
+},
+{
+"s": 5003.5,
+"e": 5005.9,
+"t": "le bon de‘commande je m'en occupe"
+},
+{
+"s": 5006.7,
+"e": 5008.2,
+"t": "f -\nJe vais m'en charger."
+},
+{
+"s": 5222.1,
+"e": 5224.2,
+"t": "Vente de la société"
+},
+{
+"s": 5225.5,
+"e": 5226.6,
+"t": "El Armador."
+},
+{
+"s": 5375.6,
+"e": 5376.7,
+"t": "Fr @\nà Volatilisé !"
+},
+{
+"s": 5380.6,
+"e": 5382.5,
+"t": "Si c'est les services"
+},
+{
+"s": 5383.1,
+"e": 5385.4,
+"t": "ils ont forcément consulté Hamid avant"
+},
+{
+"s": 5411.0,
+"e": 5412.6,
+"t": "Je suis dans ton bureau"
+},
+{
+"s": 5422.8,
+"e": 5424.0,
+"t": "Reste la."
+},
+{
+"s": 5504.8,
+"e": 5506.0,
+"t": "Läche moi !"
+},
+{
+"s": 5634.8,
+"e": 5636.0,
+"t": "Reste assise"
+},
+{
+"s": 5774.7,
+"e": 5777.0,
+"t": "Il a dit cinq par jour pas quinze"
+},
+{
+"s": 5779.4,
+"e": 5781.6,
+"t": "C'est plus de la foi c'est de la rage"
+},
+{
+"s": 5801.4,
+"e": 5811.7,
+"t": "—\"\"\" we\nze 2R pes: Bon"
+},
+{
+"s": 5848.1,
+"e": 5850.0,
+"t": "Le journaliste était prévu sur ce vol"
+},
+{
+"s": 5850.1,
+"e": 5853.0,
+"t": "v\nï"
+},
+{
+"s": 5853.3,
+"e": 5855.0,
+"t": "Un l'a prevenu /\nÀ ton avis ?"
+},
+{
+"s": 5855.1,
+"e": 5858.4,
+"t": "Un a au Iu1 aire qu'un cretin\ndes services l'attendait."
+},
+{
+"s": 5861.5,
+"e": 5863.6,
+"t": "Pas grave je l'aurai chez lui"
+},
+{
+"s": 5864.7,
+"e": 5867.1,
+"t": "IU CrOIS quigeswassez con\npour aller chez lui,"
+},
+{
+"s": 5867.2,
+"e": 5868.9,
+"t": "U TA ”\nalors qu ongle cherche"
+},
+{
+"s": 5870.9,
+"e": 5872.7,
+"t": "Je sais qui il va aller voir."
+},
+{
+"s": 5897.7,
+"e": 5899.5,
+"t": "Bachir c'est pas assez profond !"
+},
+{
+"s": 5899.8,
+"e": 5901.6,
+"t": "Bachir saute sites un homme !"
+},
+{
+"s": 6011.3,
+"e": 6012.2,
+"t": "Nadir"
+},
+{
+"s": 6013.7,
+"e": 6015.0,
+"t": "je vais la baiser."
+},
+{
+"s": 6035.3,
+"e": 6036.7,
+"t": "T'en veux une autre ?"
+},
+{
+"s": 6084.7,
+"e": 6086.2,
+"t": "lU Veux Ie suivre /\nNon."
+},
+{
+"s": 6086.4,
+"e": 6087.3,
+"t": "On reste assis"
+},
+{
+"s": 6088.3,
+"e": 6090.5,
+"t": "/ Fas de panique Ies geisses de rienes;\ncd je suis l@ a"
+},
+{
+"s": 6090.9,
+"e": 6093.5,
+"t": "lIU ne las pas releve /\nNon, c'est ton tour."
+},
+{
+"s": 6095.9,
+"e": 6097.6,
+"t": "à ee\nL'apéro c'est pour moi relève-le"
+},
+{
+"s": 6098.0,
+"e": 6099.7,
+"t": "Allez lève-toi !"
+},
+{
+"s": 6099.9,
+"e": 6100.7,
+"t": "Avance ! ; 4"
+},
+{
+"s": 6105.6,
+"e": 6106.8,
+"t": "C'est qui'ce type ?"
+},
+{
+"s": 6107.2,
+"e": 6108.6,
+"t": "Un fouille merde"
+},
+{
+"s": 6126.8,
+"e": 6131.0,
+"t": "I! à ere rransporte a rnopihai miaire\noù il a été pris en charge."
+},
+{
+"s": 6131.3,
+"e": 6132.4,
+"t": "Le president de la République."
+},
+{
+"s": 6156.7,
+"e": 6160.3,
+"t": "FOUrQuUOI tU TOUIIIES\ndans-leggaffaires des autres ?"
+},
+{
+"s": 6161.2,
+"e": 6162.8,
+"t": "Tigcherches quoi ?"
+},
+{
+"s": 6171.2,
+"e": 6172.8,
+"t": "Dis moi ce que tu cherches"
+},
+{
+"s": 6172.9,
+"e": 6174.9,
+"t": "Tu lui veux quoi au fils du patron ?"
+},
+{
+"s": 6175.2,
+"e": 6177.2,
+"t": "Tu«pleures comme une nana"
+},
+{
+"s": 6183.9,
+"e": 6185.3,
+"t": "Tu te fous de ma gueule ?"
+},
+{
+"s": 6196.1,
+"e": 6197.3,
+"t": "Attends !"
+},
+{
+"s": 6198.3,
+"e": 6199.7,
+"t": "ILnous embrouille"
+},
+{
+"s": 6199.9,
+"e": 6201.7,
+"t": "Laisse nous je m'en occupe"
+},
+{
+"s": 6211.7,
+"e": 6213.3,
+"t": "Enculé !"
+},
+{
+"s": 6245.9,
+"e": 6247.5,
+"t": "Comment tu sais ça toi ?"
+},
+{
+"s": 6249.5,
+"e": 6251.4,
+"t": "Il n'y avait personne d'autre cette"
+},
+{
+"s": 6296.0,
+"e": 6297.0,
+"t": "Quoi ?"
+},
+{
+"s": 6297.4,
+"e": 6298.9,
+"t": "Qu'est-ce quil y a ?"
+},
+{
+"s": 6299.4,
+"e": 6301.2,
+"t": "Le fils de Kotias vous a vus"
+},
+{
+"s": 6301.3,
+"e": 6303.3,
+"t": "Les militaires s'en sont pris à Yasmine"
+},
+{
+"s": 6304.6,
+"e": 6306.4,
+"t": "Qu'est-ce qu'ils ont fait, les chiens ?"
+},
+{
+"s": 6307.7,
+"e": 6308.8,
+"t": "Ils l'ont tuée ?"
+},
+{
+"s": 6309.0,
+"e": 6310.2,
+"t": "Si seulement"
+},
+{
+"s": 6311.8,
+"e": 6314.4,
+"t": "Le fils de Kotias l'a déshonorée"
+},
+{
+"s": 6326.5,
+"e": 6328.3,
+"t": "NON, Hamia.\nLa colère t'aveugle"
+},
+{
+"s": 6328.6,
+"e": 6329.5,
+"t": "Laisse moi passer"
+},
+{
+"s": 6330.8,
+"e": 6332.1,
+"t": "Laisse moi passer"
+},
+{
+"s": 6332.2,
+"e": 6334.0,
+"t": "Reprends-toi Hamid !"
+},
+{
+"s": 6345.6,
+"e": 6347.2,
+"t": "I[ sera fou quand il saura"
+},
+{
+"s": 6347.5,
+"e": 6348.8,
+"t": "ne saura pas"
+},
+{
+"s": 6349.2,
+"e": 6350.5,
+"t": "On ne lui dira rien"
+},
+{
+"s": 6353.5,
+"e": 6354.5,
+"t": "Comment ?"
+},
+{
+"s": 6354.8,
+"e": 6357.2,
+"t": "Ils auraient pu l'emmener à la caserne"
+},
+{
+"s": 6357.5,
+"e": 6358.5,
+"t": "Au lieu de ça"
+},
+{
+"s": 6359.3,
+"e": 6360.8,
+"t": "Le fils de Kotias"
+},
+{
+"s": 6361.6,
+"e": 6363.7,
+"t": "la déshonore et la laisse sur place"
+},
+{
+"s": 6364.5,
+"e": 6365.6,
+"t": "Pourquoi ?"
+},
+{
+"s": 6366.5,
+"e": 6370.1,
+"t": "Le rendre Tou Turleux\net qu'il veuille se venger."
+},
+{
+"s": 6370.5,
+"e": 6372.4,
+"t": "Et ça marche tu y allais toi même"
+},
+{
+"s": 6372.6,
+"e": 6374.9,
+"t": "Piégé comme un renard affamé"
+},
+{
+"s": 6376.1,
+"e": 6377.6,
+"t": "Un homme à bout de nerfs"
+},
+{
+"s": 6378.0,
+"e": 6379.3,
+"t": "finit toujours par parler."
+},
+{
+"s": 6380.2,
+"e": 6382.5,
+"t": "Ne me aemanae pas ça\nn'a qu'elle."
+},
+{
+"s": 6382.6,
+"e": 6383.8,
+"t": "ne me pardonnera jamais"
+},
+{
+"s": 6384.8,
+"e": 6386.9,
+"t": "Zyad je t'en prie"
+},
+{
+"s": 6405.6,
+"e": 6407.3,
+"t": "Nous sommes en querre"
+},
+{
+"s": 6408.1,
+"e": 6410.2,
+"t": "La lutte exige des sacrifices"
+},
+{
+"s": 6411.9,
+"e": 6414.8,
+"t": "Et notre détermination a un prix"
+},
+{
+"s": 6416.2,
+"e": 6419.7,
+"t": "Pour moi toi Djaffar, les frères"
+},
+{
+"s": 6420.6,
+"e": 6423.0,
+"t": "La détermination est notre seule arme"
+},
+{
+"s": 6424.8,
+"e": 6426.8,
+"t": "Si Djaffar tombe dans le piège"
+},
+{
+"s": 6427.4,
+"e": 6429.3,
+"t": "ce qu'on a construit s'écroule"
+},
+{
+"s": 6449.4,
+"e": 6450.8,
+"t": "Sois prêt dans une heure"
+},
+{
+"s": 6501.6,
+"e": 6502.8,
+"t": "Chez Benaissa."
+},
+{
+"s": 6530.9,
+"e": 6532.6,
+"t": "Tout va bien monsieur ?"
+},
+{
+"s": 6535.4,
+"e": 6536.8,
+"t": "vaudrait mieux"
+},
+{
+"s": 6557.4,
+"e": 6559.8,
+"t": "Commandant j'appelle un taxi ?"
+},
+{
+"s": 6563.8,
+"e": 6566.2,
+"t": "est mort le Commandant mort"
+},
+{
+"s": 6581.9,
+"e": 6583.8,
+"t": "La putain de ta race dégage !"
+},
+{
+"s": 6638.0,
+"e": 6641.0,
+"t": "Le N'ESI PAS MOI QUI SUIS PAITI,\nj'ai marché contre mon gré"
+},
+{
+"s": 6641.4,
+"e": 6643.5,
+"t": "penaant que a autres\nscellaient mon sort."
+},
+{
+"s": 6643.6,
+"e": 6646.6,
+"t": "Le N'esi PAS MOI QUI AI COUFU\nj'ai été pris dans la course"
+},
+{
+"s": 6646.9,
+"e": 6649.1,
+"t": "er AepuIs, Sous mes pas\nle monde s'échappe."
+},
+{
+"s": 6649.2,
+"e": 6651.7,
+"t": "Je me rappelle du sel partage"
+},
+{
+"s": 6652.0,
+"e": 6654.6,
+"t": "ET GEPUIS ION IMAGE Me Nante,\nelle ferme mes yeux."
+},
+{
+"s": 6654.8,
+"e": 6657.4,
+"t": "Combien de fois m'as-tu queri"
+},
+{
+"s": 6657.6,
+"e": 6660.3,
+"t": "de mes obsessions vagabondes ”"
+},
+{
+"s": 6671.4,
+"e": 6674.1,
+"t": "Combien de nuits, combien de nuits,"
+},
+{
+"s": 6674.2,
+"e": 6676.7,
+"t": "chaque nuit en amêne une autre"
+},
+{
+"s": 6677.1,
+"e": 6679.5,
+"t": "cette nuit. la lune est bancaie."
+},
+{
+"s": 6679.8,
+"e": 6682.7,
+"t": "cette nuit, mes larmes coulent."
+},
+{
+"s": 6704.9,
+"e": 6710.1,
+"t": "CETIe NUIT, -\ncette nuit-la, de quoi estelle faite ?"
+},
+{
+"s": 6761.9,
+"e": 6763.4,
+"t": "Nique leur mère"
+},
+{
+"s": 7014.1,
+"e": 7017.1,
+"t": "Un en etait capanie.\nJe te jure, on en était capable"
+},
+{
+"s": 7109.4,
+"e": 7120.5,
+"t": "CE PROGRAMME EST D P NIB\nCIAIEL À | A NEMANNE"
+},
+{
+"s": 7121.3,
+"e": 7132.8,
+"t": "TOUT DE SUITE\nANNAECHIENGE"
+},
+{
+"s": 7383.8,
+"e": 7386.4,
+"t": "Sous-titrage CMC"
+}
+]

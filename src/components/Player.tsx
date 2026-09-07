@@ -238,6 +238,8 @@ export default function Player({ manifest }: { manifest: Manifest }) {
             style={{ bottom: overlayBottom }}
           >
             <p
+              lang={lang}
+              dir={lang === "ar" ? "rtl" : "auto"}
               className="whitespace-pre-line rounded-md bg-black/55 px-3 py-1 text-center font-medium leading-snug text-white [text-shadow:0_2px_4px_rgba(0,0,0,0.9)]"
               // cqw is a share of the stage, not the window, so the text keeps
               // its proportion to the picture when we go fullscreen.

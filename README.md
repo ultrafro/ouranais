@@ -97,16 +97,23 @@ The most promising next step is probably to stop hand-binarising altogether and 
 tesseract a contrast-stretched greyscale crop, letting its own adaptive thresholding
 do the work on busy backgrounds.
 
-## Included English subtitles
+## Included subtitles
 
-`public/subtitles/en.json` contains an English draft translated from the local
-French OCR track. All 528 current cue timings are preserved, and English is the player's
-default language. The file is committed so deployments can serve it at
-`/subtitles/en.json`. Other generated JSON and VTT tracks remain gitignored.
+The site includes French (`fr`), English (`en`), Spanish (`es`), Arabic (`ar`),
+German (`de`), and Mandarin in Simplified Chinese (`zh-Hans`). Each track contains
+528 cues with identical timings. English remains the player's default language;
+choose another language from the dropdown. Arabic subtitles use right-to-left text.
+
+The French source was extracted with OCR. English is a draft translation of that
+source; Spanish, Arabic, German, and Mandarin were translated from the corrected
+English draft. These are subtitle translations, not additional audio tracks.
+All six JSON files are committed at `public/subtitles/<code>.json` so deployments
+can serve them. Other generated JSON and VTT files remain gitignored.
 
 This is a translation of the extracted French text, not a new transcription of the
 audio. Obvious OCR errors are reconstructed from context; unrecoverable passages
-are marked `[Unclear dialogue]` or `[Illegible program title]`. Those passages and
+are marked `[Unclear dialogue]` or `[Illegible program title]` in English, with
+equivalent labels in the other translations. Five cues retain these markers. Those passages and
 reconstructed wording still need checking against the video. Broadcast notices and
 the subtitle credit at the end are retained with their original timings.
 
