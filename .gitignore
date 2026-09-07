@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# extracted subtitle cue data — generate locally, see README
+/public/subtitles/*.json
+/public/subtitles/*.vtt
+
+# tesseract language data (large; fetched by setup)
+/pipeline/tessdata/
+
+# local media
+*.mp4
+*.mkv
