@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!--
+    Eight-pointed khatim star - the zellige motif that runs through the page
+    background and appears on the tiled walls in the film - struck in the
+    ochre of the film's own light against its warm shadow.
+  -->
+  <rect width="32" height="32" rx="7" fill="#0b0908"/>
+  <g transform="translate(16 16)">
+    <g fill="none" stroke="#c8944a" stroke-width="1.6" stroke-linejoin="round">
+      <rect x="-8" y="-8" width="16" height="16"/>
+      <rect x="-8" y="-8" width="16" height="16" transform="rotate(45)"/>
+    </g>
+    <circle r="1.7" fill="#c8944a"/>
+  </g>
+</svg>

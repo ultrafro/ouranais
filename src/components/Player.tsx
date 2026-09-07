@@ -14,8 +14,10 @@ const OFF = "off";
 
 export default function Player({ manifest }: { manifest: Manifest }) {
   const hostRef = useRef<HTMLDivElement>(null);
+  const shellRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YTPlayer | null>(null);
   const rafRef = useRef<number | null>(null);
+  const [isFs, setIsFs] = useState(false);
 
   const [ready, setReady] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -49,6 +51,10 @@ export default function Player({ manifest }: { manifest: Manifest }) {
           rel: 0,
           playsinline: 1,
           cc_load_policy: 0,
+          // Hide YouTube's own fullscreen button. It would take the *iframe*
+          // fullscreen, leaving our overlay behind in the page — subtitles
+          // would simply vanish. Ours fullscreens the wrapper instead.
+          fs: 0,
         },
         events: {
           onReady: (e: { target: YTPlayer }) => {
@@ -132,6 +138,19 @@ export default function Player({ manifest }: { manifest: Manifest }) {
     else p.playVideo();
   }, []);
 
+  const toggleFullscreen = useCallback(() => {
+    if (document.fullscreenElement) void document.exitFullscreen();
+    else void shellRef.current?.requestFullscreen?.();
+  }, []);
+
+  /* Track fullscreen from the document, so Esc and the browser's own controls
+     keep our state honest rather than only our button. */
+  useEffect(() => {
+    const sync = () => setIsFs(document.fullscreenElement === shellRef.current);
+    document.addEventListener("fullscreenchange", sync);
+    return () => document.removeEventListener("fullscreenchange", sync);
+  }, []);
+
   /* ---- keyboard shortcuts ---- */
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -148,11 +167,14 @@ export default function Player({ manifest }: { manifest: Manifest }) {
         seek((playerRef.current?.getCurrentTime() ?? 0) + 5);
       } else if (e.key === "c") {
         setLang((l) => (l === OFF ? defaultLang : OFF));
+      } else if (e.key === "f") {
+        e.preventDefault();
+        toggleFullscreen();
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [toggle, seek, defaultLang]);
+  }, [toggle, seek, defaultLang, toggleFullscreen]);
 
   const band = manifest.hardsubBand;
   const maskStyle = band
@@ -171,7 +193,30 @@ export default function Player({ manifest }: { manifest: Manifest }) {
 
   return (
     <div className="w-full max-w-5xl">
-      <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-black shadow-2xl ring-1 ring-white/10">
+      {/* The shell is what goes fullscreen. The stage inside keeps a strict 16:9
+          box so our percentage-positioned overlay stays aligned to the picture
+          at any screen shape. */}
+      <div
+        ref={shellRef}
+        className={
+          isFs ? "flex h-full w-full items-center justify-center bg-black" : ""
+        }
+      >
+        <div
+          className={`relative aspect-video overflow-hidden bg-black ${
+            isFs ? "" : "w-full rounded-xl shadow-2xl ring-1 ring-white/10"
+          }`}
+          style={{
+            containerType: "size",
+            // Fit the screen while holding 16:9 exactly. Sizing by height with
+            // max-width instead lets the clamp win on a wider screen and
+            // silently squashes the box out of ratio, which slides the overlay
+            // off the picture it is supposed to sit against.
+            ...(isFs
+              ? { width: "min(100vw, calc(100vh * 16 / 9))", height: "auto" }
+              : {}),
+          }}
+        >
         <div ref={hostRef} className="absolute inset-0 h-full w-full" />
 
         {/* Opaque strip covering the burned-in subtitles.
@@ -194,12 +239,17 @@ export default function Player({ manifest }: { manifest: Manifest }) {
           >
             <p
               className="whitespace-pre-line rounded-md bg-black/55 px-3 py-1 text-center font-medium leading-snug text-white [text-shadow:0_2px_4px_rgba(0,0,0,0.9)]"
-              style={{ fontSize: `clamp(0.8rem, ${2.4 * size}vw, ${2.2 * size}rem)` }}
+              // cqw is a share of the stage, not the window, so the text keeps
+              // its proportion to the picture when we go fullscreen.
+              style={{
+                fontSize: `clamp(0.75rem, ${2.5 * size}cqw, ${4 * size}rem)`,
+              }}
             >
               {line}
             </p>
           </div>
         )}
+        </div>
       </div>
 
       <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-3 rounded-xl bg-[#141010]/80 px-4 py-3 ring-1 ring-white/[0.08]">
@@ -256,6 +306,21 @@ export default function Player({ manifest }: { manifest: Manifest }) {
             className="w-24 accent-ochre"
           />
         </label>
+
+        <button
+          onClick={toggleFullscreen}
+          className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-white/10 px-2.5 py-1.5 text-sm text-sand-dim transition hover:border-ochre/40 hover:text-sand"
+          title="Fullscreen (f)"
+        >
+          <svg viewBox="0 0 16 16" className="h-3.5 w-3.5 fill-current" aria-hidden>
+            {isFs ? (
+              <path d="M6 1H5v4H1v1h5V1zm4 0h1v4h4v1h-5V1zM1 10h5v5H5v-4H1v-1zm9 0h5v1h-4v4h-1v-5z" />
+            ) : (
+              <path d="M1 1h5v1H2v4H1V1zm9 0h5v5h-1V2h-4V1zM1 10h1v4h4v1H1v-5zm13 0h1v5h-5v-1h4v-4z" />
+            )}
+          </svg>
+          {isFs ? "Exit" : "Fullscreen"}
+        </button>
       </div>
 
       {cueError && (
