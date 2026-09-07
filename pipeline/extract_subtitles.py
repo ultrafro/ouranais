@@ -77,6 +77,9 @@ CORE_GAP = 70          # letters further apart than this are separate runs
 MIN_RUN = 2            # a run of fewer cores than this is scenery
 MARK_MIN_AREA = 3      # small enough to keep a cedilla or the dot on an i
 MARK_MAX_AREA = 45     # ...but a real mark is never bigger than this
+RESPLIT_MIN_DUR = 3.2  # cues longer than this get re-examined for a hidden split
+RESPLIT_STEP = 0.3     # sampling interval within a long cue
+RESPLIT_SIM = 0.88     # similarity to the run's first sample below which it splits
 LINE_GAP = 6           # blank rows that still count as the same text line
 PHANTOM_FRAC = 0.18    # a line with less ink than this share of the biggest
                        # one is debris, not text
@@ -229,6 +232,60 @@ def detect(video: str, top: int, height: int, width: int, fps: float,
 
 
 # --------------------------------------------------------------------- OCR ---
+
+def resplit_long_cues(video: str, cues: list[Cue], top: int, height: int,
+                      width: int, tmp: str, progress: bool = True) -> list[Cue]:
+    """
+    Split cues that are really two subtitles the detector failed to separate.
+
+    The column-signature test during detection compares *consecutive samples*, so
+    a transition that fades rather than cuts can slide under it and two lines end
+    up as one long cue. That is bad twice over: the timing is wrong, and OCR then
+    samples the midpoint of the merged span, which lands on the changeover and
+    reads as noise. The symptom is a long cue carrying almost no text.
+
+    Here we can afford to be slower and compare every sample against the first of
+    the run rather than its neighbour, which catches gradual drift that pairwise
+    comparison misses.
+    """
+    out: list[Cue] = []
+    n_split = 0
+    for c in cues:
+        if c.e - c.s < RESPLIT_MIN_DUR:
+            out.append(c)
+            continue
+        ts = np.arange(c.s + 0.15, c.e - 0.10, RESPLIT_STEP)
+        if len(ts) < 3:
+            out.append(c)
+            continue
+        sigs = []
+        for t in ts:
+            strict, loose = static_glyphs(video, float(t), top, height, width,
+                                          tmp, delta=0.1)
+            sigs.append(signature(keep_glyph_blobs(strict, loose)))
+
+        bounds = [0]
+        anchor = sigs[0]
+        for i in range(1, len(sigs)):
+            if cosine(anchor, sigs[i]) < RESPLIT_SIM:
+                bounds.append(i)
+                anchor = sigs[i]
+        bounds.append(len(sigs))
+
+        if len(bounds) <= 2:
+            out.append(c)
+            continue
+        for a, b in zip(bounds, bounds[1:]):
+            s = c.s if a == 0 else float(ts[a]) - RESPLIT_STEP / 2
+            e = c.e if b == len(sigs) else float(ts[b]) - RESPLIT_STEP / 2
+            if e - s >= MIN_DUR:
+                out.append(Cue(s=s, e=e))
+        n_split += 1
+    if progress and n_split:
+        print(f"  re-split {n_split} long cues -> {len(out) - len(cues) + n_split} pieces",
+              file=sys.stderr)
+    return out
+
 
 def grab_band(video: str, t: float, top: int, height: int, width: int,
               tmp: str) -> np.ndarray:
@@ -548,6 +605,8 @@ def main() -> None:
     ap.add_argument("--vtt", help="also write WebVTT here")
     ap.add_argument("--no-ocr", action="store_true", help="timings only")
     ap.add_argument("--dump", help="also save each OCR input image to this dir")
+    ap.add_argument("--no-resplit", action="store_true",
+                    help="skip the second pass that splits over-long cues")
     args = ap.parse_args()
 
     for tool in ("ffmpeg", "ffprobe"):
@@ -569,6 +628,14 @@ def main() -> None:
     total = sum(c.e - c.s for c in cues)
     print(f"\nDetected {len(cues)} cues, {total/60:.1f} min of subtitled time",
           file=sys.stderr)
+
+    if not args.no_resplit:
+        tmp = tempfile.mkdtemp(prefix="resplit_")
+        try:
+            cues = resplit_long_cues(args.video, cues, top, height, w, tmp)
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+        print(f"After re-split: {len(cues)} cues", file=sys.stderr)
 
     if not args.no_ocr:
         ocr_cues(args.video, cues, top, height, w, args.fps, args.lang, args.tessdata,
