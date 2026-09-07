@@ -202,25 +202,25 @@ export default function Player({ manifest }: { manifest: Manifest }) {
         )}
       </div>
 
-      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-3 rounded-xl bg-white/5 px-4 py-3 ring-1 ring-white/10">
+      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-3 rounded-xl bg-[#141010]/80 px-4 py-3 ring-1 ring-white/[0.08]">
         <button
           onClick={toggle}
           disabled={!ready}
-          className="rounded-md bg-white px-4 py-1.5 text-sm font-semibold text-black transition hover:bg-white/85 disabled:opacity-40"
+          className="rounded-md bg-sand px-4 py-1.5 text-sm font-semibold text-ink transition hover:bg-white disabled:opacity-40"
         >
           {playing ? "Pause" : "Play"}
         </button>
 
-        <span className="font-mono text-xs tabular-nums text-white/60">
+        <span className="font-mono text-xs tabular-nums text-ochre/75">
           {formatTime(time)} / {formatTime(duration)}
         </span>
 
-        <label className="flex items-center gap-2 text-sm text-white/80">
+        <label className="flex items-center gap-2 text-sm text-sand-dim">
           Subtitles
           <select
             value={lang}
             onChange={(e) => setLang(e.target.value)}
-            className="rounded-md border border-white/15 bg-neutral-900 px-2 py-1 text-sm text-white outline-none focus:border-white/40"
+            className="rounded-md border border-white/12 bg-[#0f0c0b] px-2 py-1 text-sm text-sand outline-none transition focus:border-ochre/50"
           >
             {manifest.languages.map((l) => (
               <option key={l.code} value={l.code}>
@@ -232,19 +232,19 @@ export default function Player({ manifest }: { manifest: Manifest }) {
           </select>
         </label>
 
-        <label className="flex items-center gap-2 text-sm text-white/80">
+        <label className="flex items-center gap-2 text-sm text-sand-dim">
           Position
           <select
             value={placement}
             onChange={(e) => setPlacement(e.target.value as "above" | "cover")}
-            className="rounded-md border border-white/15 bg-neutral-900 px-2 py-1 text-sm text-white outline-none focus:border-white/40"
+            className="rounded-md border border-white/12 bg-[#0f0c0b] px-2 py-1 text-sm text-sand outline-none transition focus:border-ochre/50"
           >
             <option value="above">Above original</option>
             <option value="cover">Cover original</option>
           </select>
         </label>
 
-        <label className="flex items-center gap-2 text-sm text-white/80">
+        <label className="flex items-center gap-2 text-sm text-sand-dim">
           Size
           <input
             type="range"
@@ -253,7 +253,7 @@ export default function Player({ manifest }: { manifest: Manifest }) {
             step={0.05}
             value={size}
             onChange={(e) => setSize(Number(e.target.value))}
-            className="w-24 accent-white"
+            className="w-24 accent-ochre"
           />
         </label>
       </div>

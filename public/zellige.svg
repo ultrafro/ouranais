@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!--
+    Eight-pointed star (khatim) tessellation, the standard motif of Maghrebi
+    zellige tilework - the same geometry that appears on the tiled walls in the
+    film. Drawn as two overlapping squares, repeated at the tile centre and at
+    each corner so the pattern joins seamlessly when tiled.
+  -->
+  <g fill="none" stroke="#d9b382" stroke-width="1.15">
+    <g>
+      <rect x="30" y="30" width="60" height="60"/>
+      <rect x="30" y="30" width="60" height="60" transform="rotate(45 60 60)"/>
+    </g>
+    <g>
+      <rect x="-30" y="-30" width="60" height="60"/>
+      <rect x="-30" y="-30" width="60" height="60" transform="rotate(45 0 0)"/>
+    </g>
+    <g>
+      <rect x="90" y="-30" width="60" height="60"/>
+      <rect x="90" y="-30" width="60" height="60" transform="rotate(45 120 0)"/>
+    </g>
+    <g>
+      <rect x="-30" y="90" width="60" height="60"/>
+      <rect x="-30" y="90" width="60" height="60" transform="rotate(45 0 120)"/>
+    </g>
+    <g>
+      <rect x="90" y="90" width="60" height="60"/>
+      <rect x="90" y="90" width="60" height="60" transform="rotate(45 120 120)"/>
+    </g>
+  </g>
+</svg>
