@@ -7,10 +7,8 @@ public/subtitles/fr.json    # what the player reads
 public/subtitles/fr.vtt     # same cues, standard WebVTT
 ```
 
-The French and English JSON tracks include reviewed audio recovered from previously
-unsubtitled windows. The Spanish, Arabic, German, and Mandarin drafts still cover
-the original 528-cue set and should be regenerated from the expanded French track
-before using those languages. The VTT file remains gitignored.
+All six JSON tracks include the recovered audio cues and share 988 timings. The VTT
+file remains gitignored.
 
 ---
 

@@ -102,8 +102,7 @@ do the work on busy backgrounds.
 The site includes French (`fr`), English (`en`), Spanish (`es`), Arabic (`ar`),
 German (`de`), and Mandarin in Simplified Chinese (`zh-Hans`). French and English
 now contain 988 cues, including reviewed dialogue recovered from previously
-unsubtitled audio windows. The other four tracks retain the 528-cue translated
-coverage and will need regeneration from the expanded French track. English remains
+unsubtitled audio windows. All six tracks share those timings. English remains
 the player's default language; choose another language from the dropdown. Arabic
 subtitles use right-to-left text.
 
